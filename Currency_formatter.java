@@ -32,6 +32,11 @@ public class Currency_formatter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double payment = scanner.nextDouble();
+        // NumberFormat nf = NumberFormat.getNumberInstance();
+        // nf.setMaximumFractionDigits(2);
+        // nf.setMaximumFractionDigits(2);
+        
+        // String s1 = nf.format(payment);
         scanner.close();
         
         // Write your code here.
