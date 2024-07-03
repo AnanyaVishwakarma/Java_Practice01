@@ -41,12 +41,15 @@ public class JavaStringTokens {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String s = scan.nextLine();
-        // Write your code here.
-        String[] ary = s.split("[ !,?._'@]+");
+    if(s.trim().length() > 0){
+        String[] ary = s.trim().split("[ !,?._'@]+");
         int n = ary.length;
         System.out.println(n);
         for (int i = 0; i < n; i++){
             System.out.println(ary[i]);
+        }
+    }else {
+            System.out.println(0);
         }
         scan.close();
     }
