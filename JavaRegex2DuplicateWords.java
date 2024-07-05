@@ -40,25 +40,39 @@ public class JavaRegex2DuplicateWords {
         String regex = "I love Love to To tO code";
         Pattern p = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
 
-
         Scanner in = new Scanner(System.in);
-        int numSentences = Integer.parseInt(in.nextLine());
-        
-        while (numSentences-- > 0) {
-            String input = in.nextLine();
-            
-            Matcher m = p.matcher(input);
-            
-            // Check for subsequences of input that match the compiled pattern
-            while (m.find()) {
-                input = input.replaceAll(m.group(), m.group().toLowerCase());
+
+        try {
+
+            int numSentences = Integer.parseInt(in.nextLine());
+
+            while (numSentences-- > 0) {
+                String input = in.nextLine();
+
+                String[] words = input.split("\\s+");
+
+                for (int i = 0; i < words.length; i++) {
+                    for (int j = i + 1; j < words.length; j++) {
+                        if (words[i].equalsIgnoreCase(words[j])) {
+                            words[j] = words[j].toLowerCase();
+                        }
+                    }
+                }
+                Matcher m = p.matcher(input);
+
+                StringBuilder modifiedSentence = new StringBuilder();
+                for (String string : words) {
+                    modifiedSentence.append(words).append(" ");
+                }
+                // while (m.find()) {
+                // input = input.replaceAll(m.group(), m.group().toLowerCase());
+                // }
+                System.out.println(modifiedSentence.toString().trim());
             }
-            
-            // Prints the modified sentence.
-            System.out.println(input);
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid");
+        } finally {
+            in.close();
         }
-        
-        in.close();
     }
 }
-
