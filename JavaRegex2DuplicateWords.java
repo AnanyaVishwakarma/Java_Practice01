@@ -37,41 +37,24 @@ public class JavaRegex2DuplicateWords {
 
     public static void main(String[] args) {
 
-        String regex = "I love Love to To tO code";
+        String regex = "\\b(\\w+)(?:\\W+\\1\\b)+";
         Pattern p = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
 
         Scanner in = new Scanner(System.in);
-
-        try {
-
-            int numSentences = Integer.parseInt(in.nextLine());
-
+        int numSentences = Integer.parseInt(in.nextLine());
+        
             while (numSentences-- > 0) {
-                String input = in.nextLine();
-
-                String[] words = input.split("\\s+");
-
-                for (int i = 0; i < words.length; i++) {
-                    for (int j = i + 1; j < words.length; j++) {
-                        if (words[i].equalsIgnoreCase(words[j])) {
-                            words[j] = words[j].toLowerCase();
-                        }
-                    }
-                }
+            String input = in.nextLine();
+            
                 Matcher m = p.matcher(input);
-
-                StringBuilder modifiedSentence = new StringBuilder();
-                for (String string : words) {
-                    modifiedSentence.append(words).append(" ");
-                }
-                // while (m.find()) {
-                // input = input.replaceAll(m.group(), m.group().toLowerCase());
-                // }
-                System.out.println(modifiedSentence.toString().trim());
+             
+                while (m.find()) {
+                input = input.replaceAll(m.group(), m.group(1));
             }
-        } catch (NumberFormatException e) {
-            System.out.println("Invalid");
-        } finally {
+            
+            // Prints the modified sentence.
+            System.out.println(input);
+              
             in.close();
         }
     }
