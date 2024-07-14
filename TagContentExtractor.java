@@ -37,28 +37,24 @@ public class TagContentExtractor{
 		
 		Scanner in = new Scanner(System.in);
 		int testCases = Integer.parseInt(in.nextLine());
+        
 		while(testCases>0){
 			String line = in.nextLine();
-            
-            boolean matchFound = true;
-            Pattern p = Pattern.compile("<([^<>]+)>([^<>]+)</\\1>");
-            Matcher m = p.matcher(line);  
-             
-            while (m.find() == true){  
-                System.out.println(m.group(2));  
-                matchFound = true;  
-            }  
-            
-            while(m.find())
-            {
-                System.out.println(m.group(2));
-                }
 			
-			testCases--;
+            boolean matchfound = false;
+            String expression = "<([^<>]+)>([^<>]+)</\\1>";
+            Pattern p = Pattern.compile(expression);
+            java.util.regex.Matcher m = p.matcher(line);
             
-            if (! matchFound) {
+            while (m.find()) {
+            System.out.println(m.group(2));
+             matchfound = true;
+            }
+            if (! matchfound) {
                 System.out.println("None");
             }
+			
+			testCases--;
 		}
 	}
 }
