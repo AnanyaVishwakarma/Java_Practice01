@@ -22,7 +22,7 @@ Locked stub code in the editor will print the contents of array  to stdout.
 You are only responsible for reordering the array's elements. */
 import java.lang.reflect.Array;
 import java.math.BigDecimal;
-    import java.util.*;
+import java.util.*;
 
     class JavaBigDecimal{
         public static void main(String []args){
@@ -34,21 +34,15 @@ import java.math.BigDecimal;
                 s[i]=sc.next();
             }
             sc.close();
-            Arrays.sort(s, new Comparator<String>() {
+           Comparator<String> customComparator = new Comparator<String> (){
                 @Override
                 public int compare(String str1, String str2){
-                    if (str1 == null || str2 == null)
-                        return 0;
-                if (str1 == null) return -1;
-                if (str2 == null) return 1;
                     BigDecimal num1 = new BigDecimal(str1);
                     BigDecimal num2 = new BigDecimal(str2);
                     return num2.compareTo(num1);
                 }
-            });  
-            for (String string : s) {
-                System.out.println(string);
-            }
+            };
+            Arrays.sort(s, 0, n, customComparator);
             //Output
             for(int i=0;i<n;i++)
             {
