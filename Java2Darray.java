@@ -59,7 +59,23 @@ public class Java2Darray {
 
         int[][] arr = new int[6][6];
         List<Integer> arr = new ArrayList<Integer>();
-        //ist<List<Integer>> arr = new ArrayList<>();
+        // for (int i = 0; i < 6; i++) {
+        //     String[] arrRowItems = bufferedReader.readLine().split(" ");
+        //     for (int j = 0; j < 6; j++) {
+        //         int arrItem = Integer.parseInt(arrRowItems[j]);
+        //         arr.add(arrItem);
+        //         }
+        //         }
+        //         int max = Integer.MIN_VALUE;
+        //         for (int i = 0; i < 4; i++) {
+        //             for (int j = 0; j < 4; j++) {
+        //                 int sum = 0;
+        //                 for (int k = 0; k < 3; k++) {
+        //                     for (int l = 0; l < 3; l++) {
+        //                         sum += arr.get(i * 6 + j + k * 6 + l);
+        //                         }
+        //                         if (sum > max) {
+        //                             max = sum;
 
         IntStream.range(0, 6).forEach(i -> {
             try {
