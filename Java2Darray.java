@@ -54,41 +54,34 @@ import static java.util.stream.Collectors.toList;
 
 
 public class Java2Darray {
-    public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+    public static void main(String[] args)throws IOException{
+         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
-        int[][] arr = new int[6][6];
-        List<Integer> arr = new ArrayList<Integer>();
-        // for (int i = 0; i < 6; i++) {
-        //     String[] arrRowItems = bufferedReader.readLine().split(" ");
-        //     for (int j = 0; j < 6; j++) {
-        //         int arrItem = Integer.parseInt(arrRowItems[j]);
-        //         arr.add(arrItem);
-        //         }
-        //         }
-        //         int max = Integer.MIN_VALUE;
-        //         for (int i = 0; i < 4; i++) {
-        //             for (int j = 0; j < 4; j++) {
-        //                 int sum = 0;
-        //                 for (int k = 0; k < 3; k++) {
-        //                     for (int l = 0; l < 3; l++) {
-        //                         sum += arr.get(i * 6 + j + k * 6 + l);
-        //                         }
-        //                         if (sum > max) {
-        //                             max = sum;
-
-        IntStream.range(0, 6).forEach(i -> {
-            try {
-                arr.add(
-                    Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
-                        .map(Integer::parseInt)
-                        .collect(toList())
-                );
-            } catch (IOException ex) {
-                throw new RuntimeException(ex);
+        List<Integer> arr = new ArrayList<>();
+            
+        for (int i = 0; i < 6; i++) {
+            String[] arrRowItems = bufferedReader.readLine().split(" ");
+            for (int j = 0; j < 6; j++) {
+                int arrItem = Integer.parseInt(arrRowItems[j]);
+                arr.add(arrItem);
+                }
             }
-        });
+                int max = Integer.MIN_VALUE;
+                for (int i = 0; i < 4; i++) {
+                    for (int j = 0; j < 4; j++) {
+                        int sum = 0;
+                        for (int k = 0; k < 3; k++) {
+                            for (int l = 0; l < 3; l++) {
+                                sum += arr.get((i + k) * 6 + j + l);
+                                }
+                        }
+                                if (sum > max) {
+                                    max = sum;
+                                }
+                        }
+                    }
 
-        bufferedReader.close();
+                    System.out.println(max);
+             bufferedReader.close();
     }
 }
