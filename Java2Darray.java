@@ -56,32 +56,27 @@ import static java.util.stream.Collectors.toList;
 public class Java2Darray {
     public static void main(String[] args)throws IOException{
          BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-
-        List<Integer> arr = new ArrayList<>();
-            
-        for (int i = 0; i < 6; i++) {
-            String[] arrRowItems = bufferedReader.readLine().split(" ");
-            for (int j = 0; j < 6; j++) {
-                int arrItem = Integer.parseInt(arrRowItems[j]);
-                arr.add(arrItem);
+        int[][] arr = new int[6][6];
+        int max = Integer.MIN_VALUE;
+        try(Scanner scan = new Scanner(System.in);)
+        {
+            for (int i = 0; i < 6; i++) {
+                for (int j = 0; j < 6; j++) {
+                    arr[i][j] = scan.nextInt();
+                    if (i > 1 && j > 1) {
+                        int sum = arr[i][j] + arr[i][j-1]
+                            + arr[i][j-2]
+                            + arr[i-1][j-1]
+                            + arr[i-2][j]
+                            + arr[i-2][j-1]
+                            + arr[i-2][j-2];
+                        if (sum > max) {max = sum;}
+                    }
                 }
             }
-                int max = Integer.MIN_VALUE;
-                for (int i = 0; i < 4; i++) {
-                    for (int j = 0; j < 4; j++) {
-                        int sum = 0;
-                        for (int k = 0; k < 3; k++) {
-                            for (int l = 0; l < 3; l++) {
-                                sum += arr.get((i + k) * 6 + j + l);
-                                }
-                        }
-                                if (sum > max) {
-                                    max = sum;
-                                }
-                        }
-                    }
+        }
 
-                    System.out.println(max);
+        System.out.println(max);
              bufferedReader.close();
     }
 }
