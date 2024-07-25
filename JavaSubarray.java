@@ -30,8 +30,9 @@ public class JavaSubarray {
     public static void subarray(int[] array, int start, int end){
         for(int i = 0; i < array.length;i++){
             for(int j = 0; j <= array.length; j++){
-                int[] subArray = Arrays.copyOfRange(array);
-                System.out.println(Arrays.toString(array);
+                for (int k = i; k <=j; k++)
+            System.out.print(array[k] + " ");
+            System.out.println("");
             }
         }
     }
