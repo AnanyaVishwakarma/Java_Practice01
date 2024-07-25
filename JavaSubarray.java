@@ -28,11 +28,12 @@ import java.util.*;
 public class JavaSubarray {
     
     public static void subarray(int[] array, int start, int end){
-        if(start < 0 || end > array.length || start > end){
-            throw new IllegalArgumentException("Invalid start or end idices");
+        for(int i = 0; i < array.length;i++){
+            for(int j = 0; j <= array.length; j++){
+                int[] subArray = Arrays.copyOfRange(array);
+                System.out.println(Arrays.toString(array);
+            }
         }
-        int[] subArray = Arrays.copyOfRange(array, start, end);
-        System.out.println(Arrays.toString(subArray));
     }
 
     public static void main(String[] args) {
@@ -42,6 +43,7 @@ public class JavaSubarray {
        for (int i = 0; i < array.length; i++) {
            array[i]=scan.nextInt();
        }
+        subarray(array);
        
 }
 }
