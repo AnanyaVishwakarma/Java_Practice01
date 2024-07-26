@@ -47,34 +47,40 @@ import java.util.*;
 class MinIndexOfCommonString {
     public static String[] findRestaurant(String[] list1, String[] list2) {
         int min = Integer.MAX_VALUE;
-        String[] res = new String[0];
+        List<String> res = new ArrayList<>();
         for (int i = 0; i < list1.length; i++) {
             for (int j = 0; j < list2.length; j++) {
                 if (list1[i].equals(list2[j])) {
                     int sum = i + j;
                     if (sum < min) {
                         min = sum;
-                        res = new String[1];
-                        res[0] = list1[i];
-                        } else if (sum == min) {
-                        res = Arrays.copyOf(res, res.length + 1);
-                        res[res.length - 1] = list1[i];
-                            }
+                        res.clear();
+                        res.add(list1[i]);
+                    } else if (sum == min) {
+                        res.add(list1[i]);
                     }
-                        }
+                }
             }
         }
-        return ;
-        
+        return res.toArray(new String[0]);
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        int n1 = scan.nextInt();
 
-        String[] list01 = scan.nextLine().split("");
-        String[] list02 = scan.nextLine().split("");
+        String[] list01 = new String[n1];
+        for (int i = 0; i < list01.length; i++) {
+            list01[i] = scan.nextLine();
+        }
+        int n2 = scan.nextInt();
+        String[] list02 = new String[n2];
+        for (int i = 0; i < list02.length; i++) {
+            list02[i] = scan.next();
+            }
         String[] result = findRestaurant(list01, list02);
-        System.out.println(Arrays.toString(result));
-
+        for (String string : result) {
+            System.out.println(string);
+        }
     }
 }
