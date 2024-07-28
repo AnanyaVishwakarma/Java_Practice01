@@ -49,8 +49,7 @@ import java.io.*;
 import java.util.*;
 
 public class javaArrayList {
-
-    public static void main(String[] args) {
+public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner scan = new Scanner(System.in);
         int row = scan.nextInt();
@@ -69,6 +68,19 @@ public class javaArrayList {
             }
             System.out.println();
         }
+        // input wiil be 1 based but after below given line of code it will read an integer value
+        // that would be 0 based  eg: if the input is three before subtracting 1 and after subtracting it woulb be 2 as per array's and list's based indeing i.e., 0-based 
+        int rowIndex = scan.nextInt() - 1;
+        int colIndex = scan.nextInt() - 1;
+        if (rowIndex >= 0 && rowIndex < arrayList.size() && colIndex >= 0 && colIndex < arrayList.size()){
+            int element = arrayList.get(rowIndex).get(colIndex);//this line retrieves  the element at the specified rowIndex and colIndex
+ System.out.println((rowIndex + 1) + (colIndex + 1) + element);        }else{
+            System.out.println("ERROR!");
+        }
+        
+        
         scan.close();
     }
 }
+
+
