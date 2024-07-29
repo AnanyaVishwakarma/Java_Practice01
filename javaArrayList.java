@@ -49,36 +49,36 @@ import java.io.*;
 import java.util.*;
 
 public class javaArrayList {
-public static void main(String[] args) {
+
+    public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner scan = new Scanner(System.in);
-        int row = scan.nextInt();
-        int col = scan.nextInt();
+        int n = scan.nextInt();
+
         ArrayList<ArrayList<Integer>> arrayList = new ArrayList<>();
-        for (int i = 0; i < row; i++) {
+
+        for (int i = 0; i < n; i++) {
+            int q = scan.nextInt();
             ArrayList<Integer> innerList = new ArrayList<>();
-            for (int j = 0; j < col; j++) {
+            for (int j = 0; j < q; j++) {
                 innerList.add(scan.nextInt());
             }
             arrayList.add(innerList);
         }
-        for (ArrayList<Integer> innerList : arrayList) {
-            for (Integer element : innerList) {
-                System.out.println(element + " ");
-            }
-            System.out.println();
-        }
+        
         // input wiil be 1 based but after below given line of code it will read an integer value
         // that would be 0 based  eg: if the input is three before subtracting 1 and after subtracting it woulb be 2 as per array's and list's based indeing i.e., 0-based 
+       int d = scan.nextInt();
+       for (int i = 0; i < d; i++) {
         int rowIndex = scan.nextInt() - 1;
         int colIndex = scan.nextInt() - 1;
-        if (rowIndex >= 0 && rowIndex < arrayList.size() && colIndex >= 0 && colIndex < arrayList.size()){
-            int element = arrayList.get(rowIndex).get(colIndex);//this line retrieves  the element at the specified rowIndex and colIndex
- System.out.println((rowIndex + 1) + (colIndex + 1) + element);        }else{
+        if (rowIndex > 0 && rowIndex <= n && colIndex > 0 && colIndex <= arrayList.get(rowIndex - 1).size()) {
+            System.out.println(arrayList.get(rowIndex - 1).get(colIndex - 1));
+        }else{
             System.out.println("ERROR!");
         }
-        
-        
+    
+    }  
         scan.close();
     }
 }
