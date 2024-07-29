@@ -70,15 +70,15 @@ public class javaArrayList {
         // that would be 0 based  eg: if the input is three before subtracting 1 and after subtracting it woulb be 2 as per array's and list's based indeing i.e., 0-based 
        int d = scan.nextInt();
        for (int i = 0; i < d; i++) {
-        int rowIndex = scan.nextInt() - 1;
-        int colIndex = scan.nextInt() - 1;
-        if (rowIndex > 0 && rowIndex <= n && colIndex > 0 && colIndex <= arrayList.get(rowIndex - 1).size()) {
-            System.out.println(arrayList.get(rowIndex - 1).get(colIndex - 1));
-        }else{
-            System.out.println("ERROR!");
-        }
-    
-    }  
+            int x = scan.nextInt();
+            int y = scan.nextInt();
+            ArrayList<Integer> innerList = arrayList.get(x-1);
+            if (y <= innerList.size()) {
+                System.out.println(innerList.get(y-1));
+            } else {
+                System.out.println("ERROR!");
+            }
+        }  
         scan.close();
     }
 }
