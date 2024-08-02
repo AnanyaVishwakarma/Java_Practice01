@@ -44,21 +44,19 @@ public class Solution {
     
         List<Integer> list = new ArrayList<>();
         for (int i = 0; i < n; i++) {
-            System.out.print(list.add(scan.nextInt()));
+            list.add(scan.nextInt());
         }
          n = scan.nextInt();
-         int x = scan.nextInt();
-         int y = scan.nextInt();
          for (int i = 0; i < n; i++) {
              String Q = scan.next();
              if (Q.compareTo("Insert")==0) {
-                 list.add(x,y);
+                 list.add(scan.nextInt(), scan.nextInt());
              }else{
-                 list.remove(x);
+                 list.remove(scan.nextInt());
              }
          }
          for ( int i : list) {
-             System.out.println(i + " ");
+             System.out.print(i + " ");
          }
         
     }
