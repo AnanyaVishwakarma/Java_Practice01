@@ -34,17 +34,32 @@ Print the updated list L as a single line of space-separated integers. */
 import java.io.*;
 import java.util.*;
 
-public class JavaList {
+public class Solution {
 
     public static void main(String[] args) {
-        Scanner scan  = new Scanner(System.in);
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner scan = new Scanner(System.in);
 
-        int n = scan.nextInt();
-        int x = scan.nextInt();//values to be added or inserted and to delete the value of x
-        int y = scan.nextInt();//values to be added or inserted
-
-        ArrayList<Integer> list = new ArrayList<>();
-       
+        int n = scan.nextInt();//no.of integers to be stored 
+    
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            System.out.print(list.add(scan.nextInt()));
+        }
+         n = scan.nextInt();
+         int x = scan.nextInt();
+         int y = scan.nextInt();
+         for (int i = 0; i < n; i++) {
+             String Q = scan.next();
+             if (Q.compareTo("Insert")==0) {
+                 list.add(x,y);
+             }else{
+                 list.remove(x);
+             }
+         }
+         for ( int i : list) {
+             System.out.println(i + " ");
+         }
         
     }
 }
