@@ -44,6 +44,7 @@ public class JavaStack {
             String input=sc.next();
             System.out.println(balanced(input));
         }
+        sc.close();
     }
     
     public static boolean balanced (String s){
@@ -56,18 +57,12 @@ public class JavaStack {
         if (c == '[' || c == '{' || c == '(') {
             stack.push(c);
         }
-        else if (c == ']') {
-            if (stack.isEmpty() || stack.pop() != '[') {
+        else if (c == ']' || c == '}' || c == ')') {
+            if (stack.isEmpty()) {
                 return false;
             }
-        }
-        else if (c == '}') {
-            if (stack.isEmpty() || stack.pop() != '{') {
-                return false;
-            }
-        }
-        else if (c == ')') {
-            if (stack.isEmpty() || stack.pop() != '{') {
+            char top = stack.pop();
+            if ((c == ']' && top != '[') || (c == '}' && top != '{') || ( c == ']' && top != '[')){
                 return false;
             }
         }
