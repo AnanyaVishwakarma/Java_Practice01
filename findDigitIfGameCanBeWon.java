@@ -47,19 +47,23 @@ Constraints:
 
 public class findDigitIfGameCanBeWon {
     public boolean canAliceWin(int[] nums) {
+        int singleDigitSum = 0;
+        int doubleDigitSum = 0;
         int sum=0;
-        for(int i:nums) 
-        sum+=i;
-        int sumAlice=0;
-        for(int i:nums) {
-            if(i<=9) 
-            sumAlice+=i;
-            else 
-            sumAlice+=i/10;
-            }
-            if(sumAlice>sum-sumAlice){
-                return true;
-            }
-            return false;
+
+        for(int num:nums){
+            sum+=num;
+            if(num<=9) 
+            {singleDigitSum+=num;}
+            else {doubleDigitSum+=num;}
+        } 
+        if (singleDigitSum > sum - singleDigitSum) {
+            return true;
+        }
+        if (doubleDigitSum > sum - doubleDigitSum) {
+            return true;
+        }
+        return false;
+
         }
     }
