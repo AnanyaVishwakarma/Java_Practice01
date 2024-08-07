@@ -55,7 +55,7 @@ class Player{
 /**
  * InnerJavaComparator
  */
-public class Checker implements Comparator<Player>{
+class Checker implements Comparator<Player>{
  public int compare(Player a, Player b) {
     if (a.score != b.score) {
         return b.score - a.score;
