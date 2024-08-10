@@ -42,19 +42,18 @@ import java.util.Hashtable;
 public class uniqueMorseCodeWords {
     
     public int uniqueMorseRepresentations(String[] words) {
-        String[] morseCode = { ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..",
-                "--", "-.", "---", ".--.", "--.-", ".-.",
-                "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.." };
-        Hashtable<String, Integer> hashtable = new Hashtable<>();
-        for (String word : words) {
-           String morseCodeWord = 
-            if (hashtable.containsKey(morseCodeWord)) {
-                continue;
-            } else {
-                hashtable.put(morseCodeWord, 1);
-            }
-        }
-
+    String[] morseCode = { ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..",
+        "--", "-.", "---", ".--.", "--.-", ".-.",
+        "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.." };
+    Set<String> transformations = new HashSet<>();
+    for (String word : words) {
+      StringBuilder transformation = new StringBuilder();
+      for (char c : word.toCharArray()) {
+        transformation.append(morseCode[c - 'a']);
+      }
+      transformations.add(transformation.toString());
+    }
+    return transformations.size();
     }
 
 }
