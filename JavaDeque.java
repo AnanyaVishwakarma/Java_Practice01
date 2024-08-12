@@ -57,14 +57,29 @@ public class JavaDeque {
         Deque deque = new ArrayDeque<>();
         int n = in.nextInt();
         int m = in.nextInt();
-
-        Deque<Integer> jDeque = new ArrayDeque<>(m);
-        
-
+        int[] arr = new int[n];
         for (int i = 0; i < n; i++) {
-            int num = in.nextInt();
-           
+            arr[i] = in.nextInt();
         }
+
+        Deque<Integer> jDeque = new LinkedList<>();
+        Set<Integer> set = new HashSet<>();
+        int max = 0;
+         
+        for (int i = 0; i < n; i++){
+            while (!jDeque.isEmpty() && jDeque.peekFirst() <= i-m) {
+                set.remove(arr[jDeque.pollFirst()]);
+            }
+            while (!jDeque.isEmpty() && arr[jDeque.peekLast()] > arr[i]) {
+                set.remove(arr[jDeque.pollLast()]);
+            }
+            jDeque.offerLast(i);
+            set.add(arr[i]);
+            if (i >= m - 1) {
+                max = Math.max(max, set.size());
+            }
+        }
+        System.out.println(max);
     }
 }
 
