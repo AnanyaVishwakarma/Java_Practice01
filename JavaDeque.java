@@ -54,37 +54,23 @@ import java.util.*;
 public class JavaDeque {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        Deque deque = new ArrayDeque<>();
+        Deque<Integer> jDeque = new LinkedList<>();
+        
         int n = in.nextInt();
         int m = in.nextInt();
-        int[] arr = new int[n];
+        int max = Integer.MIN_VALUE;
+
         for (int i = 0; i < n; i++) {
-            arr[i] = in.nextInt();
-        }
-
-        Deque<Integer> jDeque = new LinkedList<>();
-        Set<Integer> set = new HashSet<>();
-        int max = 0;
-
-        for (int i = 0; i < m; i++) {
-            while (!jDeque.isEmpty() && arr[jDeque.peekLast()] <= arr[i]) {
-                set.remove(arr[jDeque.pollLast()]);
+            int input = in.nextInt();
+            jDeque.addLast(input);
+            
+            if (jDeque.size() == m) {
+            Set<Integer> set = new HashSet<>();
+            if(set.size() > m){
+                max = set.size();
             }
-            jDeque.offerLast(i);
-            set.add(arr[i]);
-        }
-        max = Math.max(max, set.size());
-         
-        for (int i = 0; i < n; i++){
-            while (!jDeque.isEmpty() && jDeque.peekFirst() <= i-m) {
-                set.remove(arr[jDeque.pollFirst()]);
+            jDeque.removeFirst();
             }
-            while (!jDeque.isEmpty() && arr[jDeque.peekLast()] > arr[i]) {
-                set.remove(arr[jDeque.pollLast()]);
-            }
-            jDeque.offerLast(i);
-            set.add(arr[i]);
-            max = Math.max(max, set.size());
         }
         System.out.println(max);
     }
