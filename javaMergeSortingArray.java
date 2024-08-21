@@ -30,22 +30,33 @@ import java.util.Arrays;
 
 public class javaMergeSortingArray {
     public void merge(int[] num1, int n, int[] num2, int m){
-
-        int i = 0;
-        int[] mergedArray = new int[num1.length + num2.length];
-        while (n < num1.length && m < num2.length) {
-            if (num1[n] < num2[m]) {
-                mergedArray[i++] = num1[n++];
+    public int[] merge(int[] num1, int m, int[] num2, int n){
+        //initializing pointers 
+     int p1 = m-1;
+       int  p2 = n-1;
+       int  p = m + n-1;
+       
+       //Iterating from the back of both the arrays 
+        while (p1 >= 0 && p2 >= 0) {
+            if (num1[p1] > num2[p2]) {
+                num1[p] = num1[p1];
+                p1--;
             }else{
-                mergedArray[i++] = num2[m++];
+                num1[p] = num2[p2];
+                p2--;
             }
+            p--;
         }
-        while (n < num1.length) {
-            mergedArray[i++] = num1[n++];
-            }
-            while (m < num2.length) {
-                mergedArray[i++] = num2[m++];
-                }   
-                return mergedArray;
+
+        //If there are remaining elements in num2 thr copy them
+        while (p2 >= 0) {
+            num1[p] = num2[p2];
+            p2--;
+            p--;
+        }
+
+        //Printing the result from debugging 
+        System.out.println(Arrays.toString(num1));        
+        return num1;
     }
 }
