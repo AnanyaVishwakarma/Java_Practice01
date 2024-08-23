@@ -53,26 +53,50 @@ among all possible contiguous subarrays is 3.
 import java.util.*;
 public class JavaDeque {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        Deque<Integer> jDeque = new LinkedList<>();
-        
-        int n = in.nextInt();
-        int m = in.nextInt();
-        int max = Integer.MIN_VALUE;
+        Scanner sc = new Scanner(System.in);
 
-        for (int i = 0; i < n; i++) {
-            int input = in.nextInt();
-            jDeque.addLast(input);
-            
-            if (jDeque.size() == m) {
-            Set<Integer> set = new HashSet<>();
-            if(set.size() > m){
-                max = set.size();
+        // Read input values
+        int N = sc.nextInt();  // number of integers
+        int M = sc.nextInt();  // size of the subarray
+        int[] arr = new int[N];
+        for (int i = 0; i < N; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        // Initialize the Deque and HashMap for counting occurrences of elements
+        Deque<Integer> deque = new ArrayDeque<>();
+        Map<Integer, Integer> freqMap = new HashMap<>();
+        int maxUniqueCount = 0;
+
+        // Start sliding the window
+        for (int i = 0; i < N; i++) {
+            // Add the current element to the deque and update the frequency map manually
+            deque.addLast(arr[i]);
+            if (freqMap.containsKey(arr[i])) {
+                freqMap.put(arr[i], freqMap.get(arr[i]) + 1);
+            } else {
+                freqMap.put(arr[i], 1);
             }
-            jDeque.removeFirst();
+
+            // Maintain the sliding window of size M
+            if (deque.size() == M) {
+                // Calculate unique numbers
+                maxUniqueCount = Math.max(maxUniqueCount, freqMap.size());
+
+                // Remove the first element from the deque and update the frequency map
+                int removed = deque.removeFirst();
+                if (freqMap.get(removed) == 1) {
+                    freqMap.remove(removed);
+                } else {
+                    freqMap.put(removed, freqMap.get(removed) - 1);
+                }
             }
         }
-        System.out.println(max);
+
+        // Print the maximum number of unique integers in any subarray of size M
+        System.out.println(maxUniqueCount);
+
+        sc.close();
     }
 }
 
