@@ -25,20 +25,24 @@ import java.util.HashSet;
 
 public class keyboardRow {
     public String[] findWords(String[] words) {
-        HashSet<String>  res = new HashSet<>();
-        String[] rows = {"qwertyuiop", "asdfghjkl", "zxcvbnm"};
+        Set<Character> ROW1 = new HashSet<>(Arrays.asList('q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p'));
+        Set<Character> ROW2 = new HashSet<>(Arrays.asList('a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l'));
+        Set<Character> ROW3 = new HashSet<>(Arrays.asList('z', 'x', 'c', 'v', 'b', 'n', 'm'));
+        Set<Set<Character>> rows = new HashSet<>(Arrays.asList(ROW1, ROW2, ROW3));
+
+        Set<String> res = new HashSet<>();
+
         for (String word : words) {
-            boolean flag = true;
-            for (char c : word.toLowerCase().toCharArray()){
-                for (String row : rows) {
-                    if (!row.contains(String.valueOf(c))){
-                        flag = false;
-                        break;
-                    }
-                }
-                if (!flag) break;
+            Set<Character> wordSet = new HashSet<>();
+            for (char c : word.toLowerCase().toCharArray()) {
+                wordSet.add(c);
             }
-            if (flag) res.add(word);
+            for (Set<Character> row : rows) {
+                if (row.containsAll(wordSet)) {
+                    res.add(word);
+                    break;
+                }
+            }
         }
         return res.toArray(new String[0]);
     }    
