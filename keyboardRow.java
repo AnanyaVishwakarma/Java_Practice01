@@ -25,25 +25,26 @@ import java.util.HashSet;
 
 public class keyboardRow {
     public String[] findWords(String[] words) {
-        Set<Character> ROW1 = new HashSet<>(Arrays.asList('q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p'));
-        Set<Character> ROW2 = new HashSet<>(Arrays.asList('a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l'));
-        Set<Character> ROW3 = new HashSet<>(Arrays.asList('z', 'x', 'c', 'v', 'b', 'n', 'm'));
-        Set<Set<Character>> rows = new HashSet<>(Arrays.asList(ROW1, ROW2, ROW3));
+    public  boolean canBeTypedInOneRow(String word, String row)  {
+        for(char c : word.toCharArray()){
+            if(row.indexOf(c) == -1) return false;
+        }
+        return  true;
+    }
+    public String[] findWords(String[] words) {
+        String row1 = "qwertyuiop";
+        String row2 = "asdfghjkl";
+        String row3 = "zxcvbnm";
 
-        Set<String> res = new HashSet<>();
+        List<String> result = new ArrayList<>();
 
         for (String word : words) {
-            Set<Character> wordSet = new HashSet<>();
-            for (char c : word.toLowerCase().toCharArray()) {
-                wordSet.add(c);
-            }
-            for (Set<Character> row : rows) {
-                if (row.containsAll(wordSet)) {
-                    res.add(word);
-                    break;
-                }
+            String lowerWord = word.toLowerCase();
+
+            if(canBeTypedInOneRow(lowerWord, row1) || canBeTypedInOneRow(lowerWord, row2) || canBeTypedInOneRow(lowerWord, row3)){
+                result.add(word);
             }
         }
-        return res.toArray(new String[0]);
-    }    
+        return result.toArray(new String[0]);
+    }   
 }
