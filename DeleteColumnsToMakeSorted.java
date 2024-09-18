@@ -42,12 +42,16 @@ public class DeleteColumnsToMakeSorted {
     public int minDeletionSize(String[] strs) {
         int count = 0;
         for (int col = 0; col < strs[0].length(); col++) {
+          boolean isUnsorted = false;
             for (int row = 1; row < strs.length; row++) {
                 if (strs[row].charAt(col) < strs[row - 1].charAt(col))
-                count++;
+                isUnsorted = true;
                 break;
             }
         }
+      if(isUnsorted){
+        count++;
+      }
         return count;
     }    
 }
