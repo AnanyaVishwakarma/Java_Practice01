@@ -21,29 +21,31 @@ Input: paragraph = "a.", banned = []
 Output: "a" */
 
 public class mostCommonWord {
-    public String mostCommonWord(String paragraph, String[] banned) {
-        String[] words = paragraph.toLowerCase().split("\\W+");
+ public String mostCommonWord(String paragraph, String[] banned) {
+    String[] words = paragraph.toLowerCase().split("[^\\w\\s]+");
+
+    Set<String> set = new HashSet<>(Arrays.asList(banned));
         
-        Set<String> bannedSet = new HashSet<>();
-        for (String ban : words) {
-            bannedSet.add(ban.toLowerCase());
-        }
-
-        Map<String, Integer> wordCount = new HashMap<>();
-        for (String word : words) {
-            if (!bannedSet.contains(word)) {
-                wordCount.put(word, wordCount.getOrDefault(word, 0) + 1);
+    Map<String, Integer> map = new HashMap<>();
+    for (String word : words) {
+        if (!set.contains(word)) {
+            if (map.containsKey(word)) {
+                int freq = map.get(word) + 1;
+                map.put(word, freq);
+            } else {
+                map.put(word, 1);
             }
+        } // This bracket was missing
+    }
+    
+    String mostFreq = null;
+    int max = 0;
+    for (Map.Entry<String, Integer> entry : map.entrySet()) {
+        if (entry.getValue() > max) {
+            max = entry.getValue();
+            mostFreq = entry.getKey();
         }
-
-        String maxWord = "";
-        int maxCount = 0;
-        for (Map.Entry<String, Integer> entry : wordCount.entrySet()) {
-            if (entry.getValue() > maxCount){
-                maxWord = entry.getKey();
-                maxCount = entry.getValue();
-            }
-        }
-        return maxWord;
-    }    
+    }
+    return mostFreq;
+}   
 }
