@@ -21,31 +21,30 @@ Input: paragraph = "a.", banned = []
 Output: "a" */
 
 public class mostCommonWord {
- public String mostCommonWord(String paragraph, String[] banned) {
-    String[] words = paragraph.toLowerCase().split("[^\\w\\s]+");
+    public boolean isPossibleToSplit(int[] nums) {
+        int n = nums.length;
 
-    Set<String> set = new HashSet<>(Arrays.asList(banned));
-        
-    Map<String, Integer> map = new HashMap<>();
-    for (String word : words) {
-        if (!set.contains(word)) {
-            if (map.containsKey(word)) {
-                int freq = map.get(word) + 1;
-                map.put(word, freq);
-            } else {
-                map.put(word, 1);
-            }
-        } // This bracket was missing
-    }
-    
-    String mostFreq = null;
-    int max = 0;
-    for (Map.Entry<String, Integer> entry : map.entrySet()) {
-        if (entry.getValue() > max) {
-            max = entry.getValue();
-            mostFreq = entry.getKey();
+        if(n % 2 != 0){
+            return false;
         }
+        int midPoint = n/2;
+
+        Set<Integer> set1 = new HashSet<>();
+        Set<Integer> set2 = new HashSet<>();
+
+        for(int i = 0; i < midPoint; i++){
+            set1.add(nums[i]);
+        }
+
+        for(int i = 0; i < midPoint; i++){
+            set2.add(nums[i]);
+        }
+
+        for (Integer num : set1) {
+            if(set2.contains(num)){
+                return false;
+            }
+        }
+        return true;
     }
-    return mostFreq;
-}   
 }
