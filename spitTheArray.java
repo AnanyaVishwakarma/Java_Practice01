@@ -23,29 +23,28 @@
 public class spitTheArray {
 
     public boolean isPossibleToSplit(int[] nums) {
-        int midpoint = nums.length / 2;
-        int[] nums1 = new int[midpoint];
-        int[] nums2 = new int[midpoint];
-        int count1 = 0;
-        int count2 = 0;
-        for (int i = 0; i < nums.length; i++) {
-            if (count1 < midpoint) {
-                if (count2 < midpoint) {
+        int n = nums.length;
 
-                    if (nums[i] != nums2[count2]) {
-                        nums1[count1] = nums[i];
-                        count1++;
-                    } else if (nums[i] == nums2[count2]) {
-                        count2++;
-                    }
-                } else if (count2 < midpoint) {
-                    nums2[count2] = nums[i];
-                    count2++;
-                }
-            }
-
+        if(n % 2 != 0){
+            return false;
         }
-        return count1 == midpoint && count2 == midpoint;
+        int midPoint = n/2;
+
+        Set<Integer> set1 = new HashSet<>();
+        Set<Integer> set2 = new HashSet<>();
+
+        for(int i = 0; i < midPoint; i++){
+          if (i < midPoint) {
+            if (!set1.add(nums[i])) {
+                return  false;
+            }
+          }else{
+            if (!set2.add(nums[i])) {
+                return false;
+            }
+          }
+        }
+        return true;
     }
 
 }
