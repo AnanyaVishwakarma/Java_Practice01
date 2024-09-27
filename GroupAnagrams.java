@@ -33,16 +33,17 @@ import java.util.List;
 public class GroupAnagrams {
 
     public List<List<String>> groupAnagrams(String[] strs) {
-        List<List<String>> result = new ArrayList<>();
-        for(String str : strs) {
+        Map<String, List<String>> map = new HashMap<>();
+        for (String str : strs) {
             char[] charArray = str.toCharArray();
-            int[] count = new int[26];
-            for (char c  : charArray){
-                count[c - 'a']++;
+            Arrays.sort(charArray);
+            String sortedStr = new String(charArray);
+            if (!map.containsKey(sortedStr)){
+                map.put(sortedStr, new ArrayList<>());
             }
-            boolean found = false;
-
+            map.get(sortedStr).add(str);
         }
-        }
+        return new ArrayList<>(map.values());
+    }
     }
 
