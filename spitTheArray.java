@@ -21,30 +21,35 @@
  * Explanation: The only possible way to split nums is nums1 = [1,1] and nums2 = [1,1]. Both nums1 and nums2 do not
  * contain distinct elements. Therefore, we return false. */
 public class spitTheArray {
-
-    public boolean isPossibleToSplit(int[] nums) {
+public boolean isPossibleToSplit(int[] nums) {
         int n = nums.length;
 
         if(n % 2 != 0){
             return false;
         }
-        int midPoint = n/2;
 
-        Set<Integer> set1 = new HashSet<>();
-        Set<Integer> set2 = new HashSet<>();
+        Map<Integer, Integer> freqMap = new HashMap<>();
+        for (int num : nums){
+          freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);        
+        }
 
-        for(int i = 0; i < midPoint; i++){
-          if (i < midPoint) {
-            if (!set1.add(nums[i])) {
-                return  false;
-            }
-          }else{
-            if (!set2.add(nums[i])) {
-                return false;
-            }
+        for(int count : freqMap.values()){
+          if(count > 2){
+            return false;
           }
         }
-        return true;
+
+        Set<Integer> set1 = new HashSet<>(); 
+        Set<Integer> set2 = new HashSet<>();
+         
+        for(int num : nums){
+          if (set1.size() < n / 2 && !set1.contains(num)) {
+            set1.add(num);
+          }else{
+            set2.add(num);
+          }
+        }
+       return  set1.size() == n /2 && set2.size() == n / 2;
     }
 
 }
