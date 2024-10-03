@@ -31,11 +31,30 @@ import java.util.Map;
 
 public class verifyingAnAlienDictionary {
     public boolean isAlienSorted(String[] words, String order) {
-        
-        Map<Character, String> orderMap = new HashMap<>();
-        for (String word : words){
-            if(word.contains(order))
+        Map<Character, Integer> orderMap = new HashMap<>();
+        for(int i = 0; i < order.length(); i++) {
+            orderMap.put(order.charAt(i), i);
         }
-        
-    }    
+
+        for(int i =0; i < words.length-1;i++){
+            if(!compare(words[i], words[i + 1], orderMap)){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private static  boolean compare(String word1, String word2, Map<Character, Integer> orderMap) {
+        int len = Math.min(word1.length(), word2.length());
+
+        for (int i = 0; i < len ; i++){
+            char c1 = word1.charAt(i);
+            char c2 = word2.charAt(i);
+
+            if(c1 != c2){
+                return orderMap.get(c1) < orderMap.get(c2);
+            }
+        }
+        return word1.length() <= word2.length();
+    }      
 }
