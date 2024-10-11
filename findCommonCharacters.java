@@ -36,13 +36,19 @@ public class findCommonCharacters {
                     freqMap.put(c, Math.min(freqMap.get(c), wordMap.get(c)));
                 } else{
                     freqMap.put(c, 0);
-                 
                 }
             }
+            }
             
-
-        }
-
+            for (Map.Entry<Character, Integer> entry : freqMap.entrySet()) {
+                char c = entry.getKey();
+                int count = entry.getValue();
+                for (int i = 0; i < count; i++) {
+                    result.add(String.valueOf(c));
+                }
+                
+            }
+            return result;
 
     }    
 }
