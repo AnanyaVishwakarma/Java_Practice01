@@ -36,6 +36,7 @@ public class findCommonCharacters {
                     freqMap.put(c, Math.min(freqMap.get(c), wordMap.get(c)));
                 } else{
                     freqMap.put(c, 0);
+                 
                 }
             }
             
