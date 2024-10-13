@@ -31,6 +31,29 @@ Explanation:
 public class ConvertDateToBinary {
     public String convertDateToBinary(String date) {
                 int n = date.length();
+          for (int i = 0; i < n; i++){
+        int val = Integer.valueOf(date.charAt(i));
+
+        String bin = "";
+        while (val > 0){
+            if (val % 2 == 0){
+                bin += "1";
+            } else {
+                bin += "0";
+            val /= 2;            }
+        }
+        bin = reverse(bin);
+     }
+        
+    }
+
+    private String reverse(String input) {
+        char[] a = input.toCharArray();
+        int l, r = 0;
+        r = a.length -1;
+
+        
+    } 
      
     }    
 }
