@@ -1,6 +1,4 @@
 
-import java.util.GregorianCalendar;
-
 /*You are given a string date representing a Gregorian calendar date in the yyyy-mm-dd format.
 
 date can be written in its binary representation obtained by converting year, month, and day to their 
@@ -32,7 +30,7 @@ Explanation:
 
 public class ConvertDateToBinary {
     public String convertDateToBinary(String date) {
-     GregorianCalendar gcal = new GregorianCalendar();
-        
+                int n = date.length();
+     
     }    
 }
