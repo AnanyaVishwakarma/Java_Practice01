@@ -30,30 +30,16 @@ Explanation:
 
 public class ConvertDateToBinary {
     public String convertDateToBinary(String date) {
-                int n = date.length();
-          for (int i = 0; i < n; i++){
-        int val = Integer.valueOf(date.charAt(i));
+        String[] parts = date.split("-");
 
-        String bin = "";
-        while (val > 0){
-            if (val % 2 == 0){
-                bin += "1";
-            } else {
-                bin += "0";
-            val /= 2;            }
-        }
-        bin = reverse(bin);
-     }
-        
-    }
+        int year = Integer.parseInt(parts[0]);
+        int month = Integer.parseInt(parts[1]);
+        int day = Integer.parseInt(parts[2]);
 
-    private String reverse(String input) {
-        char[] a = input.toCharArray();
-        int l, r = 0;
-        r = a.length -1;
+        String binaryYear = Integer.toBinaryString(year);
+        String binaryMonth = Integer.toBinaryString(month);
+        String binaryDay = Integer.toBinaryString(day);
 
-        
-    } 
-     
+        return binaryYear + "-" + binaryMonth + "-" +binaryDay;
     }    
 }
