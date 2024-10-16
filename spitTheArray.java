@@ -24,10 +24,6 @@ public class spitTheArray {
 public boolean isPossibleToSplit(int[] nums) {
         int n = nums.length;
 
-        if(n % 2 != 0){
-            return false;
-        }
-
         Map<Integer, Integer> freqMap = new HashMap<>();
         for (int num : nums){
           freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);        
@@ -39,17 +35,17 @@ public boolean isPossibleToSplit(int[] nums) {
           }
         }
 
-        Set<Integer> set1 = new HashSet<>(); 
-        Set<Integer> set2 = new HashSet<>();
-         
-        for(int num : nums){
-          if (set1.size() < n / 2 && !set1.contains(num)) {
-            set1.add(num);
-          }else{
-            set2.add(num);
+        int distinctCount = 0;
+        for (int count : freqMap.values()){
+          if (count == 1){
+            distinctCount++;
           }
         }
-       return  set1.size() == n /2 && set2.size() == n / 2;
+        int totalUnique = freqMap.size();
+        if ( distinctCount + totalUnique >= nums.length / 2){
+          return true;
+        }
+        return false;
     }
 
 }
