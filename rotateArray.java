@@ -29,7 +29,7 @@ public class rotateArray {
 
         reverse(nums, 0, k - 1);
 
-        reverse(nums, k, k - 1);
+        reverse(nums, k, n - 1);
 
     }
     static void reverse(int nums[], int start, int end){
