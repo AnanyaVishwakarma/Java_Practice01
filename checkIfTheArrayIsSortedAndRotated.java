@@ -47,5 +47,6 @@ public class checkIfTheArrayIsSortedAndRotated {
                 return true;
             }
         }
+     return false;
     }
 }
