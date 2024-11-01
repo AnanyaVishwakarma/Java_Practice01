@@ -29,24 +29,16 @@ You can rotate the array by x = 0 positions (i.e. no rotation) to make nums. */
 public class checkIfTheArrayIsSortedAndRotated {
     public static boolean check(int[] nums) {
         int n = nums.length;
-        for(int i = 1; i < n; i++){
-            if(nums[i] < nums[i-1]){
-                return false;
+     int dropCount = 0;
+        for(int i = 0; i < n; i++){
+            if(nums[i] > nums[(i + 1) % n]){
+                dropCount++;
             }
+         if (droupCount > 1){
+          return false;
         }
+        }   
         return true;
     }    
-    public  static boolean canBeSorted(int arr[]){
-        int n = arr.length;
-        for (int i = 0; i < n; i++){
-            int rotatedArray[] = new int[n];
-            for (int j = 0; j < n; j++){
-                rotatedArray[j] = arr[(i + j) % n];
-            }
-            if (check(rotatedArray)){
-                return true;
-            }
-        }
-        return false;
-    } 
+
 }
