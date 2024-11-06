@@ -43,6 +43,15 @@ public class oddStringDifference {
             int[] diffArray = differentiate(words[i]);
 
             String key = Arrays.toString(diffArray);
+         diffTable.putIfAbsent(key, new ArrayList<>());
+            diffTable.get(key).add(i);
         }
+
+        for (Map.Entry<String, List<Integer>> entry : diffTable.entrySet()){
+            if (entry.getValue().size() == 1){
+                return words[entry.getValue().get(0)];
+            }
+        }
+        return null;
     }
 }    
