@@ -43,7 +43,7 @@ public class oddStringDifference {
             int[] diffArray = differentiate(words[i]);
 
             String key = Arrays.toString(diffArray);
-         diffTable.putIfAbsent(key, new ArrayList<>())
+         diffTable.putIfAbsent(key, new ArrayList<>());
             diffTable.get(key).add(i);
         }
 
