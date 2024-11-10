@@ -39,7 +39,7 @@ public class oddStringDifference {
         public String oddString(String[] words) {
         Hashtable<String, List<Integer>> diffTable = new Hashtable<>();
 
-        for (int i = 0; i < words.length; i++){
+        for (int i = 1; i < words.length; i++){
             int[] diffArray = differentiate(words[i]);
 
             String key = Arrays.toString(diffArray);
