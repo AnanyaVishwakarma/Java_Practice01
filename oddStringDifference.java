@@ -32,7 +32,7 @@ public class oddStringDifference {
         int[] difference = new int[n - 1];
         
         for (int i = 0; i < n -1; i++){
-            difference[i] = word.charAt(i - 1) - word.charAt(i);
+            difference[i] = word.charAt(i + 1) - word.charAt(i);
         }
         return  difference;
     }
