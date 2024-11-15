@@ -28,9 +28,13 @@ public class teemoAttacking {
     public int findPoisonedDuration(int[] timeSeries, int duration) {
         if (timeSeries.length == 0 ){
             return 0;
-         int totalPoisnedTime = 0;
         }
+         int totalPoisnedTime = 0;
+     for (int i =0; i < timeSeries.length -1; i++){
+      int timeGap = timeSeries[i + 1] - timeSeries[i];
+      totalPoisnedTime += Math.min(duration, timeGap);
     }    
+     totatPoisnedTime =+ duration;
+     return totalPoisnedTime;
+    }
 }
-
-
