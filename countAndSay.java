@@ -34,9 +34,13 @@ Explanation:
 This is the base case */
 
 public class countAndSay {
-     private int[] mappinPairs(int[] nums){
-        int n = nums.length;
+    private List<int[]> mapDigitFrequencies(String input){
+        if(!input.matches("\\d+")){
+            throw new IllegalArgumentException("Input must contain digits only");
+        }
 
+        Map<Integer, Integer> freqMap = new HashMap<>();
+        
     }
     public String countAndSay(int n) {
         
