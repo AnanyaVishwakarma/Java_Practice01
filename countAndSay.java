@@ -34,6 +34,10 @@ Explanation:
 This is the base case */
 
 public class countAndSay {
+     private int[] mappinPairs(int[] nums){
+        int n = nums.length;
+
+    }
     public String countAndSay(int n) {
         
     }    
