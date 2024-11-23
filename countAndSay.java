@@ -40,6 +40,9 @@ public class countAndSay {
     } 
 }
     public String countAndSay(int n) {
-        
+                if (n == 1){
+            return  "1"; //the base case
+        }
+        String result = "1";
     }    
 }
