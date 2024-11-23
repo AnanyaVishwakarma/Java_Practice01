@@ -34,14 +34,11 @@ Explanation:
 This is the base case */
 
 public class countAndSay {
-    private List<int[]> mapDigitFrequencies(String input){
-        if(!input.matches("\\d+")){
-            throw new IllegalArgumentException("Input must contain digits only");
-        }
-
-        Map<Integer, Integer> freqMap = new HashMap<>();
+    private static String generateCountAndSay (String input) {
+        StringBuilder sb = new StringBuilder();
         
-    }
+    } 
+}
     public String countAndSay(int n) {
         
     }    
