@@ -44,5 +44,6 @@ public class countAndSay {
             return  "1"; //the base case
         }
         String result = "1";
+
     }    
 }
