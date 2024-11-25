@@ -36,6 +36,9 @@ This is the base case */
 public class countAndSay {
     private static String generateCountAndSay (String input) {
         StringBuilder sb = new StringBuilder();
+
+      int count = 0;
+        char prevChar = input.charAt(0);
         
     } 
 }
