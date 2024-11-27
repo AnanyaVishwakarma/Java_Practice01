@@ -39,7 +39,20 @@ public class countAndSay {
 
       int count = 0;
         char prevChar = input.charAt(0);
-        
+
+        for (int i = 1; i < input.length(); i++) {
+            if (input.charAt(i) == prevChar) {
+                count++;
+            } else {
+                sb.append(count).append(prevChar);
+                prevChar = input.charAt(i);
+                count = 1;
+            }
+        }
+        sb.append(count).append(prevChar);
+
+        return sb.toString();
+
     } 
 }
     public String countAndSay(int n) {
