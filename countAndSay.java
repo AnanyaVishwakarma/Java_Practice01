@@ -37,7 +37,7 @@ public class countAndSay {
     private static String generateCountAndSay (String input) {
         StringBuilder sb = new StringBuilder();
 
-      int count = 0;
+      int count = 1;
         char prevChar = input.charAt(0);
 
         for (int i = 1; i < input.length(); i++) {
