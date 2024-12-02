@@ -11,11 +11,12 @@ The number of elements is 5, so:
 
 Average=150/5 = 30 */
 public class averageOfNumbersInArray {
-    public int avgOfElements (int[] nums){
+    public double avgOfElements (int[] nums){
         int n = nums.length;
         int sum = 0;
         for (int i = 0; i < n; i++ ){
-            
+            sum += nums[i];
         }
+        return (double) sum/n;
     }
 }
