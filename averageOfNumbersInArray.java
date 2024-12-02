@@ -20,3 +20,11 @@ public class averageOfNumbersInArray {
         return (double) sum/n;
     }
 }
+ class TestAverage {
+    public static void main(String[] args) {
+        averageOfNumbersInArray avgCalc = new averageOfNumbersInArray();
+        int[] nums = {5, 10, 15, 20}; // Example input
+        double average = avgCalc.avgOfElements(nums);
+        System.out.println("The average is: " + average);
+    }
+}
