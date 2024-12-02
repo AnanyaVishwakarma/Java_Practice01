@@ -1,6 +1,3 @@
-
-import javax.crypto.NullCipher;
-
 /*The goal is to calculate the average of the numbers in an array.
 
 Definition of Average:
