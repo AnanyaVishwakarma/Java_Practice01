@@ -13,6 +13,10 @@ public class searchingAnElement {
     public int searchElem(int[] nums){
         int x;
         int n = nums.length;
-
+        for(int num : nums){
+            if(num == x){
+                
+            }
+        }
     }   
 }
