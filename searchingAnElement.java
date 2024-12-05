@@ -10,8 +10,7 @@ Return or print its index (position in the array).
 If it doesn’t exist, return or print a message like "Element not found." */
 
 public class searchingAnElement {
-    public int searchElem(int[] nums){
-        int x;
+    public int searchElem(int[] nums, int x){
         int n = nums.length;
         for(int i = 0; i < n; i++){
             
