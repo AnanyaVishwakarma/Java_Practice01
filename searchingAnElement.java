@@ -13,7 +13,10 @@ public class searchingAnElement {
     public int searchElem(int[] nums, int x){
         int n = nums.length;
         for(int i = 0; i < n; i++){
-            
+            if( nums[i] == x){
+                return i;
+            }
         }
+        return -1;
     }   
 }
