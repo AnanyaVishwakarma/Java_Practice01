@@ -18,5 +18,7 @@ public class longestWordInDictionaryThroughDeleting {
     public String findLongestWord(String s, List<String> dictionary) {
         
     }
-    
+    private static boolean isSubsequence(String words, String s){
+
+    }
 }
