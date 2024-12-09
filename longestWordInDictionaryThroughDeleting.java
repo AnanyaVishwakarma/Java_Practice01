@@ -21,5 +21,11 @@ public class longestWordInDictionaryThroughDeleting {
     private static boolean isSubsequence(String words, String s){
          int i = 0, j =0;
                 while(i < words.length() && j < s.length()){
+                    if (words.charAt(i) == s.charAt(j)) {
+                i++;
+            }
+            j++;
+        }
+        return i == words.length();
     }
 }
