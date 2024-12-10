@@ -23,6 +23,13 @@ public class longestWordInDictionaryThroughDeleting {
             return a.compareTo(b);
         });        
     }
+            for (String word : dictionary){
+            if (isSubsequence(word, s)) {
+                return word;
+            }
+        }
+        return "";
+    }
     private static boolean isSubsequence(String words, String s){
          int i = 0, j =0;
                 while(i < words.length() && j < s.length()){
