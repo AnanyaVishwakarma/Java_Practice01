@@ -16,7 +16,12 @@ import java.util.List;
 
 public class longestWordInDictionaryThroughDeleting {
     public String findLongestWord(String s, List<String> dictionary) {
-        
+        Collections.sort(dictionary, (a, b) -> {
+            if(a.length() != b.length()){
+                return b.length() - a.length();
+            }
+            return a.compareTo(b);
+        });        
     }
     private static boolean isSubsequence(String words, String s){
          int i = 0, j =0;
