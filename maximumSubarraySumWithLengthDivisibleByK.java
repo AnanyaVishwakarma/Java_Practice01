@@ -37,10 +37,14 @@ public class maximumSubarraySumWithLengthDivisibleByK {
     public long maxSubarraySum(int[] nums) {
         HashMap<Integer, Integer> remainderIndexMap = new HashMap<>();
         remainderIndexMap.put(0, -1);
-        for (int i = 0; i < nums.length; i++) {
-            currentSum = Math.max(nums[i], currentSum + nums[i]);
-            maxSum = Math.max(maxSum, currentSum);
-        }   
+
+        int maxSum = Integer.MIN_VALUE;
+        int currentSum = 0;
+
+        for (int i = 0; i < nums.length; i++){
+            currentSum += nums[i];
+            
+        }  
         return maxSum;
     }
     public static void main(String[] args) {
