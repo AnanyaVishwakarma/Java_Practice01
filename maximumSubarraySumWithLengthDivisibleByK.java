@@ -48,6 +48,9 @@ public class maximumSubarraySumWithLengthDivisibleByK {
             if (remainder < 0){
                 remainder += k;
             }
+            if(remainderIndexMap.containsKey(remainder)){
+                int startIdx = remainderIndexMap.get(remainder);
+                int subArraySum = currentSum - (startIdx == -1 ? 0: nums[startIdx]);            
         }  
         return maxSum;
     }
