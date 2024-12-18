@@ -57,6 +57,6 @@ public class maximumSubarraySumWithLengthDivisibleByK {
                 remainderIndexMap.put(remainder, i);
             }                
         }  
-        return maxSum;
+        return maxSum == Integer.MIN_VALUE ? 0 : maxSum;
     }
 }
