@@ -39,18 +39,18 @@ public class maximumSubarraySumWithLengthDivisibleByK {
         remainderIndexMap.put(0, -1);
 
         int maxSum = Integer.MIN_VALUE;
-        int currentSum = 0;
+        int prefixSum = 0;
 
         for (int i = 0; i < nums.length; i++){
-            currentSum += nums[i];
-            int remainder = currentSum % k;
+            prefixSum += nums[i];
+            int remainder = prefixSum % k;
 
             if (remainder < 0){
                 remainder += k;
             }
             if(remainderIndexMap.containsKey(remainder)){
                 int startIdx = remainderIndexMap.get(remainder);
-                int subArraySum = currentSum - (startIdx == -1 ? 0: nums[startIdx]);   
+                int subArraySum = prefixSum - (startIdx == -1 ? 0: nums[startIdx]);   
 
                 maxSum = Math.max(maxSum, subArraySum);
             } else {
