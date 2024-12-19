@@ -59,4 +59,18 @@ public class maximumSubarraySumWithLengthDivisibleByK {
         }  
         return maxSum == Integer.MIN_VALUE ? 0 : maxSum;
     }
+        public static void main(String[] args) {
+        // Test cases
+        int[] nums1 = {1, 2};
+        int k1 = 1;
+        System.out.println(maxSubarraySum(nums1, k1)); // Output: 3
+
+        int[] nums2 = {-1, -2, -3, -4, -5};
+        int k2 = 4;
+        System.out.println(maxSubarraySum(nums2, k2)); // Output: -10
+
+        int[] nums3 = {-5, 1, 2, -3, 4};
+        int k3 = 2;
+        System.out.println(maxSubarraySum(nums3, k3)); // Output: 4
+    }
 }
