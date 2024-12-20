@@ -57,7 +57,7 @@ public class maximumSubarraySumWithLengthDivisibleByK {
                 remainderIndexMap.put(remainder, i);
             }                
         }  
-        return maxSum == -1 ? 0 : maxSum;
+        return maxSum;
     }
         public static void main(String[] args) {
         // Test cases
