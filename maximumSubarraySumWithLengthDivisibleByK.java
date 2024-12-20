@@ -50,7 +50,7 @@ public class maximumSubarraySumWithLengthDivisibleByK {
             }
             if(remainderIndexMap.containsKey(remainder)){
                 int startIdx = remainderIndexMap.get(remainder);
-                int subArraySum = prefixSum - (startIdx == -1 ? 0: nums[startIdx]);   
+                int subArraySum = prefixSum - (startIdx == -1 ? 0 : prefixSum - nums[startIdx]);
 
                 maxSum = Math.max(maxSum, subArraySum);
             } else {
