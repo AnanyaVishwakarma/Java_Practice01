@@ -32,10 +32,7 @@ import java.util.Collections;
 public class findMinimumInSortedRotatedArray {
 
     public int findMin(int[] nums) {
-        int n = nums.length;
-        for (int i = 0; i < n; i++) {
-
-        }
+        
 
     }
 }
