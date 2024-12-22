@@ -32,6 +32,8 @@ import java.util.Collections;
 public class findMinimumInSortedRotatedArray {
 
     public int findMin(int[] nums) {
+     int low = 0; int high = nums.length;
+     int mid = low + high/2;
         
 
     }
