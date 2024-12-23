@@ -41,7 +41,8 @@ public class findMinimumInSortedRotatedArray {
     public static void main(String[] args) {
         int arr[] = {0,1,2,4,5,6,7};
         System.out.println(findMin(arr));
-
+        int arr1[] = {3,1,2};
+        System.out.println(findMin(arr1));
     }
     }
 }
