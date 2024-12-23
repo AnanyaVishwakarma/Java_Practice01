@@ -38,5 +38,10 @@ public class findMinimumInSortedRotatedArray {
          low = mid +1;
         }
 
+    public static void main(String[] args) {
+        int arr[] = {0,1,2,4,5,6,7};
+        System.out.println(findMin(arr));
+
+    }
     }
 }
