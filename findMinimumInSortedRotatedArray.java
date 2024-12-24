@@ -37,6 +37,7 @@ public class findMinimumInSortedRotatedArray {
         if(nums[mid]>nums[high]){
          low = mid +1;
         }
+     if(
 
     public static void main(String[] args) {
         int arr[] = {0,1,2,4,5,6,7};
