@@ -49,4 +49,3 @@ public class findMinimumInSortedRotatedArray {
         System.out.println(findMin(arr1));
     }
 }
-}
