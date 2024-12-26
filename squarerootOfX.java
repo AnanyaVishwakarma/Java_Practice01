@@ -23,6 +23,17 @@ public class squarerootOfX {
             return x;
         }
 
+        int low = 0;
+        int high = x;
+
+        int result = 0;
+        while (low < high ){
+            int mid = low + (high - low)/2;
+            if( mid*mid == x){
+                return mid;
+            }
+        }
+
     }
     public static void main(String[] args) {
         int x = 4;
