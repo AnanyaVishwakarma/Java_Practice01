@@ -31,10 +31,12 @@ public class squarerootOfX {
             int mid = low + (high - low)/2;
             if( mid*mid == x){
                 return mid;
-            }
-         if(mid*mid) > x{
-          low = mid
+            }else if(mid*mid) < x{
+          low = mid;
+        }else {
+         high = mid;
         }
+         
 
     }
     public static void main(String[] args) {
