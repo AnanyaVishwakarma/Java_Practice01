@@ -32,7 +32,8 @@ public class squarerootOfX {
             if( mid*mid == x){
                 return mid;
             }else if(mid*mid) < x{
-          low = mid;
+             result = mid;
+          low = mid +1;
         }else {
          high = mid;
         }
