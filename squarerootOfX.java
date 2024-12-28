@@ -37,8 +37,7 @@ public class squarerootOfX {
         }else {
          high = mid - 1;
         }
-         
-
+         return result;
     }
     public static void main(String[] args) {
         int x = 4;
