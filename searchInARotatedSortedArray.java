@@ -23,7 +23,11 @@ Output: -1 */
 
 public class searchInARotatedSortedArray {
     public int search(int[] nums, int target) {
-        
+        int n = nums.length;
+     for (int i = 0; i < n; i++){
+      if(nums[i] == target){
+       return nums[i];
     }
-    
+     }
+     return -1;
 }
