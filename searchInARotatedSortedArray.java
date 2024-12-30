@@ -24,10 +24,15 @@ Output: -1 */
 public class searchInARotatedSortedArray {
     public int search(int[] nums, int target) {
         int n = nums.length;
+             int low = 0 ; 
+        int high = n;
+        while (low < high){
+            int mid = low + high / 2;
      for (int i = 0; i < n; i++){
       if(nums[i] == target){
        return nums[i];
     }
+     }
      }
      return -1;
 }
