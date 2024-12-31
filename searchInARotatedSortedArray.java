@@ -28,8 +28,14 @@ public class searchInARotatedSortedArray {
         int high = n;
         while (low < high){
             int mid = low + high / 2;
-     for (int i = 0; i < n; i++){
-      if(nums[i] == target){
+
+        if(target <= mid){
+         for (int i = 0 ; i < mid; i++){
+             if (nums[i] == target){
+                return nums[i];
+             }
+            }
+        }
        return nums[i];
     }
      }
