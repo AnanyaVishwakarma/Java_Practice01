@@ -35,15 +35,15 @@ public class searchInARotatedSortedArray {
                 return nums[i];
              }
             }
-                 else if (target > mid)
+        }
+                 else if (target > mid){
         for (int i = mid; i >= n; i++){
             if (nums[i] == target) {
                 return nums[i];
             }
         }
-       return nums[i];
-    }
      }
      }
      return -1;
+}
 }
