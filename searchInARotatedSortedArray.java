@@ -27,7 +27,10 @@ public class searchInARotatedSortedArray {
              int low = 0 ; 
         int high = n;
         while (low < high){
-            int mid = low + high / 2;
+            int mid = low + (high - low) / 2;
+         if(nums[mid] == target){
+          return mid;
+         }
 
         if(target <= mid){
          for (int i = 0 ; i < mid; i++){
