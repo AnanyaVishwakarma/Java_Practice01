@@ -32,12 +32,12 @@ public class searchInARotatedSortedArray {
           return mid;
          }
 
-        if(target <= mid){
-         for (int i = 0 ; i < mid; i++){
-             if (nums[i] == target){
-                return nums[i];
-             }
-            }
+        if(nums[low] <= nums[mid]){
+         if (target >= nums[low] && target < nums[mid]) {
+            high = mid-1;
+         }else{
+            low 
+         }
         }
                  else if (target > mid){
         for (int i = mid; i >= n; i++){
