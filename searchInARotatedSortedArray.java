@@ -36,7 +36,7 @@ public class searchInARotatedSortedArray {
          if (target >= nums[low] && target < nums[mid]) {
             high = mid-1;
          }else{
-            low 
+            low = mid + 1;
          }
         }
                  else if (target > mid){
