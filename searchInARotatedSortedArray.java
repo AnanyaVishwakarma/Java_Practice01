@@ -35,15 +35,10 @@ public class searchInARotatedSortedArray {
         if(nums[low] <= nums[mid]){
          if (target >= nums[low] && target < nums[mid]) {
             high = mid-1;
-         }else{
+         }
             low = mid + 1;
          }
-        }
-                 else if (target > mid){
-        for (int i = mid; i >= n; i++){
-            if (nums[i] == target) {
-                return nums[i];
-            }
+
         }
      }
      }
