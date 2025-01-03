@@ -26,8 +26,9 @@ public class searchInARotatedSortedArray {
         int n = nums.length;
              int low = 0 ; 
         int high = n;
-        while (low < high){
-            int mid = low + (high - low) / 2;
+        while (low < high) {
+        int mid = low + (high - low) / 2;
+         
          if(nums[mid] == target){
           return mid;
          }
@@ -43,7 +44,8 @@ public class searchInARotatedSortedArray {
         }
          high = mid - 1;
      }
-     }
+    }
+  }
      return -1;
 }
 }
