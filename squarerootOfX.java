@@ -27,7 +27,7 @@ public class squarerootOfX {
         int high = x;
 
         int result = 0;
-        while (low < high ){
+        while (low <= high ){
             int mid = low + (high - low)/2;
             if( mid*mid == x){
                 return mid;
