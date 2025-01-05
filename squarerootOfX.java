@@ -19,14 +19,14 @@ Explanation: The square root of 8 is 2.82842..., and since we round it down to t
 public class squarerootOfX {
 
     public static int mySqrt(int x) {
-        if (x == 0 || x <= 1) {
+        if (x == 0 || x == 1) {
             return x;
         }
 
         int low = 0;
         int high = x;
-
         int result = 0;
+     
         while (low <= high ){
             int mid = low + (high - low)/2;
             if( mid*mid == x){
