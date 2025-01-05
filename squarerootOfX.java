@@ -29,12 +29,13 @@ public class squarerootOfX {
      
         while (low <= high ){
             int mid = low + (high - low)/2;
-            if( mid*mid == x){
+         
+           if( mid == x/mid){
                 return mid;
-            }else if(mid*mid) < x{
+          }else if(mid < x / mid) {
              result = mid;
-          low = mid +1;
-        }else {
+             low = mid +1;
+        }else{
          high = mid - 1;
         }
          return result;
