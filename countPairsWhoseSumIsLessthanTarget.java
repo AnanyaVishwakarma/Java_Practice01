@@ -29,5 +29,7 @@ Explanation: There are 10 pairs of indices that satisfy the conditions in the st
 
 
 public class countPairsWhoseSumIsLessthanTarget {
-    
+        public int countPairs(List<Integer> nums, int target) {
+        
+    }
 }
