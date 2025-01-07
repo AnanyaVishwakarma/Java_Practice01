@@ -32,4 +32,8 @@ public class countPairsWhoseSumIsLessthanTarget {
         public int countPairs(List<Integer> nums, int target) {
                     Collections.sort(nums);
     }
+     public static void main(String[] args) {
+        int[] nums1 = {-1,1,2,3,1};
+        int target = 2;
+        System.out.println();
 }
