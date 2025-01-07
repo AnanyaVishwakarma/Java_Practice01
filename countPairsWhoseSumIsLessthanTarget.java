@@ -29,11 +29,16 @@ Explanation: There are 10 pairs of indices that satisfy the conditions in the st
 
 
 public class countPairsWhoseSumIsLessthanTarget {
-        public int countPairs(List<Integer> nums, int target) {
-                    Collections.sort(nums);
+     public int countPairs(List<Integer> nums, int target) {
+        Collections.sort(nums);
     }
      public static void main(String[] args) {
         int[] nums1 = {-1,1,2,3,1};
         int target = 2;
         System.out.println();
+        int[] nums2 = {-6,2,5,-2,-7,-1,3};
+        int target2 = -2;
+        System.out.println();       
+        
+    }
 }
