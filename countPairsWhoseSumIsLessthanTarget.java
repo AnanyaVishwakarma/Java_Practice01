@@ -31,8 +31,10 @@ Explanation: There are 10 pairs of indices that satisfy the conditions in the st
 public class countPairsWhoseSumIsLessthanTarget {
      public int countPairs(List<Integer> nums, int target) {
         Collections.sort(nums);
+      int count = 0;
+      int n = nums.size();
         int left = 0;
-        int right = nums.size();
+        int right = n - 1;
         while (left < right){
                 
         }
