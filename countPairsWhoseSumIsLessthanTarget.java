@@ -37,7 +37,7 @@ public class countPairsWhoseSumIsLessthanTarget {
         int right = n - 1;
         while (left < right){
          if(nums.get(left) + nums.get(right) < target){
-          count += (
+          count += (right - left);
                 
         }
     }
