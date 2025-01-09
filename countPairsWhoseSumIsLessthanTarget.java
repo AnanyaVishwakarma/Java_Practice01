@@ -57,13 +57,13 @@ public class countPairsWhoseSumIsLessthanTarget {
         System.out.println(countPairs(nums1, target));
         ArrayList<Integer> nums2 = new ArrayList<>();
         //{-6,2,5,-2,-7,-1,3}
-        nums1.add(-6);
-        nums1.add(2);
-        nums1.add(5);
-        nums1.add(-2);
-        nums1.add(-7);
-        nums1.add(-1);
-        nums1.add(3);
+        nums2.add(2);
+        nums2.add(-6);
+        nums2.add(5);
+        nums2.add(-2);
+        nums2.add(-7);
+        nums2.add(-1);
+        nums2.add(3);
         int target2 = -2;
         System.out.println(countPairs(nums2, target2));    
         
