@@ -39,7 +39,11 @@ public class countPairsWhoseSumIsLessthanTarget {
          if(nums.get(left) + nums.get(right) < target){
           count += (right - left);
           left++;      
+        } else {
+          right--;
+         }
         }
+      return count;
     }
      public static void main(String[] args) {
         int[] nums1 = {-1,1,2,3,1};
