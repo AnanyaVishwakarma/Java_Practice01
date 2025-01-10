@@ -39,7 +39,7 @@ public class maximumSubarraySumWithLengthDivisibleByK {
         remainderIndexMap.put(0, (long)-1);
 
         long maxSum = Long.MIN_VALUE;
-         prefixSum = 0;
+         long prefixSum = 0;
 
         for (int i = 0; i < nums.length; i++){
             prefixSum += nums[i];
