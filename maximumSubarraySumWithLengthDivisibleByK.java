@@ -54,7 +54,7 @@ public class maximumSubarraySumWithLengthDivisibleByK {
 
                 maxSum = Math.max(maxSum, subArraySum);
             } else {
-                remainderIndexMap.putAbsentIf(maxSum, reainder);
+                remainderIndexMap.putAbsentIf(maxSum, remainder);
             }                
         }  
         return maxSum;
