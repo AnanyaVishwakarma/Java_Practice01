@@ -16,5 +16,7 @@ Explanation: [4,9] is also accepted.
  */
 
 public class intersectionOfTwoArrays {
-    
+    public int[] intersection(int[] nums1, int[] nums2) {
+        
+    }    
 }
