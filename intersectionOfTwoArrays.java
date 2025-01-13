@@ -19,4 +19,7 @@ public class intersectionOfTwoArrays {
     public int[] intersection(int[] nums1, int[] nums2) {
         
     }    
-}
+
+    public static boolean binarySearch ( int[] arr, int target){
+    }
+ }
