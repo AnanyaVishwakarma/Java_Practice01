@@ -22,6 +22,7 @@ public class intersectionOfTwoArrays {
       nums1 = nums2;
       nums2 = temp;
      }
+     Arrays.sort(nums1);
         
     }    
 
