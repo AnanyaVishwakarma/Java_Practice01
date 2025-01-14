@@ -18,6 +18,9 @@ Explanation: [4,9] is also accepted.
 public class intersectionOfTwoArrays {
     public int[] intersection(int[] nums1, int[] nums2) {
      if(nums.length > nums2.length){
+      int[] temp = nums1;
+      nums1 = nums2;
+      nums2 = temp;
      }
         
     }    
