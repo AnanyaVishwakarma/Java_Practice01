@@ -29,7 +29,8 @@ public class intersectionOfTwoArrays {
        resultset.add(num);
      }
      }
-        
+        int[] result = new int[result(resultset.size()];
+     
     }    
 
     public static boolean binarySearch ( int[] arr, int target){
