@@ -24,7 +24,10 @@ public class intersectionOfTwoArrays {
      }
      Arrays.sort(nums1);
 
-     for (int num : nums1]{
+     for (int num : nums2]{
+     if(binarySearch(nums1, num)){
+       resultset.add(num);
+     }
      }
         
     }    
