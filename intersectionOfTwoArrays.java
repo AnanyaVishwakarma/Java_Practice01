@@ -30,7 +30,7 @@ public class intersectionOfTwoArrays {
      }
      }
         int[] result = new int[result(resultset.size()];
-     
+     int index = 0;
     }    
 
     public static boolean binarySearch ( int[] arr, int target){
