@@ -31,6 +31,7 @@ public class intersectionOfTwoArrays {
      }
         int[] result = new int[result(resultset.size()];
      int index = 0;
+     for (int num : resultset){}
     }    
 
     public static boolean binarySearch ( int[] arr, int target){
