@@ -56,5 +56,6 @@ public class intersectionOfTwoArrays {
 
         nums1 = new int[]{4, 9, 5};
         nums2 = new int[]{9, 4, 9, 8, 4};
+        System.out.println(Arrays.toString(intersection(nums1, nums2))); 
     }
  }
