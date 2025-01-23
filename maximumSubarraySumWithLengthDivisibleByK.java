@@ -22,7 +22,8 @@ public class maximumSubarraySumWithLengthDivisibleByK {
         long maxSum = Long.MIN_VALUE;
          long prefixSum = 0;
         HashMap<Integer, Long> remainderMap = new HashMap<>();        
-
+        remainderMap.put(0, 0L);        
+        
         for (int i = 0; i < nums.length; i++){
             prefixSum += nums[i];
             int remainder = (int)prefixSum % k;
