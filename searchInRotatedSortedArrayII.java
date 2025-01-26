@@ -22,7 +22,9 @@ public class searchInRotatedSortedArrayII {
             if (nums[mid) == target){
                 return true;
             }
-            else if (target <= 
+            else if (target <= nums[mid]){
+                
+            }
         }
     }
 }
