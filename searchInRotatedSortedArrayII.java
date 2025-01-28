@@ -32,7 +32,10 @@ public class searchInRotatedSortedArrayII {
                 }
                 left = mid + 1;
             } else {
-                if ()
+                if (target > nums[mid] && target <= nums[right]){
+                    left = mid + 1;
+                }
+                right = mid - 1;
             }
         }
     }
