@@ -22,7 +22,11 @@ public class searchInRotatedSortedArrayII {
             if (nums[mid) == target){
                 return true;
             }
-            if (nums[left] <= nums[mid]){
+            if(nums[left] == nums[mid] && nums[mid] == nums[right]){
+                left++;
+                right--;
+            }
+            else if (nums[left] <= nums[mid]){
                 if(target >= nums[left] && target < nums[mid]){
                     right = mid - 1;
                 }
