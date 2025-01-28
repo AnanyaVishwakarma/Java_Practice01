@@ -40,5 +40,13 @@ public class searchInRotatedSortedArrayII {
         }
         return false;
     }
-    
+        public static void main(String[] args) {
+        int arr[] ={2,5,6,0,0,1,2};
+        int target = 0;
+        System.out.println(search(arr, target));
+        int arr1[] ={2,5,6,0,0,1,2};
+        int target1 = 3;
+        System.out.println(search(arr1, target1));
+
+        }
 }
