@@ -38,5 +38,7 @@ public class searchInRotatedSortedArrayII {
                 right = mid - 1;
             }
         }
+        return false;
     }
+    
 }
