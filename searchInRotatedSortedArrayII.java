@@ -45,7 +45,7 @@ public class searchInRotatedSortedArrayII {
         int arr[] ={2,5,6,0,0,1,2};
         int target = 0;
         System.out.println(search(arr, target));
-        int arr1[] ={2,5,6,0,0,1,2};
+        int arr1[] ={5, 1, 3};
         int target1 = 3;
         System.out.println(search(arr1, target1));
         int arr2[] ={1,0,1,1,1};
