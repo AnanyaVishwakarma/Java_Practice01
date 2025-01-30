@@ -19,9 +19,13 @@ public class findFirsAndLAstPositionOfElementInSortedArray {
         int[] result = new int[]{-1, -1};
         while (start <= end) {
             int mid = start + (end - start) / 2;
-
+            if (nums[mid] == target) {
+                result[0] = mid;
+            }
+            if(target > nums[mid] ){
+                mid = mid + 1;
+                
+            }
         }           
-     
-
     }
 }
