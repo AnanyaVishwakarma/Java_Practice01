@@ -26,6 +26,7 @@ public class findFirsAndLAstPositionOfElementInSortedArray {
                 mid = mid + 1;
                 
             }
-        }           
+        }  
+        return result;        
     }
 }
