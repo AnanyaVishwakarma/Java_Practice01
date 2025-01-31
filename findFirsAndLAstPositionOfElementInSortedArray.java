@@ -19,6 +19,9 @@ public class findFirsAndLAstPositionOfElementInSortedArray {
         int start = 0; int end = nums.length - 1; int first = -1;
         while (start <= end){
         int mid =  start + (end - start) / 2;
+            if(nums[mid] == target){
+                first = mid;
+                end = mid - 1;
         }
     }
 }
