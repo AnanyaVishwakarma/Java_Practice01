@@ -22,6 +22,8 @@ public class findFirsAndLAstPositionOfElementInSortedArray {
             if(nums[mid] == target){
                 first = mid;
                 end = mid - 1;
+            }
         }
+        return first;
     }
 }
