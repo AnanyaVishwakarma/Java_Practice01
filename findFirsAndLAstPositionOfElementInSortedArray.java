@@ -14,19 +14,8 @@ Output: [-1,-1] */
 
 public class findFirsAndLAstPositionOfElementInSortedArray {
     public int[] searchRange(int[] nums, int target) {
-        int start = 0;
-        int end = nums.length - 1;
-        int[] result = new int[]{-1, -1};
-        while (start <= end) {
-            int mid = start + (end - start) / 2;
-            if (nums[mid] == target) {
-                result[0] = mid;
-            }
-            if(target > nums[mid] ){
-                mid = mid + 1;
-                
-            }
-        }  
-        return result;        
+    }
+    private static int findFirst(int[] nums, int target){
+        int start = 0, end = nums.length - 1, first = -1;
     }
 }
