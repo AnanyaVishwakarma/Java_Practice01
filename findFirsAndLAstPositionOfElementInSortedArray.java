@@ -30,4 +30,8 @@ public class findFirsAndLAstPositionOfElementInSortedArray {
         }
         return first;
     }
+    private static int findLast (int[] nums, int target){
+        int start = 0; int end = nums.length - 1; int last = -1;
+        
+    }
 }
