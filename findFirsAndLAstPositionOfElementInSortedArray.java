@@ -32,6 +32,8 @@ public class findFirsAndLAstPositionOfElementInSortedArray {
     }
     private static int findLast (int[] nums, int target){
         int start = 0; int end = nums.length - 1; int last = -1;
-        
+        while (start <= end){
+            int mid = start + (end - start) / 2;
+        }
     }
 }
