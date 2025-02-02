@@ -37,6 +37,8 @@ public class findFirsAndLAstPositionOfElementInSortedArray {
             if(nums[mid] == target){
                last = mid;
                end = mid - 1; 
+            } if (nums[mid] > target){
+                end = mid - 1;
             }
         }
     }
