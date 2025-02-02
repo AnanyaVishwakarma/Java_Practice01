@@ -49,4 +49,12 @@ public class findFirsAndLAstPositionOfElementInSortedArray {
         }
         return last;
     }
+        public static void main(String[] args) {
+        int[] arr1 = {5,7,7,8,8,10};
+        int target =  8;
+        System.out.println(Arrays.toString(searchRange(arr1, target)));
+        int[] arr2 = {5,7,7,8,8,10};
+        int target2 =  7;
+        System.out.println(Arrays.toString(searchRange(arr2, target2)));
+    }
 }
