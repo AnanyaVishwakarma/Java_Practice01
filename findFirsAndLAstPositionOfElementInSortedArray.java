@@ -14,6 +14,10 @@ Output: [-1,-1] */
 
 public class findFirsAndLAstPositionOfElementInSortedArray {
     public int[] searchRange(int[] nums, int target) {
+        int first = findFirst(nums, target);
+        int last = findLast(nums, target);
+
+        return new int[]{first, last};
     }
     private static int findFirst(int[] nums, int target){
         int start = 0; int end = nums.length - 1; int first = -1;
