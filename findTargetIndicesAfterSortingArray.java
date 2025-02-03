@@ -26,5 +26,8 @@ public class findTargetIndicesAfterSortingArray {
     public List<Integer> targetIndices(int[] nums, int target) {
         
     }
+    private int firstIndex (int[] nums, int target){
+
+    }
     
 }
