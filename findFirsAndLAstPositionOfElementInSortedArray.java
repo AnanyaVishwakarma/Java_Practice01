@@ -58,5 +58,6 @@ public class findFirsAndLAstPositionOfElementInSortedArray {
         System.out.println(Arrays.toString(searchRange(arr2, target2)));
         int[] arr3 = {2,2};
         int target3 = 2;    
+        System.out.println(Arrays.toString(searchRange(arr3, target3)));            
     }
 }
