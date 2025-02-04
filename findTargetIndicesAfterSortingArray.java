@@ -19,7 +19,7 @@ Input: nums = [1,2,5,2,3], target = 5
 Output: [4]
 Explanation: After sorting, nums is [1,2,2,3,5].
 The index where nums[i] == 5 is 4. */
-
+import java.util.ArrayList;
 import java.util.List;
 
 public class findTargetIndicesAfterSortingArray {
