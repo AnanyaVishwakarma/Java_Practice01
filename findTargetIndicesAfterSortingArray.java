@@ -24,6 +24,7 @@ import java.util.List;
 
 public class findTargetIndicesAfterSortingArray {
     public List<Integer> targetIndices(int[] nums, int target) {
+        List<Integer> resultList = new ArrayList<>();
         
     }
     private int firstIndex (int[] nums, int target){
