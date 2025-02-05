@@ -42,9 +42,9 @@ public class findFirsAndLAstPositionOfElementInSortedArray {
                last = mid;
                start = mid + 1; 
             } else if (nums[mid] > target){
-                end = mid - 1;
-            } else {
                 start = mid + 1;
+            } else {
+                 
             }
         }
         return last;
