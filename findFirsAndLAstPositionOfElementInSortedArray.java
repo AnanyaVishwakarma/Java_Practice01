@@ -40,7 +40,7 @@ public class findFirsAndLAstPositionOfElementInSortedArray {
             int mid = start + (end - start) / 2;
             if(nums[mid] == target){
                last = mid;
-               end = mid - 1; 
+               start = mid + 1; 
             } else if (nums[mid] > target){
                 end = mid - 1;
             } else {
