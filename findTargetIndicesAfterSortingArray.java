@@ -42,5 +42,8 @@ public class findTargetIndicesAfterSortingArray {
         }
         return first;
     }
+    private int lastIndex (int[] nums, int target){
+        
+    }
     
 }
