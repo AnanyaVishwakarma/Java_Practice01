@@ -38,7 +38,7 @@ public class findTargetIndicesAfterSortingArray {
                 end = mid - 1;
             } else {
                 start = mid + 1;
-            }
+            } 
         }
         return first;
     }
@@ -50,7 +50,7 @@ public class findTargetIndicesAfterSortingArray {
               last = mid;
               start = mid +1;
             } else if (target <= nums[mid]){
-                
+                start =  mid + 1;
             }
         }
     }
