@@ -52,7 +52,7 @@ public class findTargetIndicesAfterSortingArray {
             } else if (target <= nums[mid]){
                 start =  mid + 1;
             } else {
-                
+                end = mid - 1;
             }
         }
     }
