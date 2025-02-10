@@ -60,6 +60,7 @@ public class findTargetIndicesAfterSortingArray {
                 end = mid - 1;
             }
         }
+        return last;
     }
     
 }
