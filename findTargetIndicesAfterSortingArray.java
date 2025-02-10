@@ -27,7 +27,7 @@ public class findTargetIndicesAfterSortingArray {
         List<Integer> resultList = new ArrayList<>();
         Arrays.sort(nums);
         int first = firstIndex(nums, target);
-        
+        int last = lastIndex(nums, target);
     }
     private int firstIndex (int[] nums, int target){
      int start =0; int end = nums.length-1;
