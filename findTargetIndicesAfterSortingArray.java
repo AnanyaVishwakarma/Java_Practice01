@@ -31,6 +31,9 @@ public class findTargetIndicesAfterSortingArray {
             return resultList;
         }
         int last = lastIndex(nums, target);
+        for (int i = first; i <= last; i++){
+        
+        }
     }
     private int firstIndex (int[] nums, int target){
      int start =0; int end = nums.length-1;
