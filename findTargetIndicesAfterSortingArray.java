@@ -32,7 +32,7 @@ public class findTargetIndicesAfterSortingArray {
         }
         int last = lastIndex(nums, target);
         for (int i = first; i <= last; i++){
-        
+            resultList.add(i);
         }
     }
     private int firstIndex (int[] nums, int target){
