@@ -68,7 +68,9 @@ public class findTargetIndicesAfterSortingArray {
     }
     public static void main (String[] args){
         int[] arr = {1,2,5,2,3};
-        System.out.println(targetIndices(arr, 2);
+        System.out.println(targetIndices(arr, 2));
+        System.out.println(targetIndices(arr, 3));
+        System.out.println(targetIndices(arr, 5));     
     }
     
 }
