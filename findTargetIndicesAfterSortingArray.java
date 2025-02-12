@@ -66,5 +66,8 @@ public class findTargetIndicesAfterSortingArray {
         }
         return last;
     }
+    public static void main (String[] args){
+        
+    }
     
 }
