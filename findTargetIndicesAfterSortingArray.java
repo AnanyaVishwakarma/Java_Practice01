@@ -58,7 +58,7 @@ public class findTargetIndicesAfterSortingArray {
             if(target == nums[mid]){
               last = mid;
               start = mid +1;
-            } else if (target <= nums[mid]){
+            } else if (target < nums[mid]){
                 start =  mid + 1;
             } else {
                 end = mid - 1;
