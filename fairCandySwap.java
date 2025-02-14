@@ -22,6 +22,6 @@ There will be at least one valid answer for the given input. */
 
 public class fairCandySwap {
     public int[] fairCandySwap(int[] aliceSizes, int[] bobSizes) {
-        
+         HashMap<Integer,Integer> candyTracking = new HashMap<>();
     }
 }
