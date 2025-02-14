@@ -23,5 +23,9 @@ There will be at least one valid answer for the given input. */
 public class fairCandySwap {
     public int[] fairCandySwap(int[] aliceSizes, int[] bobSizes) {
 //SumA - x+y = SumB - y + x where x is aliceCandyBox y is bobs Candybox
+        
+    }
+    private boolean BinarySearch(int[] arr, int target){
+        
     }
 }
