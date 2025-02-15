@@ -26,6 +26,7 @@ public class fairCandySwap {
         int sumA = 0;
         int sumB = 0;
         for (int candy: aliceSizes) {
+            sumA += candy;
         }        
         
     }
