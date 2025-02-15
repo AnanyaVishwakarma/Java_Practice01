@@ -29,6 +29,7 @@ public class fairCandySwap {
             sumA += candy;
         } 
         for(int candy: bobSizes){
+            sumB += candy;
         }        
         
     }
