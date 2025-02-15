@@ -25,6 +25,8 @@ public class fairCandySwap {
 //SumA - x+y = SumB - y + x where x is aliceCandyBox y is bobs Candybox
         int sumA = 0;
         int sumB = 0;
+        for (int candy: aliceSizes) {
+        }        
         
     }
     private boolean BinarySearch(int[] arr, int target){
