@@ -28,6 +28,7 @@ public class fairCandySwap {
         
     }
     private boolean BinarySearch(int[] arr, int target){
+        int  left =0; int right = nums.length-1; 
         
     }
 }
