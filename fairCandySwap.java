@@ -35,7 +35,9 @@ public class fairCandySwap {
         Arrays.sort(bobSizes);  
         for(int aliceCandyBox : aliceSizes){
             int targetCandyBox = aliceCandyBox - diff;
-
+            if(binarySearch(bobSizes, targetCandyBox)){
+                return new int[] {aliceCandyBox, targetCandyBox};
+            }
         }
         
     }
