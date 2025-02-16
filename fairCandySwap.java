@@ -39,7 +39,7 @@ public class fairCandySwap {
                 return new int[] {aliceCandyBox, targetCandyBox};
             }
         }
-        
+        return new int[] {};
     }
     private boolean BinarySearch(int[] arr, int target){
         int  left =0; int right = nums.length-1; 
