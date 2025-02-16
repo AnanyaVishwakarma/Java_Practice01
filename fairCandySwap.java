@@ -32,7 +32,11 @@ public class fairCandySwap {
             sumB += candy;
         }    
         int diff = (sumA-sumB) / 2; 
-        Arrays.sort(bobSizes);        
+        Arrays.sort(bobSizes);  
+        for(int aliceCandyBox : aliceSizes){
+            int targetCandyBox = aliceCandyBox - diff;
+
+        }
         
     }
     private boolean BinarySearch(int[] arr, int target){
