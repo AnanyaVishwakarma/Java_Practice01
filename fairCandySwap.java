@@ -63,5 +63,7 @@ public class fairCandySwap {
         System.out.println("["+result1[0]+ ", "+result1[1]+ "]");        
         int[] result2 = fairCandySwap(new int[] {1, 2}, new int[] {2, 3});
         System.out.println("["+result2[0]+ ", "+result2[1]+ "]");          
+        int[] result3 = fairCandySwap(new int[] {2}, new int[] {1, 3});
+        System.out.println("["+result3[0]+ ", "+result3[1]+ "]");        
     }
 }
