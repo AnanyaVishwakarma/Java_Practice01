@@ -33,6 +33,8 @@ public class fairCandySwap {
         }    
         int diff = (sumA-sumB) / 2; 
         Arrays.sort(bobSizes);  
+        Set<Integer> track = new HashSet<>();
+        
         for(int aliceCandyBox : aliceSizes){
             int targetCandyBox = aliceCandyBox - diff;
             if(binarySearch(bobSizes, targetCandyBox)){
