@@ -57,4 +57,5 @@ public class fairCandySwap {
             }
         }
         return false;
+    }
 }
