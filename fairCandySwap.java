@@ -59,6 +59,7 @@ public class fairCandySwap {
         return false;
     }
     public static void main(String[] args){
-        
+        int[] result1 = fairCandySwap(new int[] {1, 1}, new int[] {2, 2});
+        System.out.println("["+result1[0]+ ", "+result1[1]+ "]");        
     }
 }
