@@ -34,6 +34,7 @@ public class fairCandySwap {
         int diff = (sumA-sumB) / 2; 
         Arrays.sort(bobSizes);  
         Set<Integer> track = new HashSet<>();
+        track.add(bobSizes);
         
         for(int aliceCandyBox : aliceSizes){
             int targetCandyBox = aliceCandyBox - diff;
