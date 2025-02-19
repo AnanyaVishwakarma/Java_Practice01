@@ -14,6 +14,7 @@ Input: sentences = ["please wait", "continue to fight", "continue to win"]
 Output: 3
 Explanation: It is possible that multiple sentences contain the same number of words. 
 In this example, the second and third sentences (underlined) have the same number of words. */
+//  split = "\\s+" for splitting the sentences to count the words
 public class maximumNumberofWordsFoundinSentences {
     public int mostWordsFound(String[] sentences) {
         String maxSentences = "";
