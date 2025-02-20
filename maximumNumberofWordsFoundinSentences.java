@@ -22,5 +22,6 @@ public class maximumNumberofWordsFoundinSentences {
          int maxWordCount = sentence.split("\\s+").length;;   
             maxWords = maxWordCount;
         }
+        return maxWords;
     }
 }
