@@ -19,5 +19,8 @@ public class maximumNumberofWordsFoundinSentences {
     public int mostWordsFound(String[] sentences) {
         String maxSentences = "";
         int maxWords = 0;
+        for(){
+            
+        }
     }
 }
