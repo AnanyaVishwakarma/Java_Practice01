@@ -20,7 +20,8 @@ public class maximumNumberofWordsFoundinSentences {
         String maxSentences = "";
         int maxWords = 0;
         for(String sentence: sentences){
-         int mmaxWordCount = sentence;   
+         int mmaxWordCount = sentence.split("\\s+").length;;   
+            
         }
     }
 }
