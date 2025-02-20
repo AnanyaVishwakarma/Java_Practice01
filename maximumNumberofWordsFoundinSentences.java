@@ -17,11 +17,10 @@ In this example, the second and third sentences (underlined) have the same numbe
 //  split = "\\s+" for splitting the sentences to count the words
 public class maximumNumberofWordsFoundinSentences {
     public int mostWordsFound(String[] sentences) {
-        String maxSentences = "";
         int maxWords = 0;
         for(String sentence: sentences){
-         int mmaxWordCount = sentence.split("\\s+").length;;   
-            
+         int maxWordCount = sentence.split("\\s+").length;;   
+            maxWords = maxWordCount;
         }
     }
 }
