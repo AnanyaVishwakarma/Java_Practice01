@@ -24,4 +24,7 @@ public class maximumNumberofWordsFoundinSentences {
         }
         return maxWords;
     }
+    public static void main (String[] args){
+        
+    }
 }
