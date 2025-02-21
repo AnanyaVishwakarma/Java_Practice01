@@ -26,7 +26,9 @@ public class maximumNumberofWordsFoundinSentences {
     }
     public static void main (String[] args){
         String[] sentence = {"alice and bob love leetcode", "i think so too", "this is great thanks very much"};
-        System.out.println(mostWordsFound(sentence));        
+        System.out.println(mostWordsFound(sentence));   
+        String[] sentence2 = {"please wait", "continue to fight", "continue to win"};
+        System.out.println(mostWordsFound(sentence2));        
         
     }
 }
