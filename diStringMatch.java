@@ -19,7 +19,10 @@ public class diStringMatch {
      int low = 0; int high = s.length();
      List<Integer> perm = new ArrayList<>();        
      for(int i = low; i <= high; i++){
-
+        if(i == 'I'){
+            perm.add(i);
+            low++;
+        } 
          
      }
     }
