@@ -18,7 +18,10 @@ public class diStringMatch {
     public int[] diStringMatch(String s) {
      int low = 0; int high = s.length();
      List<Integer> perm = new ArrayList<>();        
+     for(int i = low; i <= high; i++){
 
+         
+     }
     }
     public static void main(String[] args) {
 
