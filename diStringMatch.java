@@ -22,7 +22,10 @@ public class diStringMatch {
         if(i == 'I'){
             perm.add(i);
             low++;
-        } 
+        } else if( i == 'D'){
+            perm.add(i);
+            high--;
+        }  
          
      }
     }
