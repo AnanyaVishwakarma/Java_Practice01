@@ -16,7 +16,8 @@ Output: [3,2,0,1] */
 
 public class diStringMatch {
     public int[] diStringMatch(String s) {
-        
+     int low = 0; int high = s.length();
+     List<Integer> perm = new ArrayList<>();        
 
     }
     public static void main(String[] args) {
