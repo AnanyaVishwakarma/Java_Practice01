@@ -16,10 +16,11 @@ Output: [3,2,0,1] */
 
 public class diStringMatch {
     public int[] diStringMatch(String s) {
+        int[] perm = new int[n+1];
      int low = 0; int high = s.length();
-     List<Integer> perm = new ArrayList<>();        
+      
      for(int i = low; i <= high; i++){
-        if(i == 'I'){
+        if( == 'I'){
             perm.add(i);
             low++;
         } else if( i == 'D'){
