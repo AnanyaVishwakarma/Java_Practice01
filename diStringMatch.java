@@ -26,6 +26,7 @@ public class diStringMatch {
         }  
      }
         perm[n] = low;
+        return perm;
     }
     public static void main(String[] args) {
 
