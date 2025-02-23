@@ -24,8 +24,8 @@ public class diStringMatch {
         } else {
             high--;
         }  
-         
      }
+        perm[n] = low;
     }
     public static void main(String[] args) {
 
