@@ -19,11 +19,9 @@ public class diStringMatch {
         int[] perm = new int[n+1];
      int low = 0; int high = s.length();
      for(int i = 0; i <= high; i++){
-        if( == 'I'){
-            perm.add(i);
+        if(s.charAt(i) == 'I'){
             low++;
-        } else if( i == 'D'){
-            perm.add(i);
+        } else {
             high--;
         }  
          
