@@ -22,6 +22,7 @@ public class diStringMatch {
         
      for(int i = 0; i < n; i++){
         if(s.charAt(i) == 'I'){
+            perm[i] = low;
             low++;
         } else {
             high--;
