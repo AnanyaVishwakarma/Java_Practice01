@@ -34,7 +34,7 @@ public class diStringMatch {
     }
     public static void main(String[] args) {
         String s = "IDID";
-        System.out.println((diStringMatch(s)));
+        System.out.println(Arrays.toString(diStringMatch(s)));
     }
     
 }
