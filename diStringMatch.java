@@ -20,7 +20,7 @@ public class diStringMatch {
      int low = 0; int high = s.length();
      int[] perm = new int[n+1];
         
-     for(int i = 0; i <= high; i++){
+     for(int i = 0; i < n; i++){
         if(s.charAt(i) == 'I'){
             low++;
         } else {
