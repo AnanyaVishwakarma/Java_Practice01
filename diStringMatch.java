@@ -25,6 +25,7 @@ public class diStringMatch {
             perm[i] = low;
             low++;
         } else {
+            perm[i] = high;
             high--;
         }  
      }
