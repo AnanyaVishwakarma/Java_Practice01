@@ -33,7 +33,8 @@ public class diStringMatch {
         return perm;
     }
     public static void main(String[] args) {
-
+        String s = "IDID";
+        System.out.println((diStringMatch(s)));
     }
     
 }
