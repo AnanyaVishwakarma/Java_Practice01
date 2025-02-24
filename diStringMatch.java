@@ -16,6 +16,7 @@ Output: [3,2,0,1] */
 
 public class diStringMatch {
     public int[] diStringMatch(String s) {
+        int n = s.length();
         int[] perm = new int[n+1];
      int low = 0; int high = s.length();
      for(int i = 0; i <= high; i++){
