@@ -13,7 +13,8 @@ Explanation: The strings that can be formed are "hello" and "world" so the answe
 
 public class findWordsThatCanBeFormedByCharacters {
     public int countCharacters(String[] words, String chars) {
-
+        for(String word: words){
+        } 
     }    
     
 }
