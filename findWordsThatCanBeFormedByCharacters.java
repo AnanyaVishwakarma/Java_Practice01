@@ -16,6 +16,7 @@ public class findWordsThatCanBeFormedByCharacters {
         HashMap<String, Integer> charCountMap = new HashMap<>();
         for(String word: words){
             if (word != ' '){
+                charCountMap.put(word, charCountMap.getOrDefault(word, 0) + 1);
             }
             
         } 
