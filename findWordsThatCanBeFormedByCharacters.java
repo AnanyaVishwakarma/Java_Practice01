@@ -19,9 +19,7 @@ public class findWordsThatCanBeFormedByCharacters {
             }
         int totalLength = 0;
         HashMap<Character, Integer> wordMap = new HashMap<>();
-                for(String word: words){
 
-                    
                 }
         
         }    
