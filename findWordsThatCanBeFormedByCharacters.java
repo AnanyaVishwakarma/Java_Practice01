@@ -13,8 +13,8 @@ Explanation: The strings that can be formed are "hello" and "world" so the answe
 
 public class findWordsThatCanBeFormedByCharacters {
     public int countCharacters(String[] words, String chars) {
-        HashMap<String, Integer> charCountMap = new HashMap<>();
-        for(String word: words){
+        HashMap<Characters, Integer> charCountMap = new HashMap<>();
+        for(string word: words){
             if (word != ' '){
                 charCountMap.put(word, charCountMap.getOrDefault(word, 0) + 1);
             }
