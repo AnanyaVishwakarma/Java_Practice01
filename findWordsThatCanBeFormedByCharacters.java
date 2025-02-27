@@ -21,7 +21,7 @@ public class findWordsThatCanBeFormedByCharacters {
         HashMap<Character, Integer> wordMap = new HashMap<>();
          for(String word: words){
             for(char ca: word.toCharArray()){
-            
+                wordMap.put(ca, wordMap.getOrDefault(ca, 0) + 1);
             }
         }
 
