@@ -24,6 +24,7 @@ public class findWordsThatCanBeFormedByCharacters {
                 wordMap.put(ca, wordMap.getOrDefault(ca, 0) + 1);
             }
         }
+        boolean canBeFormed = true;
      }
          
     
