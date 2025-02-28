@@ -26,7 +26,8 @@ public class findWordsThatCanBeFormedByCharacters {
         }
         boolean canBeFormed = true;
         for(char ch: word.toCharArray()){
-        if(wordMap.get(ch) > charCountMap.get(ch)
+        if(wordMap.get(ch) > charCountMap.getOrDefault(ch, 0){
+            canBeFormed = false;
         }
      }
          
