@@ -31,7 +31,7 @@ public class findWordsThatCanBeFormedByCharacters {
         }
      }
         if(canBeFormed){
-            
+            for(char ch: word.toCharArray()){}
         }
         }
 
