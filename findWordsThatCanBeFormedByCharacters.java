@@ -31,7 +31,9 @@ public class findWordsThatCanBeFormedByCharacters {
             break;
         }
      }
-        if(canBfFormed){}
+        if(canBeFormed){
+            
+        }
          
     
 }
