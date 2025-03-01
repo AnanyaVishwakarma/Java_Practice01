@@ -32,7 +32,7 @@ public class findWordsThatCanBeFormedByCharacters {
      }
 
             for(char ch: word.toCharArray()){
-                if(
+                if(wordMap.get(ch) > charCountMap.get
             }
         }
          
