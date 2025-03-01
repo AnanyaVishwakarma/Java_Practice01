@@ -30,11 +30,11 @@ public class findWordsThatCanBeFormedByCharacters {
             break;
         }
      }
-        if(canBeFormed){
-            for(char ch: word.toCharArray()){}
-        }
-        }
 
+            for(char ch: word.toCharArray()){
+                if(
+            }
+        }
          
     
 }
