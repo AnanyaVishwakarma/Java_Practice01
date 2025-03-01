@@ -23,18 +23,14 @@ public class findWordsThatCanBeFormedByCharacters {
             for(char ca: word.toCharArray()){
                 wordMap.put(ca, wordMap.getOrDefault(ca, 0) + 1);
             }
-                     boolean canBeFormed = true;
+        boolean canBeFormed = true;
         for(char ch: word.toCharArray()){
         if(wordMap.get(ch) > charCountMap.getOrDefault(ch, 0){
             canBeFormed = false;
             break;
         }
      }
-
-            for(char ch: word.toCharArray()){
-                if(wordMap.get(ch) > charCountMap.get
-            }
-        }
+}
          
     
 }
