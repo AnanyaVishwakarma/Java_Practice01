@@ -30,6 +30,7 @@ public class findWordsThatCanBeFormedByCharacters {
             break;
         }
      }
+             if(canBeFormed){}
 }
          
     
