@@ -43,6 +43,7 @@ public class findWordsThatCanBeFormedByCharacters {
     public static void main(String[] args) {
         String[] words = {"cat", "bt", "hat", "tree"};
         String chars = "atach";
+        System.out.println(countCharacters(words, chars));
 
     }
 }
