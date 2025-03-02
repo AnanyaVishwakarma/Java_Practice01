@@ -17,23 +17,32 @@ public class findWordsThatCanBeFormedByCharacters {
         for(char ch: chars.toCharArray()){
                 charCountMap.put(ch, charCountMap.getOrDefault(ch, 0) + 1);
             }
+        
         int totalLength = 0;
+        
         HashMap<Character, Integer> wordMap = new HashMap<>();
          for(String word: words){
             for(char ca: word.toCharArray()){
                 wordMap.put(ca, wordMap.getOrDefault(ca, 0) + 1);
             }
+             
         boolean canBeFormed = true;
+             
         for(char ch: word.toCharArray()){
         if(wordMap.get(ch) > charCountMap.getOrDefault(ch, 0){
             canBeFormed = false;
             break;
         }
      }
-             if(canBeFormed){
-                 totalLength += word.length();
-             }
+    if(canBeFormed){
+    totalLength += word.length();
+    }
 }
-         return totalLength;
-    
+     return totalLength;
+
+    public static void main(String[] args) {
+        String[] words = {"cat", "bt", "hat", "tree"};
+        String chars = "atach";
+
+    }
 }
