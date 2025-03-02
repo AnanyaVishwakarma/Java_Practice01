@@ -34,6 +34,6 @@ public class findWordsThatCanBeFormedByCharacters {
                  totalLength += word.length();
              }
 }
-         
+         return totalLength;
     
 }
