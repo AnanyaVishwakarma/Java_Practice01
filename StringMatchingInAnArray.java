@@ -17,3 +17,7 @@ Input: words = ["blue","green","bu"]
 Output: []
 Explanation: No string of words is substring of another string. */
 
+
+public class StringMatchingInAnArray {
+      
+}
