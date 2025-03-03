@@ -19,5 +19,7 @@ Explanation: No string of words is substring of another string. */
 
 
 public class StringMatchingInAnArray {
-      
+    public List<String> stringMatching(String[] words) {
+        
+    }      
 }
