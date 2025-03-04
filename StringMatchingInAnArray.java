@@ -22,7 +22,9 @@ public class StringMatchingInAnArray {
     public List<String> stringMatching(String[] words) {
         List<String> result = new ArrayList<>();
         for(String str: words){
-            
+            for(String another: words){
+                
+            }
         }
     }      
 }
