@@ -21,7 +21,7 @@ Explanation: No string of words is substring of another string. */
 public class StringMatchingInAnArray {
     public List<String> stringMatching(String[] words) {
         List<String> result = new ArrayList<>();
-        for(int i =0; i < words.length; i++){
+        for(String str: words){
             
         }
     }      
