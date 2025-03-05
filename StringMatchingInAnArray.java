@@ -26,6 +26,7 @@ public class StringMatchingInAnArray {
                if (str.equals(another)){
                    continue;
                }
+                if(another.contains(str)){}
             }
         }
     }      
