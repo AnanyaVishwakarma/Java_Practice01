@@ -34,6 +34,6 @@ public class StringMatchingInAnArray {
         return result;
     }      
     public static void main (String[] args){
-    
+        StringMatchingInAnArray obj = new StringMatchingInAnArray();    
     }
 }
