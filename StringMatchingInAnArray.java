@@ -37,6 +37,8 @@ public class StringMatchingInAnArray {
         StringMatchingInAnArray obj = new StringMatchingInAnArray();    
         String[] words = {"mass","as","hero","superhero"};
         List<String> result = obj.stringMatching(words);
+        System.out.println(result);
+        
         
     }
 }
