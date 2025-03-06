@@ -38,6 +38,7 @@ public class StringMatchingInAnArray {
         String[] words = {"mass","as","hero","superhero"};
         List<String> result = obj.stringMatching(words);
         System.out.println(result);
+        String[] words2 = {"leetcode","et","code"};
         
         
     }
