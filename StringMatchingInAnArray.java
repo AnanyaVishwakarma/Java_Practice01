@@ -36,6 +36,7 @@ public class StringMatchingInAnArray {
     public static void main (String[] args){
         StringMatchingInAnArray obj = new StringMatchingInAnArray();    
         String[] words = {"mass","as","hero","superhero"};
+        List<String> result = obj.stringMatching(words);
         
     }
 }
