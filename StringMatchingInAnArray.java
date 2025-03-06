@@ -33,4 +33,7 @@ public class StringMatchingInAnArray {
         }
         return result;
     }      
+    public static void main (String[] args){
+    
+    }
 }
