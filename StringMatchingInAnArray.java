@@ -23,7 +23,7 @@ public class StringMatchingInAnArray {
         List<String> result = new ArrayList<>();
         for(String str: words){
             for(String another: words){
-               if (str.equals(another)){
+               if (!str.equals(another) &&){
                    continue;
                }
                 if(another.contains(str)){
