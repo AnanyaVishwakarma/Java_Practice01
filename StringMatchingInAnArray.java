@@ -42,6 +42,7 @@ public class StringMatchingInAnArray {
         List<String> result2 = obj.stringMatching(words2);        
         System.out.println(result2);
         String[] words4 = {"leetcoder","leetcode","od","hamlet","am"};
+        List<String> result4 = obj.stringMatching(words4);
         
     }
 }
