@@ -27,9 +27,8 @@ public class StringMatchingInAnArray {
                 if(){
                     result.add(str);
                 }                   
-                   continue;
+                   break;
                }
-
             }
         }
         return result;
