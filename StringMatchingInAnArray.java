@@ -24,7 +24,7 @@ public class StringMatchingInAnArray {
         for(String str: words){
             for(String another: words){
                if (!str.equals(another) &&){
-                if(!result.contains){
+                if(!result.contains(str)){
                     result.add(str);
                 }                   
                    break;
