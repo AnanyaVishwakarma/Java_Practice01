@@ -21,6 +21,6 @@ Explanation: On the first query only f("bbb") < f("aaaa"). On the second query b
 public class compareStringsByFrequencyOfTheSmallestCharacter {
     public int[] numSmallerByFrequency(String[] queries, String[] words) {
         Arrays.sort(words);
-     int[] result = new int[];
+     int[] result = new int[queries.length];
     }    
 }
