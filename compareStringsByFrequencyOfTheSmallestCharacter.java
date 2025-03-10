@@ -26,6 +26,9 @@ public class compareStringsByFrequencyOfTheSmallestCharacter {
     }    
  public int getFrequency(Strings){
   int count = 0;
+  for(){
+   
+  }
   
  }
 }
