@@ -19,5 +19,7 @@ Input: word1  = ["abc", "d", "defg"], word2 = ["abcddefg"]
 Output: true
   */
 public class checkIfTwoStringArraysAsEquivalent {
-    
+    public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
+        
+    }     
 }
