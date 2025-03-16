@@ -22,9 +22,7 @@ public class compareStringsByFrequencyOfTheSmallestCharacter {
     public int[] numSmallerByFrequency(String[] queries, String[] words) {
         Arrays.sort(words);
      int[] result = new int[queries.length];
-      for(int i =0; i< queries.length; i++){
-       
-      }     
+
     }    
  public int getFrequency(String s){
   int count = 0;
