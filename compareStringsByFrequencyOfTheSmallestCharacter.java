@@ -23,6 +23,7 @@ public class compareStringsByFrequencyOfTheSmallestCharacter {
 
     }    
  public int getFrequency(String s){
+  char minChar = 'z';
   int count = 0;
   for(int i = 0; i < s.length; i++){
    if(c.charAt(i) == s.charAt(0){
