@@ -29,6 +29,8 @@ public class compareStringsByFrequencyOfTheSmallestCharacter {
    if(c < minChar){
        minChar = c;   
     count = 1;
+   } else if(c == minChar){
+    
    }
   }
       return count;
