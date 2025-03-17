@@ -27,7 +27,7 @@ public class compareStringsByFrequencyOfTheSmallestCharacter {
   int count = 0;
   for(char c: s.toCharArray()){
    if(c < minChar){
-        count++;    
+       minChar = c;   
    }
   }
       return count;
