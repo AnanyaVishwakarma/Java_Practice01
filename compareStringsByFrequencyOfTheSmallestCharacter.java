@@ -33,6 +33,6 @@ public class compareStringsByFrequencyOfTheSmallestCharacter {
     count++;
    }
   }
-      return count;
+   return count;
  }
 }
