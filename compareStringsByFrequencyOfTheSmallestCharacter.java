@@ -30,7 +30,7 @@ public class compareStringsByFrequencyOfTheSmallestCharacter {
        minChar = c;   
     count = 1;
    } else if(c == minChar){
-    
+    count++;
    }
   }
       return count;
