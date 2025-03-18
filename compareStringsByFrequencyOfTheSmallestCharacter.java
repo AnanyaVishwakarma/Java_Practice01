@@ -35,5 +35,7 @@ public class compareStringsByFrequencyOfTheSmallestCharacter {
   }
    return count;
  }
- private int[] countGreater(int[] sortedFreq, int queryFreq)
+ private int[] countGreater(int[] sortedFreq, int queryFreq){
+  
+ }
 }
