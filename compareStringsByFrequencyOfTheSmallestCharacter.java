@@ -40,7 +40,7 @@ public class compareStringsByFrequencyOfTheSmallestCharacter {
         int mid = left + (right -left) /2;
          if(sortedFreq[mid] > queryFreq){
           right = mid;
-         }
+         } else {}
         }
  }
 }
