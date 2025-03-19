@@ -1,4 +1,3 @@
-
 import java.util.Arrays;
 
 /*Let the function f(s) be the frequency of the lexicographically smallest character in a non-empty string s. 
