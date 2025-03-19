@@ -38,7 +38,9 @@ public class compareStringsByFrequencyOfTheSmallestCharacter {
   int left = 0; int right = sortedFreq.length;
         while(left < right){
         int mid = left + (right -left) /2;
-         if(sortedFreq[mid] > queryFreq){}
+         if(sortedFreq[mid] > queryFreq){
+          right = mid;
+         }
         }
  }
 }
