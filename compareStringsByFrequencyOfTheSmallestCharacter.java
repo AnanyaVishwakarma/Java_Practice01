@@ -20,6 +20,8 @@ Explanation: On the first query only f("bbb") < f("aaaa"). On the second query b
 public class compareStringsByFrequencyOfTheSmallestCharacter {
     public int[] numSmallerByFrequency(String[] queries, String[] words) {
      int[] wordFreq = new int[words.length];
+      for (int i = 0; i < words.length; i++){}
+     
      
 
     }    
