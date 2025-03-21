@@ -25,8 +25,7 @@ public class compareStringsByFrequencyOfTheSmallestCharacter {
       }
       Arrays.sort(wordFreq);
      int[] answer = new int[queries.length];     
-     
-
+     return answer;
     }    
  public int getFrequency(String s){
   char minChar = 'z';
