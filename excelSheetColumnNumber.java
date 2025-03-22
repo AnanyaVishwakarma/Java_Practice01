@@ -23,7 +23,7 @@ Output: 701
   */
 public class excelSheetColumnNumber {
     public int titleToNumber(String columnTitle) {
-    int result =0;
+    int result = 0;
         
     }
 }
