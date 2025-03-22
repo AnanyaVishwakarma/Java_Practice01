@@ -24,7 +24,8 @@ public class compareStringsByFrequencyOfTheSmallestCharacter {
         wordFreq[i] = frequencyOfTheSmallestCharacter(words[i]);      
       }
       Arrays.sort(wordFreq);
-     int[] answer = new int[queries.length];     
+     int[] answer = new int[queries.length];   
+      for(int i = 0; i < queries.length; i++){}     
      return answer;
     }    
  public int getFrequency(String s){
