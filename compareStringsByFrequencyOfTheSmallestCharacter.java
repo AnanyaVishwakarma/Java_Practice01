@@ -50,7 +50,9 @@ public class compareStringsByFrequencyOfTheSmallestCharacter {
         int mid = left + (right -left) /2;
          if(sortedFreq[mid] > queryFreq){
           right = mid;
-         } else {}
+         } else {
+          left = mid + 1;
+         }
         }
  }
      public static void main(String[] args){
