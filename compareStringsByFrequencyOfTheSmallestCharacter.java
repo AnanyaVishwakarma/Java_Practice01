@@ -57,5 +57,6 @@ public class compareStringsByFrequencyOfTheSmallestCharacter {
   return sortedFreq.length - left;
  }
      public static void main(String[] args){
+      compareStringsByFrequencyOfTheSmallestCharacter solution = new compareStringsByFrequencyOfTheSmallestCharacter();      
      }
 }
