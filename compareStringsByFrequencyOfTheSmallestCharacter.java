@@ -53,4 +53,6 @@ public class compareStringsByFrequencyOfTheSmallestCharacter {
          } else {}
         }
  }
+     public static void main(String[] args){
+     }
 }
