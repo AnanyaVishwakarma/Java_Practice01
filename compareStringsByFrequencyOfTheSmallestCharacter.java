@@ -58,5 +58,7 @@ public class compareStringsByFrequencyOfTheSmallestCharacter {
  }
      public static void main(String[] args){
       compareStringsByFrequencyOfTheSmallestCharacter solution = new compareStringsByFrequencyOfTheSmallestCharacter();      
+      compareStringsByFrequencyOfTheSmallestCharacter solution2 = new compareStringsByFrequencyOfTheSmallestCharacter();
+
      }
 }
