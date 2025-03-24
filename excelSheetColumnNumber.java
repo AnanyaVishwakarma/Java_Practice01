@@ -26,6 +26,7 @@ public class excelSheetColumnNumber {
     int result = 0;
    for(int i = 0; i < columnTitle.length(); i++){
        char ch = columnTitle.charAt(i);
+       result += (int)ch;      
    }  
         
     }
