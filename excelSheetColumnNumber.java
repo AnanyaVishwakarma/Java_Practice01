@@ -28,6 +28,6 @@ public class excelSheetColumnNumber {
        char ch = columnTitle.charAt(i);
        result += (int)ch;      
    }  
-        
+     return result;
     }
 }
