@@ -44,7 +44,7 @@ public class compareStringsByFrequencyOfTheSmallestCharacter {
   }
    return count;
  }
- private int[] countGreater(int[] sortedFreq, int queryFreq){
+ private int countGreater(int[] sortedFreq, int queryFreq){
   int left = 0; int right = sortedFreq.length;
         while(left < right){
         int mid = left + (right -left) /2;
