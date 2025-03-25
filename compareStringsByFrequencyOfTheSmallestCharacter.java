@@ -61,5 +61,6 @@ public class compareStringsByFrequencyOfTheSmallestCharacter {
       compareStringsByFrequencyOfTheSmallestCharacter solution2 = new compareStringsByFrequencyOfTheSmallestCharacter();
       String[] queries = {"bbb","cc"};
       String[] words = {"a","aa","aaa","aaaa"};
+      System.out.println(Arrays.toString(solution.numSmallerByFrequency(queries, words)));            
      }
 }
