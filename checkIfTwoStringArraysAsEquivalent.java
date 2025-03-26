@@ -24,6 +24,8 @@ Output: true
   */
 
   public class checkIfTwoStringArraysAsEquivalent {
+    public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
 
+    } 
   }
 
