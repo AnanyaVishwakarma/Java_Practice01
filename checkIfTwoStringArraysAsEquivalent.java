@@ -1,6 +1,10 @@
 /*Given two string arrays word1 and word2, return true if the two arrays represent the same string, 
 and false otherwise.
+
 A string is represented by an array if the array elements concatenated in order forms the string.
+
+ 
+
 Example 1:
 
 Input: word1 = ["ab", "c"], word2 = ["a", "bc"]
@@ -18,8 +22,5 @@ Example 3:
 Input: word1  = ["abc", "d", "defg"], word2 = ["abcddefg"]
 Output: true
   */
-public class checkIfTwoStringArraysAsEquivalent {
-    public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
-        
-    }     
-}
+
+
