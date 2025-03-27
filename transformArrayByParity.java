@@ -21,6 +21,8 @@ public class transformArrayByParity {
     public int[] transformArray(int[] nums) {
         int[] answer = replaceEvenOdd(nums);
         Arrays.sort(answer);
+
+        return answer;
         
     }
     private int[] replaceEvenOdd(int[] nums) {
