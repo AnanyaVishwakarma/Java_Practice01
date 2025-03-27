@@ -20,6 +20,7 @@ After sorting nums in non-descending order, nums = [0, 0, 1, 1, 1]. */
 public class transformArrayByParity {
     public int[] transformArray(int[] nums) {
         int[] answer = replaceEvenOdd(nums);
+        Arrays.sort(answer);
         
     }
     private int[] replaceEvenOdd(int[] nums) {
