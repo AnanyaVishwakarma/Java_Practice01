@@ -28,6 +28,7 @@ public class transformArrayByParity {
             } else{
                 nums[i] = 1;
             }
-        }               
+        }     
+        return nums;
         }    
 }
