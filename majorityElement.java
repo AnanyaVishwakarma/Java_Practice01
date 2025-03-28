@@ -9,5 +9,7 @@ Input: nums = [2,2,1,1,1,2,2]
 Output: 2
 */
 public class majorityElement {
-    
+    public int majorityElement(int[] nums) {
+        
+    }    
 }
