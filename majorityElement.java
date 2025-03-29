@@ -11,6 +11,6 @@ Output: 2
 public class majorityElement {
     public int majorityElement(int[] nums) {
         int count = 0;
-        for()
+        for(int )
     }    
 }
