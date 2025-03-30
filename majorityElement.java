@@ -9,6 +9,7 @@ Input: nums = [2,2,1,1,1,2,2]
 Output: 2
 */
 import java.util.HashMap;
+import java.util.Map;
 
 public class majorityElement {
     public int majorityElement(int[] nums) {
