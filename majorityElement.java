@@ -13,6 +13,8 @@ import java.util.Map;
 public class majorityElement {
     public int majorityElement(int[] nums) {
         Map<Integer, Integer> track = new HashMap<>();
-        for(int i = 0; i < nums.length; i++){}   
+        for(int i = 0; i < nums.length; i++){
+            if(track.containsKey(nums[i])){}            
+        }   
     }    
 }
