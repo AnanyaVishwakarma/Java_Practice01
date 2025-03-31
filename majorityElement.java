@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 public class majorityElement {
     public int majorityElement(int[] nums) {
-        int count = 0;
+        Map<Integer, Integer> track = new HashMap<>();
         for(int num: nums){}
     }    
 }
