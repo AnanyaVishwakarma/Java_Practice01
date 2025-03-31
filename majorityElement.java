@@ -14,7 +14,10 @@ public class majorityElement {
     public int majorityElement(int[] nums) {
         Map<Integer, Integer> track = new HashMap<>();
         for(int i = 0; i < nums.length; i++){
-            if(track.containsKey(nums[i])){}            
+            if(track.containsKey(nums[i])){
+                track.put(nums[i], track.get(nums[i]) + 1);
+                
+            }            
         }   
     }    
 }
