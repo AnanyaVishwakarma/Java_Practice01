@@ -13,6 +13,6 @@ import java.util.Map;
 public class majorityElement {
     public int majorityElement(int[] nums) {
         Map<Integer, Integer> track = new HashMap<>();
-        for(int num: nums){}
+        for(int i = 0; i < nums.length; i++){}   
     }    
 }
