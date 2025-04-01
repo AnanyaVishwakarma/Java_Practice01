@@ -17,7 +17,9 @@ public class majorityElement {
         for(int i = 0; i < nums.length; i++){
             if(track.containsKey(nums[i])){
                 track.put(nums[i], track.get(nums[i]) + 1);
-            } else {}
+            } else {
+                track.put(nums[i], );
+            }
         }   
     }    
 }
