@@ -10,6 +10,7 @@ Output: 2
 */
 import java.util.HashMap;
 import java.util.Map;
+
 public class majorityElement {
     public int majorityElement(int[] nums) {
         Map<Integer, Integer> track = new HashMap<>();
