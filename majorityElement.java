@@ -20,6 +20,7 @@ public class majorityElement {
             } else {
                 track.put(nums[i], 1);
             }
-        }   
+        }  
+        return -1;
     }    
 }
