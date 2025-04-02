@@ -25,7 +25,7 @@ public class majorityElement {
     }    
     public static void main(String[] args){
         majorityElement me = new majorityElement();
-        
+        int[] nums = {};
         
     }
 }
