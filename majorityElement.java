@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class majorityElement {
-    public int majorityElement(int[] nums) {
+    public int majorityElementInTheArray(int[] nums) {
         Map<Integer, Integer> track = new HashMap<>();
         for(int i = 0; i < nums.length; i++){
             if(track.containsKey(nums[i])){
@@ -24,6 +24,8 @@ public class majorityElement {
         return -1;
     }    
     public static void main(String[] args){
+        majorityElement me = new majorityElement();
+        
         
     }
 }
