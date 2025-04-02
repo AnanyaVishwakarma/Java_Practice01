@@ -26,6 +26,7 @@ public class majorityElement {
     public static void main(String[] args){
         majorityElement me = new majorityElement();
         int[] nums = {3,2,3};
+        System.out.Println();
         
     }
 }
