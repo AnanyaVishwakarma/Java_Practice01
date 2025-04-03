@@ -27,5 +27,8 @@ public class majorityElement {
         majorityElement me = new majorityElement();
         int[] nums = {3,2,3};
         int[] num = {2,2,1,1,1,2,2};        
+        System.out.Println(me.majorityelementInTheArray(nums));
+        System.out.Println(me.majorityelementInTheArray(num));
+
     }
 }
