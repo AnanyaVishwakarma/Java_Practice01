@@ -26,8 +26,6 @@ public class majorityElement {
     public static void main(String[] args){
         majorityElement me = new majorityElement();
         int[] nums = {3,2,3};
-        int[] num = {};
-
-        
+        int[] num = {2,2,1,1,1,2,2};        
     }
 }
