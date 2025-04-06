@@ -57,7 +57,8 @@ public class compareStringsByFrequencyOfTheSmallestCharacter {
   return sortedFreq.length - left;
  }
  private String[] sortedArray(String[] arr){
-      
+       char[] temp = new char[];
+     
  }
      public static void main(String[] args){
       compareStringsByFrequencyOfTheSmallestCharacter solution = new compareStringsByFrequencyOfTheSmallestCharacter();      
