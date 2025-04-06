@@ -12,7 +12,7 @@ public class validAnagram {
         }        
     }
         private String sortingArray(String s){
-            char[] sArray = 
+            char[] sArray = s.toCharArray();
         
 
         return s;
