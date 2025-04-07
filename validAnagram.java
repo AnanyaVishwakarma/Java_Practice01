@@ -24,8 +24,6 @@ public class validAnagram {
                 }  
                 System.out.println();
             }
-        
-
-        return s;
+        return Arrays.toString(sArray);
     } 
 }
