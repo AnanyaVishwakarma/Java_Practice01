@@ -16,7 +16,11 @@ public class validAnagram {
             int size = sArray.length;
             for(int i = 0; i < size; i++){
                 for(int j = 0; j < size - i - 1; j++){
-                    if(sArray[j] > sArray[j+1]){}
+                    if(sArray[j] > sArray[j+1]){
+                        char temp = sArray[j];
+                        sArray[j] = sArray[j+1];
+                        sArray[j+1] = temp;
+                    }
                 }           
             }
         
