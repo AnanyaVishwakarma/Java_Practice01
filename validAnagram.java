@@ -33,4 +33,8 @@ public class validAnagram {
             }
         return Arrays.toString(sArray);
     } 
+    public static void main(String[] args) {
+        validAnagram anagram = new validAnagram();
+        System.out.println(anagram.isAnagram("anagram", "nagaram"));
+    }    
 }
