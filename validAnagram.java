@@ -21,7 +21,8 @@ public class validAnagram {
                         sArray[j] = sArray[j+1];
                         sArray[j+1] = temp;
                     }
-                }           
+                }  
+                System.out.println();
             }
         
 
