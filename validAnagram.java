@@ -13,6 +13,7 @@ public class validAnagram {
     }
         private String sortingArray(String s){
             char[] sArray = s.toCharArray();
+            int size = sArray.length;
         
 
         return s;
