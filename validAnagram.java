@@ -9,6 +9,7 @@ public class validAnagram {
     public boolean isAnagram(String s, String t) {
         if(s.length() == t.length()){
             char[] sArray = s.toCharArray();
+            char[] tArray = t.toCharArray();
         }        
     }
         private String sortingArray(String s){
