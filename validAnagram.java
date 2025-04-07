@@ -15,7 +15,8 @@ public class validAnagram {
             if(sortedString == sortedString2){
                 return true;
             }
-        }        
+        } 
+        return false;
     }
         private String sortingArray(String s){
             char[] sArray = s.toCharArray();
