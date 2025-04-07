@@ -11,6 +11,7 @@ public class validAnagram {
             char[] sArray = s.toCharArray();
             char[] tArray = t.toCharArray();
             String sortedString = sortingArray(s);
+            String sortedString2 = sortingArray(t);
         }        
     }
         private String sortingArray(String s){
