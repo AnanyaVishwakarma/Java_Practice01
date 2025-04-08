@@ -10,6 +10,8 @@ public class validAnagram {
         if(s.length == t.length){
         return false;
         }
+        int[] count = new int[26];
+        
     }
 
     public static void main(String[] args) {
