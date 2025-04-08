@@ -18,21 +18,7 @@ public class validAnagram {
         } 
         return false;
     }
-        private String sortingArray(String s){
-            char[] sArray = s.toCharArray();
-            int size = sArray.length;
-            for(int i = 0; i < size; i++){
-                for(int j = 0; j < size - i - 1; j++){
-                    if(sArray[j] > sArray[j+1]){
-                        char temp = sArray[j];
-                        sArray[j] = sArray[j+1];
-                        sArray[j+1] = temp;
-                    }
-                }  
-                System.out.println();
-            }
-        return Arrays.toString(sArray);
-    } 
+
     public static void main(String[] args) {
         validAnagram anagram = new validAnagram();
         System.out.println(anagram.isAnagram("anagram", "nagaram"));
