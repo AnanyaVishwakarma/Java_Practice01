@@ -7,16 +7,7 @@
 // Output: false
 public class validAnagram {   
     public boolean isAnagram(String s, String t) {
-        if(s.length() == t.length()){
-            char[] sArray = s.toCharArray();
-            char[] tArray = t.toCharArray();
-            String sortedString = sortingArray(s);
-            String sortedString2 = sortingArray(t);
-            if(sortedString == sortedString2){
-                return true;
-            }
-        } 
-        return false;
+        
     }
 
     public static void main(String[] args) {
