@@ -7,7 +7,8 @@
 // Output: false
 public class validAnagram {   
     public boolean isAnagram(String s, String t) {
-        
+        if(s.length == t.length){
+        }
     }
 
     public static void main(String[] args) {
