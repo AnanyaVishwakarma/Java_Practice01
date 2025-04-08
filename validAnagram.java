@@ -16,6 +16,7 @@ public class validAnagram {
             count[t.charAt(i) - 'a']--;
         }
         
+        
     }
 
     public static void main(String[] args) {
