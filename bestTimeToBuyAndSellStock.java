@@ -25,6 +25,6 @@ public class bestTimeToBuyAndSellStock {
             
             }
         }
-        
+        return maxProfit;
     }    
 }
