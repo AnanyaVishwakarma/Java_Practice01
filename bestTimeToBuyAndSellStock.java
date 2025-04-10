@@ -20,6 +20,8 @@ public class bestTimeToBuyAndSellStock {
         for(int i = 0; i < prices.length; i++){
             if(prices[i] < minProfit){
                 minProfit = prices[i];
+            } else {
+            
             }
         }
         
