@@ -22,7 +22,7 @@ public class bestTimeToBuyAndSellStock {
             if(prices[i] < minProfit){
                 minProfit = prices[i];
             } else {
-            int profit  = minProfit - prices[i]; 
+            int profit  = profit - maxProfit; 
                 maxProfit  = profit;
             }
         }
