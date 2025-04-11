@@ -29,6 +29,7 @@ public class bestTimeToBuyAndSellStock {
         return maxProfit;
     }
     publice static void main (String[] args){
+         bestTimeToBuyAndSellStock bSellStock = new bestTimeToBuyAndSellStock();
         
     }
 }
