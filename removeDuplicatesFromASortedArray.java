@@ -31,5 +31,6 @@ public class removeDuplicatesFromASortedArray {
         for(int i = 0; i < nums.length; i++){
 
         }
+        return 0;
     }
 }
