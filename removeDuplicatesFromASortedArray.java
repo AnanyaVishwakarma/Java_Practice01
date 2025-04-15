@@ -29,6 +29,7 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 public class removeDuplicatesFromASortedArray {
     public int removeDuplicates(int[] nums) {
         if(nums.length <= 2) return nums.length;
+        int i = 2;
         for(int j =         
         return 0;
     }
