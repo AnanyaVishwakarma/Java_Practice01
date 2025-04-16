@@ -37,6 +37,6 @@ public class removeDuplicatesFromASortedArray {
     }
     public static void main(String[] args){
         removeDuplicatesFromASortedArray dp = new removeDuplicatesFromASortedArray();
-        int[] nums = {};
+        int[] nums = {1,1,1,2,2,3};
     }
 }
