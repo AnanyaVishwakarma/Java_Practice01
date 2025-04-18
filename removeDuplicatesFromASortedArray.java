@@ -30,7 +30,7 @@ public class removeDuplicatesFromASortedArray {
         if(nums.length <= 2) return nums.length;
         int i = 2;
         for(int j = 2;j < nums.length; j++){
-            
+            if(nums[j] )
         }   
         return 0;
     }
