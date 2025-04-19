@@ -42,5 +42,6 @@ public class removeDuplicatesFromASortedArray {
         int[] nums = {1,1,1,2,2,3};
         int[] nums2 = {0,0,1,1,1,1,2,3,3};
         System.out.println(dp.removeDuplicates(nums));
+        System.out.println(dp.removeDuplicates(nums));        
     }
 }
