@@ -35,7 +35,7 @@ public class removeDuplicatesFromASortedArray {
                 i++;
             }
         }   
-        return 0;
+        return i;
     }
     public static void main(String[] args){
         removeDuplicatesFromASortedArray dp = new removeDuplicatesFromASortedArray();
