@@ -19,6 +19,7 @@ Output: "example good a"
 Explanation: You need to reduce multiple spaces between two words to a single space in the reversed string.*/
 public class reverseWordsInAString {
     public String reverseWords(String s) {
+    List<String> words =new ArrayList<>();
         
     }    
 }
