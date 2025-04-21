@@ -27,6 +27,8 @@ public class reverseWordsInAString {
 
     int n = s.length();
     int i = 0;
+
+     while ( i < n &&   
         return s;
     }    
 }
