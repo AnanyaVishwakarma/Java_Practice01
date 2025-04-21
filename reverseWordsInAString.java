@@ -25,6 +25,8 @@ public class reverseWordsInAString {
     public String reverseWords(String s) {
     List<String> words = new ArrayList<>();
 
+    int n = s.length();
+
         return s;
     }    
 }
