@@ -34,6 +34,7 @@ public class reverseWordsInAString {
         return s;
     }    
         public static void main(String[] args) {
+        reverseWordsInAString rs = new reverseWordsInAString();
         
     } 
 }
