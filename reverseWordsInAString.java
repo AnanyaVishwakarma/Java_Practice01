@@ -32,6 +32,9 @@ public class reverseWordsInAString {
      while ( i < n &&  s.charAt(i) == ' '){
          i++;
      }
+     while (i < n) { 
+     }
+   
         return s;
     }    
         public static void main(String[] args) {
