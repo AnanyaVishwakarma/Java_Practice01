@@ -35,6 +35,6 @@ public class reverseWordsInAString {
     }    
         public static void main(String[] args) {
         reverseWordsInAString rs = new reverseWordsInAString();
-        
+        String input = "  hello world  ";                
     } 
 }
