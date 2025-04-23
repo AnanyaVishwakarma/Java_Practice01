@@ -33,6 +33,7 @@ public class reverseWordsInAString {
          i++;
      }
      while (i < n) { 
+     char c =s.charAt(i);
      }
    
         return s;
