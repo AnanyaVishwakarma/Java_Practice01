@@ -34,7 +34,9 @@ public class reverseWordsInAString {
      }
      while (i < n) { 
      char c =s.charAt(i);
-         if(c != ' '){}
+         if(c != ' '){
+             word
+         }
      }
    
         return s;
