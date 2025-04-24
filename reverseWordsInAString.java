@@ -36,7 +36,7 @@ public class reverseWordsInAString {
      char c =s.charAt(i);
          if(c != ' '){
              word.append(c);
-         }
+         } else{}
      }
    
         return s;
