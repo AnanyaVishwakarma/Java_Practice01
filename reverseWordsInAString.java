@@ -33,7 +33,7 @@ public class reverseWordsInAString {
          index++;
      }
      while (index < n) { 
-     char c =s.charAt(index);
+     char c = s.charAt(index);
          if(c != ' '){
              word.append(c);
          } else{
@@ -49,7 +49,8 @@ public class reverseWordsInAString {
     }    
         public static void main(String[] args) {
         reverseWordsInAString rs = new reverseWordsInAString();
-        String input = "  hello world  ";   
+        String input = "  hello world  "; 
+        String input2 = "the sky is blue";    
         System.out.println(rs.reverseWords(input));            
     } 
 }
