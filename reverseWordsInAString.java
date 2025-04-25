@@ -37,7 +37,10 @@ public class reverseWordsInAString {
          if(c != ' '){
              word.append(c);
          } else{
-             if(word.length() > 0){}
+             if(word.length() > 0){
+                 words.add(word.tostring());
+             }
+             
          }
      }
    
