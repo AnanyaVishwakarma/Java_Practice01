@@ -27,13 +27,13 @@ public class reverseWordsInAString {
     StringBuilder word = new StringBuilder();    
 
     int n = s.length();
-    int i = 0;
+    int index = 0;
 
-     while ( i < n &&  s.charAt(i) == ' '){
-         i++;
+     while ( index < n &&  s.charAt(index) == ' '){
+         index++;
      }
-     while (i < n) { 
-     char c =s.charAt(i);
+     while (index < n) { 
+     char c =s.charAt(index);
          if(c != ' '){
              word.append(c);
          } else{
