@@ -39,6 +39,7 @@ public class reverseWordsInAString {
          } else{
              if(word.length() > 0){
                  words.add(word.tostring());
+                  word.setLength(0);                
              }
              
          }
