@@ -51,6 +51,7 @@ public class reverseWordsInAString {
         reverseWordsInAString rs = new reverseWordsInAString();
         String input = "  hello world  "; 
         String input2 = "the sky is blue";    
-        System.out.println(rs.reverseWords(input));            
+        System.out.println(rs.reverseWords(input));  
+        System.out.println(rs.reverseWords(input2));     
     } 
 }
