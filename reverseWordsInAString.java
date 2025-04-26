@@ -42,7 +42,7 @@ public class reverseWordsInAString {
                   word.setLength(0);                
              }
              while(index < n && s.charAt(index) == ' '){
-                 
+                 index++;
              }
          }
      }
