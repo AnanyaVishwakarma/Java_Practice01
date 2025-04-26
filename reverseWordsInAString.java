@@ -41,7 +41,9 @@ public class reverseWordsInAString {
                  words.add(word.tostring());
                   word.setLength(0);                
              }
-             while(){}
+             while(index < n && s.charAt(index) == ' '){
+                 
+             }
          }
      }
    
