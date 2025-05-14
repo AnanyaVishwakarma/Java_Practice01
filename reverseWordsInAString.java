@@ -45,7 +45,7 @@ public class reverseWordsInAString {
          }
          index++;
      }
-        if(){
+        if(word.length() > 0){
             
         }
    
