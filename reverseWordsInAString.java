@@ -43,7 +43,7 @@ public class reverseWordsInAString {
              }
              continue;
          }
-
+         index++;
      }
    
         return s;
