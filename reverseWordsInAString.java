@@ -46,7 +46,7 @@ public class reverseWordsInAString {
          index++;
      }
         if(word.length() > 0){
-            
+            words.add(word.toString());
         }
    
         return s;
