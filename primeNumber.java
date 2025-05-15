@@ -10,6 +10,6 @@ public boolean isPrime(int num){
 }    
   
     public static void main(String[] args) {
-      
+       int numberToCheck = 29;
     }
 }
