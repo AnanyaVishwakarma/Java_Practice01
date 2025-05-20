@@ -6,7 +6,7 @@ public boolean isPrime(int num){
           return false;
           }
   }
-    return true;
+    return 
 }    
     public static void main(String[] args) {
        int numberToCheck = 29;
