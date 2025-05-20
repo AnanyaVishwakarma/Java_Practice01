@@ -8,7 +8,6 @@ public boolean isPrime(int num){
   }
     return true;
 }    
-  
     public static void main(String[] args) {
        int numberToCheck = 29;
     }
