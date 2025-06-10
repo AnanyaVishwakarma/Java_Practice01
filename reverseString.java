@@ -10,6 +10,6 @@ Input: s = ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"] */
 public class reverseString {
     public void reverseString(char[] s) {
-        
+        int left = 0;
     }
 }
