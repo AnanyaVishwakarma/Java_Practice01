@@ -11,6 +11,6 @@ Output: ["h","a","n","n","a","H"] */
 public class reverseString {
     public void reverseString(char[] s) {
         int left = 0;
-        int right = 
+        int right = s.length-1;
     }
 }
