@@ -16,7 +16,7 @@ public class reverseString {
         while(left < right){
             char temp = s[left];        
             s[left] = s[right];
-        
+            a[
         }
     }
 }
