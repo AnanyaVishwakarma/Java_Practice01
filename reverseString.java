@@ -22,4 +22,8 @@ public class reverseString {
             right--;
         }
     }
+    
+    public static void main(String[] args) {
+
+    }
 }
