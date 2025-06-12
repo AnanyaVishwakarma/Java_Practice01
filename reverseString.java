@@ -19,6 +19,7 @@ public class reverseString {
             s[right] = s[temp];
 
             left++;
+            right--;
         }
     }
 }
