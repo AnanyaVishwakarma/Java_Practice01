@@ -17,6 +17,8 @@ public class reverseString {
             char temp = s[left];        
             s[left] = s[right];
             s[right] = s[temp];
+
+            left++;
         }
     }
 }
