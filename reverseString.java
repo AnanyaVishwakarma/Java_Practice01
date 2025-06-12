@@ -27,5 +27,6 @@ public class reverseString {
         reverseString obj = new reverseString();
        char[] s = {'h','e','l','l','o'};
         obj.reverseString(s);
+       System.out.println(s);
     }
 }
