@@ -51,7 +51,7 @@ public class reverseWordsInAString {
         StringBuilder result = new StringBuilder();
         for(int i = words.size() - 1; i >= 0; i--){
             result.append(words.get(i));
-            if (i = 0) {
+            if (i != 0) {
             }            
         }
    
