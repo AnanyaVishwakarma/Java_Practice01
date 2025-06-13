@@ -52,6 +52,7 @@ public class reverseWordsInAString {
         for(int i = words.size() - 1; i >= 0; i--){
             result.append(words.get(i));
             if (i != 0) {
+                result.append(" ");
             }            
         }
    
