@@ -56,7 +56,7 @@ public class reverseWordsInAString {
             }            
         }
    
-        return s;
+        return result.toString();
     }    
         public static void main(String[] args) {
         reverseWordsInAString rs = new reverseWordsInAString();
