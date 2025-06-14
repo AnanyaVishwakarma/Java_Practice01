@@ -7,5 +7,7 @@ Input: a = "1010", b = "1011"
 Output: "10101"
  */
 public class addBinary {
-    
+    public String addBinary(String a, String b) {
+        
+    }    
 }
