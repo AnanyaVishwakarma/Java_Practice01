@@ -8,6 +8,7 @@ Output: "10101"
  */
 public class addBinary {
     public String addBinary(String a, String b) {
-        
+     StringBuilder sb = new StringBuilder();
+           
     }    
 }
