@@ -9,5 +9,6 @@ Output: "10101"
 public class addBinary {
     public String addBinary(String a, String b) {        
         int num1 = Integer.parseInt(a);
+        int num2 = Integer.parseInt(b);
     }    
 }
