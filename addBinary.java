@@ -11,6 +11,6 @@ public class addBinary {
      StringBuilder sb = new StringBuilder();
         int i = a.length() -1;
         int j = b.length() -1;
-           
+        int carry = 0;
     }    
 }
