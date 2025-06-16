@@ -15,5 +15,8 @@ public class addBinary {
 
         return Integer.toBinaryString(sum);
     }    
-    pubic static void main (String[] args){}
+    pubic static void main (String[] args){
+        addBinary ab = new addBinary();
+
+    }
 }
