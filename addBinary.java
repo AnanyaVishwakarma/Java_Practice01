@@ -12,5 +12,7 @@ public class addBinary {
         int num2 = Integer.parseInt(b, 2);
 
         int sum = num1 + num2;
+
+        return Integer.toBinaryString(sum);
     }    
 }
