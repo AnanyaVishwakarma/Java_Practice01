@@ -13,7 +13,7 @@ public class addBinary {
         BigInteger sum = num1.add(num2);
         
 
-        return Integer.toBinaryString(sum);
+        return sum.toString(2);
     }    
     pubic static void main (String[] args){
         addBinary ab = new addBinary();
