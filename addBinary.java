@@ -9,7 +9,7 @@ Output: "10101"
 public class addBinary {
     public String addBinary(String a, String b) {        
        BigInteger num1 = new BigInteger(a, 2);
-        int num2 = Integer.parseInt(b, 2);
+        BigInteger num2 = new BigInteger(b, 2);
 
         int sum = num1 + num2;
 
