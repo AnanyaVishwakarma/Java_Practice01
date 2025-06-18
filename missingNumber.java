@@ -20,6 +20,6 @@ n = 9 since there are 9 numbers, so all numbers are in the range [0,9].
 8 is the missing number in the range since it does not appear in nums. */
 public class missingNumber {
     public int missingNumber(int[] nums) {
-        
+        int n = nums.length;
     }    
 }
