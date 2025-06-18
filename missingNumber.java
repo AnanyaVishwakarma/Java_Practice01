@@ -33,5 +33,6 @@ public class missingNumber {
                     return n;
                 }
          }
+        return num;
     }    
 }
