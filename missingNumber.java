@@ -25,6 +25,8 @@ public class missingNumber {
         int num = -1;
 
         Arrays.sort(nums);
-
+        for(int i = 0; i < n; i++){
+        
+        }
     }    
 }
