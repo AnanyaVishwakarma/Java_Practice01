@@ -34,5 +34,9 @@ public class missingNumber {
                 }
          }
         return num;
-    }    
+    }   
+        
+    public static void main(String[] args) {
+        missingNumber mn = new missingNumber();
+    } 
 }
