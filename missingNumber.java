@@ -30,7 +30,8 @@ public class missingNumber {
                 if(nums[i] != j){
                   num = j;                
                 } else {
-            }
-        }
+                    return n;
+                }
+         }
     }    
 }
