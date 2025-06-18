@@ -39,7 +39,8 @@ public class missingNumber {
     public static void main(String[] args) {
         missingNumber mn = new missingNumber();
         int[] arr2 = {0,1};
-        int[] arr = {9,6,4,2,3,5,7,0,1};        
+        int[] arr = {9,6,4,2,3,5,7,0,1};       
+        System.out.println(mn.missingNumber(arr));        
         System.out.println(mn.missingNumber(arr2));
     } 
 }
