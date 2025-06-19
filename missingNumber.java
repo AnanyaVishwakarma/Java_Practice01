@@ -27,7 +27,7 @@ public class missingNumber {
                     return i;
                 }
          }
-        return num;
+        return n;
     }   
         
     public static void main(String[] args) {
