@@ -21,8 +21,6 @@ n = 9 since there are 9 numbers, so all numbers are in the range [0,9].
 public class missingNumber {
     public int missingNumber(int[] nums) {
         int n = nums.length;
-        int num = -1;
-
         Arrays.sort(nums);
         for(int i = 0; i < n; i++){
             for(int j = 0; j < n; j++){
