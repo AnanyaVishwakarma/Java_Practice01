@@ -19,28 +19,6 @@ Explanation:
 The maximum sum subarray is [1, 2, -3, 4] which has length equal to 4 which is divisible by 2 */
 public class maximumSubarraySumWithLengthDivisibleByK {
     public long maxSubarraySum(int[] nums, int k) {
-        long maxSum = Long.MIN_VALUE;
-         long prefixSum = 0;
-        HashMap<Integer, Long> remainderMap = new HashMap<>();        
-        remainderMap.put(0, 0L);        
-        
-        for (int i = 0; i < nums.length; i++){
-            prefixSum += nums[i];
-            int remainder = (int)prefixSum % k;
-
-            if (remainder < 0){
-                remainder += k;
-            }
-            if(remainderIndexMap.containsKey(remainder)){
-                int startIdx = remainderIndexMap.get(remainder);
-                int subArraySum = prefixSum - remainderIndexMap(remainder);
-
-                maxSum = Math.max(maxSum, subArraySum);
-            } else {
-                remainderIndexMap.putAbsentIf(maxSum, remainder);
-            }                
-        }  
-        return maxSum == Long.MIN_VALUE ? 0 : maxSum;
     }
         public static void main(String[] args) {
         // Test cases
