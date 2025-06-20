@@ -19,7 +19,8 @@ Explanation:
 The maximum sum subarray is [1, 2, -3, 4] which has length equal to 4 which is divisible by 2 */
 public class maximumSubarraySumWithLengthDivisibleByK {
     public long maxSubarraySum(int[] nums, int k) {
-            int n = nums.length;
+            int maxSum = Integer.MIN_VALUE;
+        
             for(int i = 0; i < n; i++){
                 if(nums[i] == i)
             }
