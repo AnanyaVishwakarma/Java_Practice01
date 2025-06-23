@@ -7,5 +7,7 @@ Input: nums = [3, 3, 0, 99, -40]
 Output: 99
 Explanation: The largest element in array is 99 */
 public class LargestElement {
+    public int largestElement(int[] nums) {
     
+    }    
 }
