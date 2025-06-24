@@ -29,7 +29,7 @@ public class maximumSubarraySumWithLengthDivisibleByK {
             }
             if(length % k ==0){
                 maxSum = Math.max(maxSum, currentSum);
-
+            }
         return maxSum;
     }
         public static void main(String[] args) {
