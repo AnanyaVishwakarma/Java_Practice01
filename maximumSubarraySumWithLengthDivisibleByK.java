@@ -28,14 +28,8 @@ public class maximumSubarraySumWithLengthDivisibleByK {
             length++;
             }
             if(length % k ==0){
-                      long sum = 0;  
-                        for(int m = i; m <=j; m++){
-                             sum += nums[m];
-                        }
-                            maxSum = Math.max(maxSum, sum);
-                    }
-                }
-            }
+                maxSum = Math.max(maxSum, currentSum);
+
         return maxSum;
     }
         public static void main(String[] args) {
