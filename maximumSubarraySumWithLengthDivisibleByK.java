@@ -27,7 +27,7 @@ public class maximumSubarraySumWithLengthDivisibleByK {
             currentSum += num;
             length++;
             }
-                    if(len % k == 0){
+            if(length % k ==0){
                       long sum = 0;  
                         for(int m = i; m <=j; m++){
                              sum += nums[m];
