@@ -25,10 +25,10 @@ public class maximumSubarraySumWithLengthDivisibleByK {
         for(int i = 0; i<n; i++){
            for(int j = i; j< n; j++){
                int len = j - i +1;
+           if(len % k == 0){
+              }
             }
-            if(length % k ==0){
-                maxSum = Math.max(maxSum, currentSum);
-            }
+        }
         return maxSum;
     }
         public static void main(String[] args) {
