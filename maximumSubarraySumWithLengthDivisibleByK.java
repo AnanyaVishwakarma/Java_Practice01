@@ -23,7 +23,7 @@ public class maximumSubarraySumWithLengthDivisibleByK {
             int n = nums.length;
         
         for(int i = 0; i<n; i++){
-            currentSum += num;
+           for(int j = i; j< n; j++){
             length++;
             }
             if(length % k ==0){
