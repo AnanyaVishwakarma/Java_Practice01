@@ -21,6 +21,8 @@ public class maximumSubarraySumWithLengthDivisibleByK {
     public long maxSubarraySum(int[] nums, int k) {
             long maxSum = Long.MIN_VALUE;
             int n = nums.length;
+
+        //prefix sum
         
         for(int i = 0; i<n; i++){
            for(int j = i; j< n; j++){
