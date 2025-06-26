@@ -27,10 +27,10 @@ public class maximumSubarraySumWithLengthDivisibleByK {
                int len = j - i +1;
            if(len % k == 0){
                long sum = 0;
-               for(int m = 0; m <=j; m++){
+               for(int m = 0; m <= j; m++){
                    sum += nums[m];
                }
-               maxSum = MAth.max(maxSum, sum);
+               maxSum = Math.max(maxSum, sum);
               }
             }
         }
