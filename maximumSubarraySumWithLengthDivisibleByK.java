@@ -30,6 +30,7 @@ public class maximumSubarraySumWithLengthDivisibleByK {
                for(int m = 0; m <=j; m++){
                    sum += nums[m];
                }
+               maxSum = MAth.max(maxSum, sum);
               }
             }
         }
