@@ -32,7 +32,7 @@ public class maximumSubarraySumWithLengthDivisibleByK {
                int len = j - i +1;
            if(len % k == 0){
                long sum = prefixSum[j+1] - prefixSum[i];
-               
+               maxSum = Math.max(maxSum, sum);  
               }
             }
         }
