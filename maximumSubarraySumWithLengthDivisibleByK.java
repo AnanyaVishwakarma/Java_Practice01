@@ -22,7 +22,9 @@ public class maximumSubarraySumWithLengthDivisibleByK {
          int n = nums.length;
         long maxSum = Long.MIN_VALUE;
 
-        for (int len = k; len <= n; len += k) {}
+        for (int len = k; len <= n; len += k) {
+            long windowSum = 0;
+        }
         
         for(int i = 0; i<n; i++){
            for(int j = i; j< n; j++){
