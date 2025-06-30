@@ -32,13 +32,6 @@ public class maximumSubarraySumWithLengthDivisibleByK {
         }
 
         for (int i = len; i < n; i++) {}
-        
-           if(len % k == 0){
-               long sum = prefixSum[j+1] - prefixSum[i];
-               maxSum = Math.max(maxSum, sum);  
-              }
-            }
-        }
         return maxSum;
     }
         public static void main(String[] args) {
