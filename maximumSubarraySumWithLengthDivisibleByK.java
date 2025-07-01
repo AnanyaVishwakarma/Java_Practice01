@@ -32,7 +32,7 @@ public class maximumSubarraySumWithLengthDivisibleByK {
         }
 
         for (int i = len; i < n; i++) {
-            
+            windowSum += nums[i] - nums[i - len];
         }
         return maxSum;
     }
