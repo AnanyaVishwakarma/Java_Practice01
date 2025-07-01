@@ -14,5 +14,7 @@ Constraints:
 -109 <= nums[i] <= 109
 0 <= k <= 105 */
 public class containsDuplicate {
-    
+    public boolean containsNearbyDuplicate(int[] nums, int k) {
+        
+    }   
 }
