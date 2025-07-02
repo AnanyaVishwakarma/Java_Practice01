@@ -18,7 +18,7 @@ public class containsDuplicate {
         int n = nums.length;
         HashMap<Integer, Integer> indexMap = new HashMap <>();
         for(int i = 0; i <n; i++){
-            for(int j = i; j < n; j++){
+            int num = nums[i];
                 if(nums[i]!=nums[j]){
                     indexMap.put(i, nums[i]);
                 }else if(nums[i] == nums[j] && j <= k){
