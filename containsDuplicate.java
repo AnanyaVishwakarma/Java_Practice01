@@ -19,7 +19,7 @@ public class containsDuplicate {
         HashMap<Integer, Integer> indexMap = new HashMap <>();
         for(int i = 0; i <n; i++){
             int num = nums[i];
-                if(nums[i]!=nums[j]){
+                if(indexMap.containsKey(num)){
                     indexMap.put(i, nums[i]);
                 }else if(nums[i] == nums[j] && j <= k){
                     return true;   
