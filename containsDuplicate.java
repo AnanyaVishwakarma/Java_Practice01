@@ -21,6 +21,7 @@ public class containsDuplicate {
             for(int j = i; j < n; j++){
                 if(nums[i]!=nums[j]){
                     indexMap.put(i, nums[i]);
+                }else if(nums[i] == nums[j] && j <= k){
             
         }
     }   
