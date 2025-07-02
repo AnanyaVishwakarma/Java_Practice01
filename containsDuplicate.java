@@ -34,5 +34,6 @@ public class containsDuplicate {
          int nums[] = {1,2,3,1};
          int k = 3;
          System.out.println(cd.containsNearbyDuplicate(nums, k));
+         int nums1[] = {1,2,3,1,2,3};
      }
 }
