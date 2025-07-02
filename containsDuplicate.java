@@ -15,6 +15,7 @@ Constraints:
 0 <= k <= 105 */
 public class containsDuplicate {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
+        int n = nums.length;
         
     }   
 }
