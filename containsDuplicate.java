@@ -24,9 +24,9 @@ public class containsDuplicate {
                 if(i - lastIndex <= k){
                     return true;
                 }
-        }
+           }
+            indexMap.put(num, i);
     }
-}
         return false;
     }   
      public static void main(String[] args) {
