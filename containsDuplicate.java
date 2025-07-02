@@ -20,9 +20,10 @@ public class containsDuplicate {
         for(int i = 0; i <n; i++){
             int num = nums[i];
                 if(indexMap.containsKey(num)){
-                    int lastIndex = indexMap.get(num);
-                }else if(nums[i] == nums[j] && j <= k){
-                    return true;   
+                int lastIndex = indexMap.get(num);
+                if(i - lastIndex <= k){
+                    return true;
+                }
         }
     }
 }
