@@ -30,6 +30,9 @@ public class containsDuplicate {
     }   
      public static void main(String[] args) {
          containsDuplicate cd = new containsDuplicate();
+         int nums[] = {1,2,3,1};
+         int k = 3;
+         
          
      }
 }
