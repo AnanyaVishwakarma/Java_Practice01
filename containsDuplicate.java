@@ -22,8 +22,10 @@ public class containsDuplicate {
                 if(nums[i]!=nums[j]){
                     indexMap.put(i, nums[i]);
                 }else if(nums[i] == nums[j] && j <= k){
-                    return true;
-            
+                    return true;   
         }
+    }
+}
+        return false;
     }   
 }
