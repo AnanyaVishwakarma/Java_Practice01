@@ -19,5 +19,7 @@ Input: code = [2,4,9,3], k = -2
 Output: [12,5,6,13]
 Explanation: The decrypted code is [3+9, 2+3, 4+2, 9+4]. Notice that the numbers wrap around again. If k is negative, the sum is of the previous numbers. */
 public class defuseTheBomb {
-    
+    public int[] decrypt(int[] code, int k) {
+        
+    }    
 }
