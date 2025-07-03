@@ -22,5 +22,7 @@ public class defuseTheBomb {
     public int[] decrypt(int[] code, int k) {
         int n = code.length;
         for(int len = k; len < n; len +=k){ 
-    }    
+
+        int sum = 0;
+        }    
 }
