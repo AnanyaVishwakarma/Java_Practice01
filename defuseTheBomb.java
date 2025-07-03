@@ -24,5 +24,6 @@ public class defuseTheBomb {
         for(int len = k; len < n; len +=k){ 
 
         int sum = 0;
+            for(int i = 0; i <len; i++){
         }    
 }
