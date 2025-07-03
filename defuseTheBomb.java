@@ -27,5 +27,7 @@ public class defuseTheBomb {
             for(int i = 0; i <len; i++){
                 sum += code[i];   
                 code[i] = sum;
+                }
+        
         }    
 }
