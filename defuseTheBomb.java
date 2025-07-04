@@ -35,7 +35,7 @@ public class defuseTheBomb {
             for(int i = len; i <=n; i++ ){
         }
 
-     }   
-        
-        }    
+     } 
+        return result;
+}    
 }
