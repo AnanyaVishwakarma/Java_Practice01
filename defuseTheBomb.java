@@ -24,8 +24,8 @@ public class defuseTheBomb {
      int[] result = new int[n];
         
         for(int len = k; len < n; len +=k){ 
-            if(code[i]> k){
             for(int i = 0; i <len; i++){
+            if(code[i]> k){
                 sum += code[i];   
                 code[i] = sum;
                 }
