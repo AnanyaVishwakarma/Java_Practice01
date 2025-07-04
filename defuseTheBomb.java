@@ -22,6 +22,8 @@ public class defuseTheBomb {
     public int[] decrypt(int[] code, int k) {
         int n = code.length;
      int[] result = new int[n];
+
+     if(k == 0) return result;
         
         for(int len = k; len < n; len +=k){ 
             for(int i = 0; i <len; i++){
