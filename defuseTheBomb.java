@@ -24,7 +24,9 @@ public class defuseTheBomb {
      int[] result = new int[n];
 
      if(k == 0) return result;
-        for(int i = 0; i <n; i++){}
+        for(int i = 0; i <n; i++){
+            int sum =0;
+        }
        
         return result;
 }    
