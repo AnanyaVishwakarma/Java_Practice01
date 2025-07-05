@@ -26,6 +26,8 @@ public class defuseTheBomb {
      if(k == 0) return result;
         for(int i = 0; i <n; i++){
             int sum =0;
+            if(k > 0){
+            }
         }
        
         return result;
