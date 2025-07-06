@@ -33,7 +33,7 @@ public class defuseTheBomb {
                 }
             }else {
                  for(int j = 1; j <= -k;j++){
-                     
+                    sum +=code[(i -j + n)%n]; 
                }            
             }
         }
