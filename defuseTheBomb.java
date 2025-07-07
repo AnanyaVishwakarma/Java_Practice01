@@ -41,5 +41,7 @@ public class defuseTheBomb {
        
         return result;
 }    
-  public static void main(String[] args) {}  
+  public static void main(String[] args) {
+      defuseTheBomb obj = new defuseTheBomb();
+  }  
 }
