@@ -44,5 +44,6 @@ public class defuseTheBomb {
   public static void main(String[] args) {
       defuseTheBomb obj = new defuseTheBomb();
       int[] code = {5,7,1,4};
+      int k =3;
   }  
 }
