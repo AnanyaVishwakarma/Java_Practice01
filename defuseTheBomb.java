@@ -36,6 +36,7 @@ public class defuseTheBomb {
                     sum +=code[(i -j + n)%n]; 
                }            
             }
+            result[i] = sum;
         }
        
         return result;
