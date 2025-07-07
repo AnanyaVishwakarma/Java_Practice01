@@ -45,5 +45,6 @@ public class defuseTheBomb {
       defuseTheBomb obj = new defuseTheBomb();
       int[] code = {5,7,1,4};
       int k =3;
+      System.out.println(Arrays.toString(obj.decrypt(code, k)));
   }  
 }
