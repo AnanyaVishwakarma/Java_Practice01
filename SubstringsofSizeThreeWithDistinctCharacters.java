@@ -16,5 +16,7 @@ Constraints:
 1 <= s.length <= 100
 s​​​​​​ consists of lowercase English letters. */
 public class SubstringsofSizeThreeWithDistinctCharacters {
-    
+    public int countGoodSubstrings(String s) {
+     
+    }    
 }
