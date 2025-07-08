@@ -24,6 +24,7 @@ n == nums.length
 public class concatenationOfAnArray {
     public int[] getConcatenation(int[] nums) {
         int n = nums.length;
+        int[] ans = new int[n*2];
 
     }    
 }
