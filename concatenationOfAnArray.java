@@ -34,5 +34,7 @@ public class concatenationOfAnArray {
     }    
     public static void main(String[] args) {
         concatenationOfAnArray obj = new concatenationOfAnArray();
-    }     
+        int nums[]={1,2,1};
+        System.out.println(Arrays.toString(obj.getConcatenation(nums)));
+     }     
 }
