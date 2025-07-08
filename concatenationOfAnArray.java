@@ -32,5 +32,7 @@ public class concatenationOfAnArray {
         }
         return ans;                    
     }    
-    
+    public static void main(String[] args) {
+        concatenationOfAnArray obj = new concatenationOfAnArray();
+    }     
 }
