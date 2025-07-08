@@ -22,5 +22,7 @@ n == nums.length
 1 <= nums[i] <= 1000 */
 
 public class concatenationOfAnArray {
-  
+    public int[] getConcatenation(int[] nums) {
+
+    }    
 }
