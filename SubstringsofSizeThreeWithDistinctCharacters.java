@@ -32,6 +32,7 @@ public class SubstringsofSizeThreeWithDistinctCharacters {
     }  
     public static void main(String[] args) {
         SubstringsofSizeThreeWithDistinctCharacters obj = new SubstringsofSizeThreeWithDistinctCharacters();0
-        String s = "xyzzaz";
-   }    
+       String s = "xyzzaz";
+      System.out.println(obj.countGoodSubstrings(s));
+     }    
 }
