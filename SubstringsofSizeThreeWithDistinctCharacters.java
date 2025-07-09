@@ -18,7 +18,7 @@ s​​​​​​ consists of lowercase English letters. */
 public class SubstringsofSizeThreeWithDistinctCharacters {
     public int countGoodSubstrings(String s) {
     int n = s.length();
-
+    int count = 0;
          
     }    
 }
