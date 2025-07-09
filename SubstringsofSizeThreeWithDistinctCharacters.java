@@ -22,7 +22,8 @@ public class SubstringsofSizeThreeWithDistinctCharacters {
     for(int i =0; i < n-3; i++){
         s.substring(i, i+3);
         if(s.charAt(i)!= s.charAt(i+1)&&
-          s.charAt(i)!= s.charAt(i+2)&&)
+          s.charAt(i)!= s.charAt(i+2)&&
+          s.charAt(i+1)!= s.charAt(i+2))
         {
             count++;
         }  
