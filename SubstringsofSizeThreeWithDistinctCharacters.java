@@ -19,7 +19,7 @@ public class SubstringsofSizeThreeWithDistinctCharacters {
     public int countGoodSubstrings(String s) {
     int n = s.length();
     int count = 0;
-    for(int i =0; i <n-3; i++){
+    for(int i =0; i <=n-3; i++){
         s.substring(i, i+3);
         if(s.charAt(i)!= s.charAt(i+1)&&
           s.charAt(i)!= s.charAt(i+2)&&
