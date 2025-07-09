@@ -29,5 +29,7 @@ public class SubstringsofSizeThreeWithDistinctCharacters {
         }  
     }    
         return count;
-    }    
+    }  
+    public static void main(String[] args) {
+}    
 }
