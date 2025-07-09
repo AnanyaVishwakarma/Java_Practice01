@@ -31,5 +31,6 @@ public class SubstringsofSizeThreeWithDistinctCharacters {
         return count;
     }  
     public static void main(String[] args) {
-}    
+        SubstringsofSizeThreeWithDistinctCharacters obj = new SubstringsofSizeThreeWithDistinctCharacters();
+ }    
 }
