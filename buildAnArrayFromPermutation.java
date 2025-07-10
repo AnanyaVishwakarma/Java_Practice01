@@ -29,5 +29,7 @@ public class buildAnArrayFromPermutation {
             ans[i] = nums[nums[i]];
         }
         return ans;
-    }        
+    }    
+    public static void main(String[] args) {
+}    
 }
