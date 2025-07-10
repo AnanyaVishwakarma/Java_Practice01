@@ -34,7 +34,7 @@ public class buildAnArrayFromPermutation {
         buildAnArrayFromPermutation obj = new buildAnArrayFromPermutation();
         int [] nums = {0,2,1,5,3,4};
         System.out.println(Arrays.toString(obj.buildArray(nums)));
-        int [] nums1 = {};
-        System.out.println(Arrays.toString(obj.buildArray(nums)));
+        int [] nums1 = {5,0,1,2,3,4};
+        System.out.println(Arrays.toString(obj.buildArray(nums1)));
         }    
 }
