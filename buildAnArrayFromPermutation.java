@@ -21,5 +21,7 @@ Constraints:
 The elements in nums are distinct. */
 
 public class buildAnArrayFromPermutation {
-    
+    public int[] buildArray(int[] nums) {
+        
+    }        
 }
