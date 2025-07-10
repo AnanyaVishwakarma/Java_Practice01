@@ -32,5 +32,6 @@ public class buildAnArrayFromPermutation {
     }    
     public static void main(String[] args) {
         buildAnArrayFromPermutation obj = new buildAnArrayFromPermutation();
+        int [] nums = {0,2,1,5,3,4};
 }    
 }
