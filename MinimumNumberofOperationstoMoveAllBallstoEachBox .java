@@ -22,5 +22,6 @@ public class MinimumNumberofOperationstoMoveAllBallstoEachBox  {
     public int[] minOperations(String boxes) {
         int n = boxes.length();
         int[] ans = new int[n];
+        int cost = 0;
     }    
 }
