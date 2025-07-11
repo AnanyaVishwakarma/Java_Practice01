@@ -21,5 +21,6 @@ boxes[i] is either '0' or '1'. */
 public class MinimumNumberofOperationstoMoveAllBallstoEachBox  {
     public int[] minOperations(String boxes) {
         int n = boxes.length();
+        int[] ans = new int[n];
     }    
 }
