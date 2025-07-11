@@ -24,5 +24,8 @@ public class MinimumNumberofOperationstoMoveAllBallstoEachBox  {
         int[] ans = new int[n];
         int cost = 0;
         char[] arr = boxes.toCharArray();
+        for (int i = 0; i < n; i++) {
+            
+        }
     }    
 }
