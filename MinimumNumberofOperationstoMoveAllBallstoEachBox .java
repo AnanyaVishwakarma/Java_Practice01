@@ -32,5 +32,6 @@ public class MinimumNumberofOperationstoMoveAllBallstoEachBox  {
                 }
             }            
         }
+        return ans; 
     }    
 }
