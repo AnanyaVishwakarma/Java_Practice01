@@ -35,6 +35,6 @@ public class MinimumNumberofOperationstoMoveAllBallstoEachBox  {
         return ans; 
     }    
     public static void main(String[] args) {
-        
+        MinimumNumberofOperationstoMoveAllBallstoEachBox obj = new MinimumNumberofOperationstoMoveAllBallstoEachBox();        
     }
 }
