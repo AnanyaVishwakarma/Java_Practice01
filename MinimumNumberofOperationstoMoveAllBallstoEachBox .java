@@ -37,5 +37,6 @@ public class MinimumNumberofOperationstoMoveAllBallstoEachBox  {
     public static void main(String[] args) {
         MinimumNumberofOperationstoMoveAllBallstoEachBox obj = new MinimumNumberofOperationstoMoveAllBallstoEachBox();        
         String boxes = "110";
+        System.out.println(Arrays.toString(obj.minOperations(boxes)));
     }
 }
