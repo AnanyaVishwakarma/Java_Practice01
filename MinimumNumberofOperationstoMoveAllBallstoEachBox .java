@@ -19,5 +19,6 @@ n == boxes.length
 1 <= n <= 2000
 boxes[i] is either '0' or '1'. */
 public class MinimumNumberofOperationstoMoveAllBallstoEachBox  {
-    
+    public int[] minOperations(String boxes) {
+    }    
 }
