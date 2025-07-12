@@ -30,6 +30,7 @@ public class MinimumNumberofOperationstoMoveAllBallstoEachBox  {
                     cost += Math.abs(i - j);                    
                 }
             }            
+                    ans[i] = cost;
         }
         return ans; 
     }    
