@@ -27,7 +27,7 @@ public class MinimumNumberofOperationstoMoveAllBallstoEachBox  {
         int cost = 0;
             for (int j = 0; j < n; j++) {
                 if (arr[j] == '1') {
-                    cost += Math.abs(i - j);                    
+                    cost += Math.abs(i - j);  //Math.abs so that the result would be a positive integer even if the evaluation would result a negative integers. PS: abs = Absolute Value                  
                 }
             }            
                     ans[i] = cost;
