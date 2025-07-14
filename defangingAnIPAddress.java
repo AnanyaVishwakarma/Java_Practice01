@@ -13,6 +13,7 @@ public class defangingAnIPAddress {
          int n = address.length();
           char[] arr = address.toCharArray();
         for(int i = 0; i < n; i++){
+            if(arr[i] == '.'){
  
     }        
 }
