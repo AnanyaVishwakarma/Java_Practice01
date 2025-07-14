@@ -10,6 +10,7 @@ Constraints:
 The given address is a valid IPv4 address. */
 public class defangingAnIPAddress {
     public String defangIPaddr(String address) {
-    
+         int n = address.length();
+  
     }        
 }
