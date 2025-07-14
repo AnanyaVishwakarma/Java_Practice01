@@ -18,4 +18,7 @@ public class defangingAnIPAddress {
             }
         }      
     }        
+    public static void main(String[] args) {
+        
+    }
 }
