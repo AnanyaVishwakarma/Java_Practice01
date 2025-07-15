@@ -20,6 +20,7 @@ public class defangingAnIPAddress {
                 sb.append(ch);
             }
         }
+        return sb.toString();
     }        
     public static void main(String[] args) {
         
