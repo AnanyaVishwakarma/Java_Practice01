@@ -18,6 +18,8 @@ public class defangingAnIPAddress {
                 sb.append("[.]");
             } else{
                 sb.append(ch);
+            }
+        }
         
          int n = address.length();
           char[] arr = address.toCharArray();
