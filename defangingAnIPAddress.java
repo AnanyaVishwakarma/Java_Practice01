@@ -25,5 +25,6 @@ public class defangingAnIPAddress {
     public static void main(String[] args) {
         defangingAnIPAddress obj = new defangingAnIPAddress();        
         String address = "1.1.1.1";
+        System.out.println(obj.defangIPaddr(address));
     }
 }
