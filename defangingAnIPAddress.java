@@ -12,6 +12,8 @@ public class defangingAnIPAddress {
     public String defangIPaddr(String address) {
         StringBuilder sb = new StringBuilder(); 
         char[] charry = address.toCharArray(); 
+
+        for(char ch : charry){
         
          int n = address.length();
           char[] arr = address.toCharArray();
