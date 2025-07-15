@@ -15,6 +15,7 @@ public class defangingAnIPAddress {
 
         for(char ch : charry){
             if(ch == '.'){
+                sb.append("[.]");
         
          int n = address.length();
           char[] arr = address.toCharArray();
