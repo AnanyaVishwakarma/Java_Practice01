@@ -23,6 +23,6 @@ public class defangingAnIPAddress {
         return sb.toString();
     }        
     public static void main(String[] args) {
-        
+        defangingAnIPAddress obj = new defangingAnIPAddress();        
     }
 }
