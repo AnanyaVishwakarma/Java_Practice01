@@ -20,14 +20,6 @@ public class defangingAnIPAddress {
                 sb.append(ch);
             }
         }
-        
-         int n = address.length();
-          char[] arr = address.toCharArray();
-        for(int i = 0; i < n; i++){
-            if(arr[i] == '.'){
-            arr[i].replace('.', '[.]');
-            }
-        }      
     }        
     public static void main(String[] args) {
         
