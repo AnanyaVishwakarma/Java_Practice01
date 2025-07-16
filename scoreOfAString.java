@@ -24,4 +24,6 @@ public class scoreOfAString {
         }    
         return score;
     }    
+    public static void main(String[] args) {
+    }
 }
