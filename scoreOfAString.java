@@ -26,5 +26,6 @@ public class scoreOfAString {
     }    
     public static void main(String[] args) {
         scoreOfAString obj = new scoreOfAString();
+        String s = "hello";
     }
 }
