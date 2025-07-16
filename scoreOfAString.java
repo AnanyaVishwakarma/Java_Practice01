@@ -17,6 +17,7 @@ public class scoreOfAString {
         int score = 0;
 
         for(int i = 0; i < s.length(); i++){
-            int prev = s.charAt( i - 1);        
+            int prev = s.charAt( i - 1);
+            int curr = s.charAt(i);        
     }    
 }
