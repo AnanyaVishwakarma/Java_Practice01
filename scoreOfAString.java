@@ -15,6 +15,7 @@ The ASCII values of the characters in s are: 'z' = 122, 'a' = 97. So, the score 
 public class scoreOfAString {
     public int scoreOfString(String s) {
         int score = 0;
-        
+
+        for(int i = 0; i < s.length(); i++){        
     }    
 }
