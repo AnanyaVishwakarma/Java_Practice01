@@ -21,6 +21,7 @@ public class scoreOfAString {
             int curr = s.charAt(i);
             int diff = Math.abs(curr - prev);
             score += diff;
-        }        
+        }    
+        return score;
     }    
 }
