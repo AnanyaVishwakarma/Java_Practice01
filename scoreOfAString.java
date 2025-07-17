@@ -16,7 +16,7 @@ public class scoreOfAString {
     public int scoreOfString(String s) {
         int score = 0;
 
-        for(int i = 0; i < s.length(); i++){
+        for(int i = 1; i < s.length(); i++){
             int prev = s.charAt( i - 1);
             int curr = s.charAt(i);
             int diff = Math.abs(curr - prev);
