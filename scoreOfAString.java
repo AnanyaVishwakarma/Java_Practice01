@@ -29,5 +29,6 @@ public class scoreOfAString {
         String s = "hello";
         System.out.println(obj.scoreOfString(s));
         String s2 = "zaz";
+        System.out.println(obj.scoreOfString(s2));
     }
 }
