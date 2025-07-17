@@ -28,5 +28,6 @@ public class scoreOfAString {
         scoreOfAString obj = new scoreOfAString();
         String s = "hello";
         System.out.println(obj.scoreOfString(s));
+        String s2 = "zaz";
     }
 }
