@@ -27,6 +27,7 @@ pivot equals to an element of nums */
 
 public class partitionArrayAccordingtoGivenPivot {
     public int[] pivotArray(int[] nums, int pivot) {
+        ArrayList<Integer> lessSide = new ArrayList<>();
         
     }
 }
