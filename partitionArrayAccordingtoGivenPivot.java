@@ -48,4 +48,6 @@ public class partitionArrayAccordingtoGivenPivot {
         
       return result;  
     }
+    public static void main(String[] args) {
+ }
 }
