@@ -39,6 +39,7 @@ public class partitionArrayAccordingtoGivenPivot {
                 greaterSide.add(num);
             }
         }
+        int[] result = new int[nums.length];
         
         
         
