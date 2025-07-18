@@ -30,6 +30,10 @@ public class partitionArrayAccordingtoGivenPivot {
         ArrayList<Integer> lessSide = new ArrayList<>();
         ArrayList<Integer> middle = new ArrayList<>();
         ArrayList<Integer> greaterSide = new ArrayList<>();
+
+        for(int num: nums){
+            
+        }
         
         
         
