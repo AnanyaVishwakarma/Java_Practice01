@@ -34,7 +34,9 @@ public class partitionArrayAccordingtoGivenPivot {
         for(int num: nums){
             if(num < pivot){
                 lessSide.add(num);
-            } else if(num == pivot){}
+            } else if(num == pivot){
+                middle.add(num);
+            }
         }
         
         
