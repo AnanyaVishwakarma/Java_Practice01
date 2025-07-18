@@ -41,6 +41,8 @@ public class partitionArrayAccordingtoGivenPivot {
         }
         int[] result = new int[nums.length];   
         int index = 0;
+
+        for(int num : lessSide) result[index++] = num;
         
     }
 }
