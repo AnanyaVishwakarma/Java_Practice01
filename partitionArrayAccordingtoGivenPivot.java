@@ -50,5 +50,8 @@ public class partitionArrayAccordingtoGivenPivot {
     }
     public static void main(String[] args) {
         partitionArrayAccordingtoGivenPivot obj = new partitionArrayAccordingtoGivenPivot();
- }
+        int[] nums ={9,12,5,10,14,3,10};
+        int pivot = 10;
+        System.out.println(Arrays.toString(obj.pivotArray(nums, pivot)));
+    }
 }
