@@ -32,7 +32,7 @@ public class partitionArrayAccordingtoGivenPivot {
         ArrayList<Integer> greaterSide = new ArrayList<>();
 
         for(int num: nums){
-            
+            if(num < pivot){}
         }
         
         
