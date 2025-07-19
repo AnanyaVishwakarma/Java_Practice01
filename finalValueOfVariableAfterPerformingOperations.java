@@ -38,5 +38,6 @@ public class finalValueOfVariableAfterPerformingOperations {
     for(String op: operations){
         if(op.contains("++")){
             X = X++;
+        } else{
         }   
 }
