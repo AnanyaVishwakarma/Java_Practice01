@@ -36,5 +36,6 @@ public class finalValueOfVariableAfterPerformingOperations {
     public int finalValueAfterOperations(String[] operations) {
     int X = 0; 
     for(String op: operations){
+        if(op.contains("++")){
 }   
 }
