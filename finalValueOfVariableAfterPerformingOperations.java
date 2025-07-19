@@ -39,5 +39,8 @@ public class finalValueOfVariableAfterPerformingOperations {
         if(op.contains("++")){
             X = X++;
         } else{
-        }   
+            X = X--;
+        }
+    }
+}   
 }
