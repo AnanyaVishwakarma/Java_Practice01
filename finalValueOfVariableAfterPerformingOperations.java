@@ -33,5 +33,6 @@ Constraints:
 operations[i] will be either "++X", "X++", "--X", or "X--". */
 
 public class finalValueOfVariableAfterPerformingOperations {
-    
+    public int finalValueAfterOperations(String[] operations) {
+    }    
 }
