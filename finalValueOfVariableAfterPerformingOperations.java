@@ -42,5 +42,6 @@ public class finalValueOfVariableAfterPerformingOperations {
             X = X--;
         }
     }
-}   
+    return  X;
+    }   
 }
