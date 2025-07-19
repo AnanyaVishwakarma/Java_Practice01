@@ -35,5 +35,6 @@ operations[i] will be either "++X", "X++", "--X", or "X--". */
 public class finalValueOfVariableAfterPerformingOperations {
     public int finalValueAfterOperations(String[] operations) {
     int X = 0; 
+    for(String op: operations){
 }   
 }
