@@ -44,4 +44,5 @@ public class finalValueOfVariableAfterPerformingOperations {
     }
     return  X;
     }   
+    public static void main(String[] args) {    }  
 }
