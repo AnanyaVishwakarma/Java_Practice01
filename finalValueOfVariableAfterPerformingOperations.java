@@ -49,5 +49,6 @@ public class finalValueOfVariableAfterPerformingOperations {
         String[] operations = {"--X","X++","X++"};
         System.out.println(oj.finalValueAfterOperations(operations));        
         String[] op = {"X++","++X","--X","X--"};
-    }  
+        System.out.println(oj.finalValueAfterOperations(operations));        
+        }  
 }
