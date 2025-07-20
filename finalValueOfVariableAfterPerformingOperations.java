@@ -39,7 +39,7 @@ public class finalValueOfVariableAfterPerformingOperations {
         if(op.contains("++")){
             X++;
         } else{
-            X = X--;
+            X--;
         }
     }
     return  X;
