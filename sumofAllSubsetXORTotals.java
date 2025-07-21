@@ -36,4 +36,6 @@ public class sumofAllSubsetXORTotals {
     public int subsetXORSum(int[] nums) {
         int n = nums.length;   
     }
+    private int dfs(int[] nums, int index, int currentXOR){
+}
 }
