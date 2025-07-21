@@ -34,6 +34,6 @@ Constraints:
 1 <= nums[i] <= 20 */
 public class sumofAllSubsetXORTotals {
     public int subsetXORSum(int[] nums) {
-   
+        int n = nums.length;   
     }
 }
