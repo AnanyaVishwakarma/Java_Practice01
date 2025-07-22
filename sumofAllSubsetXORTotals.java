@@ -47,6 +47,6 @@ public class sumofAllSubsetXORTotals {
 }
     public static void main(String[] args) {
         sumofAllSubsetXORTotals obj = new sumofAllSubsetXORTotals();
-        
+        int[] nums= {1,3};
     }
 }
