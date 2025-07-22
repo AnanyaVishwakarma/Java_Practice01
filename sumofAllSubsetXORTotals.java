@@ -40,5 +40,6 @@ public class sumofAllSubsetXORTotals {
         if(index == nums.length){
             return currentXOR;
         }
+        int with = 
     }
 }
