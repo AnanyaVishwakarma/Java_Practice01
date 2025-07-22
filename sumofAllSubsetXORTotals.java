@@ -44,4 +44,7 @@ public class sumofAllSubsetXORTotals {
         
         return with + without;
 }
+    public static void main(String[] args) {
+        
+    }
 }
