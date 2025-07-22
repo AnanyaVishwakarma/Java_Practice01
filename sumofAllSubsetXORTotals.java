@@ -34,6 +34,7 @@ Constraints:
 1 <= nums[i] <= 20 */
 public class sumofAllSubsetXORTotals {
     public int subsetXORSum(int[] nums) {
+        return dfs(nums, 0,0);
     }
     private int dfs(int[] nums, int index, int currentXOR){
         if(index == nums.length){
