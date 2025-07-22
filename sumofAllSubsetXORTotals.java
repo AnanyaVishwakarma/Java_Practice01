@@ -39,6 +39,6 @@ public class sumofAllSubsetXORTotals {
         if(index == nums.length){
             return currentXOR;
         }
-        int with = 
+        int with = dfs(nums, index + 1)
     }
 }
