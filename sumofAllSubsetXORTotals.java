@@ -41,7 +41,7 @@ public class sumofAllSubsetXORTotals {
             return currentXOR;
         }
         int with = dfs(nums, index + 1, currentXOR ^ nums[index]);
-        int without = dfs(nums, index + 1, currentXOR);
+        int without = dfs(nums, index, currentXOR);
         
         return with + without;
 }
