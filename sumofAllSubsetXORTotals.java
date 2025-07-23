@@ -50,5 +50,6 @@ public class sumofAllSubsetXORTotals {
         int[] nums= {1,3};
         System.out.println(obj.subsetXORSum(nums));
         int[] nums2 = {5,1,6};        
+        System.out.println(obj.subsetXORSum(nums2));
     }
 }
