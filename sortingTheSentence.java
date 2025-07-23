@@ -18,5 +18,7 @@ The words in s are separated by a single space.
 s contains no leading or trailing spaces. */
 
 public class sortingTheSentence {
-    
+    public String sortSentence(String s) {
+        
+    }    
 }
