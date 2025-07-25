@@ -22,7 +22,8 @@ public class sortingTheSentence {
         String[] str = s.split("\\W");
         int slen = s.length();
         for(String sh : str){
-    }
+            for(int i = 1; i <= slen ; i++){
+}
             }  
     }   
 }
