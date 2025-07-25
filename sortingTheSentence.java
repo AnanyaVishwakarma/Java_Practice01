@@ -25,7 +25,9 @@ public class sortingTheSentence {
             for(int i = 1; i <= slen ; i++){
                 if(str[slen] == i){
   }
-            }
+
+       String[] sttr = new String[slen];
+                        }
             }  
     }   
 }
