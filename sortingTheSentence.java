@@ -20,6 +20,6 @@ s contains no leading or trailing spaces. */
 public class sortingTheSentence {
     public String sortSentence(String s) {
         String[] str = s.split("\\W");
-
+        int slen = s.length();}  
     }   
 }
