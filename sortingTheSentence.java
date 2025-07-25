@@ -21,13 +21,15 @@ public class sortingTheSentence {
     public String sortSentence(String s) {
         String[] str = s.split("\\W");
         int slen = s.length();
-        for(String sh : str){
-            for(int i = 1; i <= slen ; i++){
-                if(str[slen] == i){
-  }
+        for (String sh : str) {
+            for (int i = 1; i <= slen; i++) {
+                if (str[slen] == i) {
 
-       String[] sttr = new String[slen];
-                        }
-            }  
-    }   
+                    String[] sttr = new String[slen];
+
+                }
+            }
+        }
+
+    }  
 }
