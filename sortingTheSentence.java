@@ -23,7 +23,9 @@ public class sortingTheSentence {
         int slen = s.length();
         for(String sh : str){
             for(int i = 1; i <= slen ; i++){
-}
+                if(str[slen] == i){
+  }
+            }
             }  
     }   
 }
