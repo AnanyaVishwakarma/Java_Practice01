@@ -29,4 +29,7 @@ public class sortingTheSentence {
         }
         return String.join(" ", result);
     }  
+    public static void main(String[] args) {
+        
+    }
 }
