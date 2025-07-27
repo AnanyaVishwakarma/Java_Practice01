@@ -31,6 +31,7 @@ public class sortingTheSentence {
     }  
     public static void main(String[] args) {
         sortingTheSentence obj = new sortingTheSentence();
+        String s = "is2 sentence4 This1 a3";
         
     }
 }
