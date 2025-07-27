@@ -23,7 +23,7 @@ public class sortingTheSentence {
         String[] result = new String[str.length];
 
         for(String word: words){
-
+            int pos = word.charAt(word.length() - 1) - '0';
         }
         
         
