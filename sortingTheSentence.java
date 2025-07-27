@@ -27,8 +27,6 @@ public class sortingTheSentence {
 
             result[pos - 1] = word.substring(0, word.length() - 1);
         }
-        
-        
-
+        return String.join(" ", result);
     }  
 }
