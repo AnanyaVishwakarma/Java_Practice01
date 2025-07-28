@@ -51,6 +51,8 @@ public class minimumNumberofMovestoSeatEveryone {
     public int minMovesToSeat(int[] seats, int[] students) {
         for (int i = 0; i < seats.length; i++){
             for(int j = 0; j < students.length; j++){
-        
+
+            }
+        }        
     }    
 }
