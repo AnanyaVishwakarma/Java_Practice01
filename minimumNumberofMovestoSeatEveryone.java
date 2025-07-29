@@ -60,6 +60,8 @@ public class minimumNumberofMovestoSeatEveryone {
             seats[i] = seats[minIndex];
             seats[minIndex] = temp;
         }
-        for (int i = 0; i < seats.length; i++) {}       
+        for (int i = 0; i < seats.length; i++) {
+            result += Math.abs(seats[i] - students[i]);         
+        }       
     }    
 }
