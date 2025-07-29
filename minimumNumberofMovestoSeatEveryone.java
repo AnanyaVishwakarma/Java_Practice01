@@ -49,10 +49,9 @@ n == seats.length == students.length
 
 public class minimumNumberofMovestoSeatEveryone {
     public int minMovesToSeat(int[] seats, int[] students) {
-    public int minMovesToSeat(int[] seats, int[] students) {
-
         for(int i = 0; i < seats.length -1; i++){
             int minIndex = i;
+            for(int j = i+1; j<seats.length; j++){
 
         }
 
