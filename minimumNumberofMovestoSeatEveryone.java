@@ -69,5 +69,6 @@ public class minimumNumberofMovestoSeatEveryone {
     }    
 
     public static void main(String[] args) {
+        minimumNumberofMovestoSeatEveryone obj = new minimumNumberofMovestoSeatEveryone();
     }
 }
