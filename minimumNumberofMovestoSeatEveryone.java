@@ -49,7 +49,17 @@ public class minimumNumberofMovestoSeatEveryone {
             seats[i] = seats[minIndex];
             seats[minIndex] = temp;
         }
-
+        for(int i = 0; i < students.length -1; i++){
+            int minIndex = i;
+            for(int j = i+1; j<students.length; j++){
+                if(students[j] < students[minIndex]){
+                    minIndex = j;
+                }
+            }
+            int temp = students[i];
+            students[i] = students[minIndex];
+            students[minIndex] = temp;
+        }
      
      int result = 0;
         for (int i = 0; i < seats.length; i++) {
