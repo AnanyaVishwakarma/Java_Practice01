@@ -71,5 +71,6 @@ public class minimumNumberofMovestoSeatEveryone {
     public static void main(String[] args) {
         minimumNumberofMovestoSeatEveryone obj = new minimumNumberofMovestoSeatEveryone();
         int[] seats = {3, 1, 5};
+        int[] students = {2, 7, 4};
     }
 }
