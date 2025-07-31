@@ -75,5 +75,6 @@ public class minimumNumberofMovestoSeatEveryone {
         System.out.println(obj.minMovesToSeat(seats, students));
          int[] seats2 = {2,2,6,6};
         int[] students2 = {1,3,2,6};
+        System.out.println(obj.minMovesToSeat(seats2, students2));    
     }
 }
