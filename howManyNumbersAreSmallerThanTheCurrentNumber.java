@@ -25,5 +25,7 @@ Constraints:
 0 <= nums[i] <= 100 */
 
 public class howManyNumbersAreSmallerThanTheCurrentNumber {
-    
+    public int[] smallerNumbersThanCurrent(int[] nums) {
+        
+    }    
 }
