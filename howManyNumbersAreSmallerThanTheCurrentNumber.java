@@ -38,5 +38,7 @@ public class howManyNumbersAreSmallerThanTheCurrentNumber {
                 int temp = nums[i];
                 nums[i] = nums[maxIndex];
                 nums[maxIndex] = temp;
+            }
+        }
 }        
 }
