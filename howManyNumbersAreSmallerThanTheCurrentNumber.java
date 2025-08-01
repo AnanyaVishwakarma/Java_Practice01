@@ -30,5 +30,7 @@ public class howManyNumbersAreSmallerThanTheCurrentNumber {
         int[] answer = new int[n];
 
         for (int i = 0; i < n; i++) {
+            int maxIndex = i;
+            for (int j = i + 1; j < n; j++) {
 }        
 }
