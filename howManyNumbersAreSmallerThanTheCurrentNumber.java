@@ -29,6 +29,6 @@ public class howManyNumbersAreSmallerThanTheCurrentNumber {
         int n = nums.length;
         int[] answer = new int[n];
 
-    }        
-    }    
+        for (int i = 0; i < n; i++) {
+}        
 }
