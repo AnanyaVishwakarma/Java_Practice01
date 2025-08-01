@@ -34,5 +34,9 @@ public class howManyNumbersAreSmallerThanTheCurrentNumber {
             for (int j = i + 1; j < n; j++) {
                 if (nums[j] > nums[maxIndex]) {
                     maxIndex = j;
+                }
+                int temp = nums[i];
+                nums[i] = nums[maxIndex];
+                nums[maxIndex] = temp;
 }        
 }
