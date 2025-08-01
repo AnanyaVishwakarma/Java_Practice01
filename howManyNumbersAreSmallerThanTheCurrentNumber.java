@@ -26,6 +26,9 @@ Constraints:
 
 public class howManyNumbersAreSmallerThanTheCurrentNumber {
     public int[] smallerNumbersThanCurrent(int[] nums) {
-        
+        int n = nums.length;
+        int[] answer = new int[n];
+
+    }        
     }    
 }
