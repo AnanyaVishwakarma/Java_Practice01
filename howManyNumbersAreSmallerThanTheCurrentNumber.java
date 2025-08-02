@@ -44,9 +44,15 @@ public class howManyNumbersAreSmallerThanTheCurrentNumber {
             for (int j = i + 1; j < n; j++) {
                 if (nums[j] < nums[i]) {
                     int sum = 0;
+                    sum++;
+                    answer[i] = sum;
+                }
+               
             }
-        }        
+        }   
+        
 }
+
 
 
 
