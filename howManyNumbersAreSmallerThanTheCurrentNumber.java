@@ -50,10 +50,5 @@ public class howManyNumbersAreSmallerThanTheCurrentNumber {
                
             }
         }   
-        
+    return answer;
 }
-
-
-
-
-
