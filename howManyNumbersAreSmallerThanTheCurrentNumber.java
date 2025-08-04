@@ -51,8 +51,6 @@ public class howManyNumbersAreSmallerThanTheCurrentNumber {
         }   
     return answer;
     }
-}
-
     public static void main(String[] args) {
         howManyNumbersAreSmallerThanTheCurrentNumber obj = new howManyNumbersAreSmallerThanTheCurrentNumber();
         int[] nums = {8, 1, 2, 2, 3};
@@ -60,6 +58,9 @@ public class howManyNumbersAreSmallerThanTheCurrentNumber {
         int[] nums2 = {6,5,4,8};
         System.out.println(Arrays.toString(obj.smallerNumbersThanCurrent(nums2)));
     }
+}
+
+
 
 
 
