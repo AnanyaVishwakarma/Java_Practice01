@@ -50,7 +50,9 @@ public class howManyNumbersAreSmallerThanTheCurrentNumber {
           answer[i] = count;  
         }   
     return answer;
+    }
 }
+
 
 
 
