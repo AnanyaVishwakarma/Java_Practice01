@@ -30,17 +30,6 @@ public class howManyNumbersAreSmallerThanTheCurrentNumber {
         int[] answer = new int[n];
 
         for (int i = 0; i < n; i++) {
-            int maxIndex = i;
-            for (int j = i + 1; j < n; j++) {
-                if (nums[j] > nums[maxIndex]) {
-                    maxIndex = j;
-                }
-                int temp = nums[i];
-                nums[i] = nums[maxIndex];
-                nums[maxIndex] = temp;
-            }
-        }
-        for (int i = 0; i < n; i++) {
             int count = 0;
             for (int j = i + 1; j < n; j++) {
                 if (nums[j] < nums[i]) {
@@ -59,6 +48,7 @@ public class howManyNumbersAreSmallerThanTheCurrentNumber {
         System.out.println(Arrays.toString(obj.smallerNumbersThanCurrent(nums2)));
     }
 }
+
 
 
 
