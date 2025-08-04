@@ -46,10 +46,11 @@ public class howManyNumbersAreSmallerThanTheCurrentNumber {
                 if (nums[j] < nums[i]) {
                     count++;
                 }
-               
             }
+          answer[i] = count;  
         }   
     return answer;
 }
+
 
 
