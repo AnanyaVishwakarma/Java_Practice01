@@ -5,4 +5,7 @@ import java.util.*;
 public class FibonnacciSequence {
     public int[] fibonacciSeries (int n){
         int[] nums = new int[n];
+        if(n >= 1) nums[0] = 0;
+        if(n >= 2) nums[1] = 1;
+    }    
 }
