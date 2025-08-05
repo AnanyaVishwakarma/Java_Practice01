@@ -17,5 +17,7 @@ public class FibonnacciSequence {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         FibonnacciSequence obj = new FibonnacciSequence();
+        System.out.print("Enter the number of element you want int your fibonacci series: ");
+        int n = sc.nextInt();
     }    
 }
