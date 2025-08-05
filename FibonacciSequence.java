@@ -16,5 +16,6 @@ public class FibonnacciSequence {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        FibonnacciSequence obj = new FibonnacciSequence();
     }    
 }
