@@ -13,5 +13,8 @@ public class FibonnacciSequence {
         }
         return nums;
         }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
     }    
 }
