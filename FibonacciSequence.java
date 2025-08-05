@@ -19,5 +19,10 @@ public class FibonnacciSequence {
         FibonnacciSequence obj = new FibonnacciSequence();
         System.out.print("Enter the number of element you want int your fibonacci series: ");
         int n = sc.nextInt();
+        int[] nums = obj.fibonacciSeries(n);;
+
+        for(int num: nums){
+            System.out.println(num + " ");
+        }
     }    
 }
