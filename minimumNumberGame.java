@@ -19,8 +19,9 @@ Constraints:
 nums.length % 2 == 0 */
 public class minimumNumberGame {
     public int[] numberGame(int[] nums) {
-        
+        int n =nums.length;
     }    
 }
+
 
 
