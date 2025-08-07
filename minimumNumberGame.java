@@ -45,8 +45,12 @@ public class minimumNumberGame {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         minimumNumberGame obj = new minimumNumberGame();
+        System.out.print("Enter an even number for the elements: ");
+        int n = sc.nextInt();
+        int[] nums = new int[n];
     }  
 }
+
 
 
 
