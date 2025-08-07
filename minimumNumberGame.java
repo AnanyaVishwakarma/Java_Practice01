@@ -48,8 +48,13 @@ public class minimumNumberGame {
         System.out.print("Enter an even number for the elements: ");
         int n = sc.nextInt();
         int[] nums = new int[n];
+        for(int i =0; i< n; i++){
+            nums[i] = sc.nextInt();
+        }
+        System.out.println(obj.numberGame(nums));
     }  
 }
+
 
 
 
