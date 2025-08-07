@@ -42,7 +42,12 @@ public class minimumNumberGame {
     }   
     return arr;
      }     
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        minimumNumberGame obj = new minimumNumberGame();
+    }  
 }
+
 
 
 
