@@ -33,8 +33,10 @@ public class minimumNumberGame {
         }
     }
 
+    for(int i= 0; i < n; i++){
  }     
 }
+
 
 
 
