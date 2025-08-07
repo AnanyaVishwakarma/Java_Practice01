@@ -27,8 +27,15 @@ public class minimumNumberGame {
            if(nums[j] < nums[minIndex]){
                 minIndex = j;
             }
+            int temp = nums[i];
+            nums[i] = nums[minIndex];
+            nums[minIndex] =temp;
+        }
+    }
+
  }     
 }
+
 
 
 
