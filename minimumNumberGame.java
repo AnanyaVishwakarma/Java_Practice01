@@ -21,10 +21,12 @@ public class minimumNumberGame {
     public int[] numberGame(int[] nums) {
         int n =nums.length;
         if(n % 2 == 0){
-            
-        }
-    }    
+    for(int i = 0; i <n; i++){
+        int minIndex = i;
+        for(int j = i+1; j<n; j++){
+ }     
 }
+
 
 
 
