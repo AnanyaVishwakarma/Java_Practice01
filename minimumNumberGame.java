@@ -36,7 +36,8 @@ public class minimumNumberGame {
         int index = 0;
     for(int i= 0; i <= n; i++){
         nums[index++] = arr[i+ 1];
-} 
+        nums[index++] = arr[i];  
+    } 
     return arr;
      }     
     public static void main(String[] args) {
@@ -51,6 +52,7 @@ public class minimumNumberGame {
         System.out.println(obj.numberGame(nums));
     }  
 }
+
 
 
 
