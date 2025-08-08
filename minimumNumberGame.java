@@ -49,9 +49,11 @@ public class minimumNumberGame {
         for(int i =0; i< n; i++){
             nums[i] = sc.nextInt();
         }
+        int[] result = obj.numberGame(nums));
         System.out.println(obj.numberGame(nums));
     }  
 }
+
 
 
 
