@@ -50,9 +50,13 @@ public class minimumNumberGame {
             nums[i] = sc.nextInt();
         }
         int[] result = obj.numberGame(nums));
+        for(int val: nums){
+            
+        }
         System.out.println(obj.numberGame(nums));
     }  
 }
+
 
 
 
