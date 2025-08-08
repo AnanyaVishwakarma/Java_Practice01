@@ -51,11 +51,11 @@ public class minimumNumberGame {
         }
         int[] result = obj.numberGame(nums));
         for(int val: nums){
-            
+        System.out.println(val + " ");            
         }
-        System.out.println(obj.numberGame(nums));
     }  
 }
+
 
 
 
