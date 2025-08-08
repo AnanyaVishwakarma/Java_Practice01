@@ -27,10 +27,10 @@ public class minimumNumberGame {
            if(nums[j] < nums[minIndex]){
                 minIndex = j;
             }
+        }
             int temp = nums[i];
             nums[i] = nums[minIndex];
             nums[minIndex] =temp;
-        }
     }
 
     for(int i= 0; i < n; i++){
@@ -54,6 +54,7 @@ public class minimumNumberGame {
         System.out.println(obj.numberGame(nums));
     }  
 }
+
 
 
 
