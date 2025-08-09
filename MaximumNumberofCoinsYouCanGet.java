@@ -24,6 +24,9 @@ Constraints:
 piles.length % 3 == 0
 1 <= piles[i] <= 104 */
 public class MaximumNumberofCoinsYouCanGet {
-    
+    public int maxCoins(int[] piles) {
+        
+    }    
 }
+
 
