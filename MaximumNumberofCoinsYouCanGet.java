@@ -26,8 +26,10 @@ piles.length % 3 == 0
 public class MaximumNumberofCoinsYouCanGet {
     public int maxCoins(int[] piles) {
         int n = piles.length;
-    }    
+        for (int i = 0; i < n; i++){
+}    
 }
+
 
 
 
