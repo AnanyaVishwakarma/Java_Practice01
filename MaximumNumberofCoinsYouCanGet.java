@@ -33,8 +33,13 @@ public class MaximumNumberofCoinsYouCanGet {
                     minIndex = j;
                 }
             }
-}    
+            int temp = piles[i];
+            piles[i] = piles[minIndex];
+            piles[minIndex] = temp;
+        }        
+    }    
 }
+
 
 
 
