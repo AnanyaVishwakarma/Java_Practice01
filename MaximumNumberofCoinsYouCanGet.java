@@ -28,8 +28,11 @@ public class MaximumNumberofCoinsYouCanGet {
         int n = piles.length;
         for (int i = 0; i < n; i++){
             int minIndex = i;
+            for(int j = i + 1; j <n; j++){
+                if(piles[j] < piles[minIndex]){
 }    
 }
+
 
 
 
