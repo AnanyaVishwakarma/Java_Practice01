@@ -30,8 +30,12 @@ public class MaximumNumberofCoinsYouCanGet {
             int minIndex = i;
             for(int j = i + 1; j <n; j++){
                 if(piles[j] < piles[minIndex]){
+                    minIndex = j;
+                }
+            }
 }    
 }
+
 
 
 
