@@ -38,12 +38,13 @@ public class MaximumNumberofCoinsYouCanGet {
             piles[minIndex] = temp;
         }       
         int total = 0;
-        for(int){
+        for(int i = n-2; i >= n/3; i-= 2){
             total += piles[i];
         }
         return total; 
     }
 }
+
 
 
 
