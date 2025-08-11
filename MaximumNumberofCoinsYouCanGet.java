@@ -47,19 +47,10 @@ public class MaximumNumberofCoinsYouCanGet {
         MaximumNumberofCoinsYouCanGet obj = new MaximumNumberofCoinsYouCanGet();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
+
+        int[] piles = new int[n];
+        for(int i = 0; i < n; i++){
+            piles[i] = sc.nextInt();
+        }
 }    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
