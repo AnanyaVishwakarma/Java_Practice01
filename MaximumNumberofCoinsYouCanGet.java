@@ -43,7 +43,12 @@ public class MaximumNumberofCoinsYouCanGet {
         }
         return total; 
     }
+    public static void main(String[] args) {
+        MaximumNumberofCoinsYouCanGet obj = new MaximumNumberofCoinsYouCanGet();
+        Scanner sc = new Scanner(System.in);
+}    
 }
+
 
 
 
