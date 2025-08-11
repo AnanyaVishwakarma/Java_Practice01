@@ -27,18 +27,19 @@ public class MaximumNumberofCoinsYouCanGet {
     public int maxCoins(int[] piles) {
         int n = piles.length;
         for (int i = 0; i < n; i++){
-            int minIndex = i;
+            int maxIndex = i;
             for(int j = i + 1; j <n; j++){
-                if(piles[j] < piles[minIndex]){
-                    minIndex = j;
+                if(piles[j] > piles[maxIndex]){
+                    maxIndex = j;
                 }
             }
             int temp = piles[i];
-            piles[i] = piles[minIndex];
-            piles[minIndex] = temp;
+            piles[i] = piles[maxIndex];
+            piles[maxIndex] = temp;
         }        
     }    
 }
+
 
 
 
