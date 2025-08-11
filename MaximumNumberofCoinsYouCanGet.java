@@ -52,5 +52,7 @@ public class MaximumNumberofCoinsYouCanGet {
         for(int i = 0; i < n; i++){
             piles[i] = sc.nextInt();
         }
-}    
+      System.out.println(obj.maxCoins(piles));
+     }    
 }
+
