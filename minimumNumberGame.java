@@ -32,12 +32,9 @@ public class minimumNumberGame {
             nums[i] = nums[minIndex];
             nums[minIndex] =temp;
     }
-
-        int index = 0;
-    for(int i= 0; i <= n; i++){
-        nums[index++] = arr[i+ 1];
-        nums[index++] = arr[i];  
-    } 
+for(int i = 0; i < n; i++){
+    
+}
     return arr;
      }     
     public static void main(String[] args) {
@@ -55,6 +52,7 @@ public class minimumNumberGame {
         }
     }  
 }
+
 
 
 
