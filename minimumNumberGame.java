@@ -32,8 +32,8 @@ public class minimumNumberGame {
             nums[i] = nums[minIndex];
             nums[minIndex] =temp;
     }
-for(int i = 0; i < n; i++){
-
+for(int i = 0; i < n; i+=2){
+    arr[i] = num[i+1];
 }
     return arr;
      }     
@@ -52,6 +52,7 @@ for(int i = 0; i < n; i++){
         }
     }  
 }
+
 
 
 
