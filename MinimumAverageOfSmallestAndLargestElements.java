@@ -39,6 +39,9 @@ Constraints:
 n is even.
 1 <= nums[i] <= 50 */
 public class MinimumAverageOfSmallestAndLargestElements {
-    
+    public double minimumAverage(int[] nums) {
+        
+    }    
 }
+
 
