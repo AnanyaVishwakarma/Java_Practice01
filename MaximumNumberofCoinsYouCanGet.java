@@ -33,7 +33,7 @@ public class MaximumNumberofCoinsYouCanGet {
         Boolean aliceTurn = true, youTurn = false;
 
         for(int i = 100; i >=1; i--){
-            while(i > 0){
+            while(count[i] > 0){
                 if(aliceTurn){
                     aliceTurn = false;
                     youTurn = true;
@@ -71,6 +71,7 @@ public class MaximumNumberofCoinsYouCanGet {
       System.out.println(obj.maxCoins(piles));
      }    
 }
+
 
 
 
