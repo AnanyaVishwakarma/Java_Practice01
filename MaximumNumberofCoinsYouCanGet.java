@@ -39,6 +39,7 @@ public class MaximumNumberofCoinsYouCanGet {
                     youTurn = true;
                 } else if (youTurn){
                     youTurn += i;
+                    youTurn = false;
                 }
             }            
         }
@@ -73,6 +74,7 @@ public class MaximumNumberofCoinsYouCanGet {
       System.out.println(obj.maxCoins(piles));
      }    
 }
+
 
 
 
