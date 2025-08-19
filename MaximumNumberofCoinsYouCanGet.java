@@ -58,7 +58,7 @@ public class MaximumNumberofCoinsYouCanGet {
                 count[i]--;
             }            
         }  
-        return total; 
+        return yourCoins; 
     }
     public static void main(String[] args) {
         MaximumNumberofCoinsYouCanGet obj = new MaximumNumberofCoinsYouCanGet();
@@ -72,6 +72,7 @@ public class MaximumNumberofCoinsYouCanGet {
       System.out.println(obj.maxCoins(piles));
      }    
 }
+
 
 
 
