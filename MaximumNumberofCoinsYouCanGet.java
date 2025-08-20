@@ -34,7 +34,7 @@ public class MaximumNumberofCoinsYouCanGet {
                 }
             }
             int temp = piles[i];
-            piles[i] = piles[minIndex];
+            piles[i] = piles[maxIndex];
             piles[minIndex] = temp;
         }     
         int[] count = new int[101];
@@ -72,6 +72,7 @@ public class MaximumNumberofCoinsYouCanGet {
       System.out.println(obj.maxCoins(piles));
      }    
 }
+
 
 
 
