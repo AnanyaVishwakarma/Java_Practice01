@@ -50,7 +50,7 @@ public class MaximumNumberofCoinsYouCanGet {
                 if(turn == 1){
                     yourCoins += i;
                 }
-                turn  = (turn + 1);
+                turn  = (turn + 1) % 3;
             }            
         }  
         return yourCoins; 
@@ -67,6 +67,7 @@ public class MaximumNumberofCoinsYouCanGet {
       System.out.println(obj.maxCoins(piles));
      }    
 }
+
 
 
 
