@@ -43,10 +43,12 @@ public class MinimumAverageOfSmallestAndLargestElements {
         
     }    
     public static void main(String[] args) {
-        
+        MinimumAverageOfSmallestAndLargestElements obj = new MinimumAverageOfSmallestAndLargestElements();
+            
     }
            
 }
+
 
 
 
