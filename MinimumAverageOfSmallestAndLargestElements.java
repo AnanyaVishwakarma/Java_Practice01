@@ -40,6 +40,7 @@ n is even.
 1 <= nums[i] <= 50 */
 public class MinimumAverageOfSmallestAndLargestElements {
     public double minimumAverage(int[] nums) {
+        int n = nums.length;
         
     }    
     public static void main(String[] args) {
@@ -49,6 +50,7 @@ public class MinimumAverageOfSmallestAndLargestElements {
     }
            
 }
+
 
 
 
