@@ -42,6 +42,11 @@ public class MinimumAverageOfSmallestAndLargestElements {
     public double minimumAverage(int[] nums) {
         
     }    
+    public static void main(String[] args) {
+        
+    }
+           
 }
+
 
 
