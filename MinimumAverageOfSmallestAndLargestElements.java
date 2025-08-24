@@ -45,6 +45,8 @@ public class MinimumAverageOfSmallestAndLargestElements {
             int minIndex = i;
             for(int j = i; j < n; j++){
                 if(nums[j] < minIndex){
+                    minIndex = j;
+                }
 
                 } 
     }    
@@ -55,6 +57,7 @@ public class MinimumAverageOfSmallestAndLargestElements {
     }
            
 }
+
 
 
 
