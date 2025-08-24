@@ -25,7 +25,6 @@ piles.length % 3 == 0
 1 <= piles[i] <= 104 */
 public class MaximumNumberofCoinsYouCanGet {
     public int maxCoins(int[] piles) {
-        int n = piles.length;
         int[] count = new int[101];
         for(int pile: piles){
             count[pile]++;
@@ -56,6 +55,7 @@ public class MaximumNumberofCoinsYouCanGet {
       System.out.println(obj.maxCoins(piles));
      }    
 }
+
 
 
 
