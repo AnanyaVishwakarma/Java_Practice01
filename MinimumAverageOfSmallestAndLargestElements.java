@@ -41,7 +41,9 @@ n is even.
 public class MinimumAverageOfSmallestAndLargestElements {
     public double minimumAverage(int[] nums) {
         int n = nums.length;
-        
+                for (int i = 0; i < n; i++){
+
+                } 
     }    
     public static void main(String[] args) {
         MinimumAverageOfSmallestAndLargestElements obj = new MinimumAverageOfSmallestAndLargestElements();
@@ -50,6 +52,7 @@ public class MinimumAverageOfSmallestAndLargestElements {
     }
            
 }
+
 
 
 
