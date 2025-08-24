@@ -61,16 +61,3 @@ public class MinimumAverageOfSmallestAndLargestElements {
     }
            
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
