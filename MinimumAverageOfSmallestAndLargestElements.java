@@ -47,6 +47,7 @@ public class MinimumAverageOfSmallestAndLargestElements {
                 if(nums[j] < minIndex){
                     minIndex = j;
                 }
+            }
 
                 } 
     }    
@@ -57,6 +58,7 @@ public class MinimumAverageOfSmallestAndLargestElements {
     }
            
 }
+
 
 
 
