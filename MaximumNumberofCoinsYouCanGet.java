@@ -30,18 +30,6 @@ public class MaximumNumberofCoinsYouCanGet {
         for(int pile: piles){
             count[pile]++;
         }
-        for (int i = 0; i < n; i++){
-            int maxIndex = i;
-            for(int j = i + 1; j <n; j++){
-                if(piles[j] > piles[maxIndex]){
-                    maxIndex = j;
-                }
-            }
-            int temp = piles[i];
-            piles[i] = piles[maxIndex];
-            piles[maxIndex] = temp;
-        }     
-
         int yourCoins = 0;
         Boolean aliceTurn = true, youTurn = false;
 
@@ -68,6 +56,7 @@ public class MaximumNumberofCoinsYouCanGet {
       System.out.println(obj.maxCoins(piles));
      }    
 }
+
 
 
 
