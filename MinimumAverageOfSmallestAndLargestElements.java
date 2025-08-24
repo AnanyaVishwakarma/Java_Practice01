@@ -48,7 +48,10 @@ public class MinimumAverageOfSmallestAndLargestElements {
                     minIndex = j;
                 }
             }
-
+            int temp = nums[minIndex];
+            nums[minIndex] = nums[i];
+            nums[i] = temp;
+        
                 } 
     }    
     public static void main(String[] args) {
@@ -58,6 +61,7 @@ public class MinimumAverageOfSmallestAndLargestElements {
     }
            
 }
+
 
 
 
