@@ -42,6 +42,7 @@ public class MinimumAverageOfSmallestAndLargestElements {
     public double minimumAverage(int[] nums) {
         int n = nums.length;
         int[] array = new int [n/2];
+        
         for (int i = 0; i < n; i++){
             int minIndex = i;
             for(int j = i; j < n; j++){
@@ -68,6 +69,7 @@ public class MinimumAverageOfSmallestAndLargestElements {
     }
            
 }
+
 
 
 
