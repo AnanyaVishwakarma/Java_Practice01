@@ -62,7 +62,9 @@ public class MinimumAverageOfSmallestAndLargestElements {
                 double num = (maximunNo + minimumNo)/2;
                 array[i] = num;            
             }
-        }        
+        }       
+        for(int i = 0 ; i < array.length; i++){
+}        
     }    
     public static void main(String[] args) {
         MinimumAverageOfSmallestAndLargestElements obj = new MinimumAverageOfSmallestAndLargestElements();
@@ -71,6 +73,7 @@ public class MinimumAverageOfSmallestAndLargestElements {
     }
            
 }
+
 
 
 
