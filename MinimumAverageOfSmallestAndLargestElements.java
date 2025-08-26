@@ -65,7 +65,9 @@ public class MinimumAverageOfSmallestAndLargestElements {
         }       
         for(int i = 0 ; i < array.length; i++){
             int minIndex = i;
-            for(int j = i; j < array.length; j++){    }
+            for(int j = i; j < array.length; j++){
+                minIndex = j;
+                }
             }
         }        
     }    
@@ -76,6 +78,7 @@ public class MinimumAverageOfSmallestAndLargestElements {
     }
            
 }
+
 
 
 
