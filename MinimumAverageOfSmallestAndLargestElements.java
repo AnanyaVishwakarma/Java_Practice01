@@ -64,7 +64,9 @@ public class MinimumAverageOfSmallestAndLargestElements {
             }
         }       
         for(int i = 0 ; i < array.length; i++){
-}        
+            int minIndex = i;
+}
+        }        
     }    
     public static void main(String[] args) {
         MinimumAverageOfSmallestAndLargestElements obj = new MinimumAverageOfSmallestAndLargestElements();
@@ -73,6 +75,7 @@ public class MinimumAverageOfSmallestAndLargestElements {
     }
            
 }
+
 
 
 
