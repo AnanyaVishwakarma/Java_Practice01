@@ -62,19 +62,19 @@ public class MinimumAverageOfSmallestAndLargestElements {
             }
           }
         }  
-        for(int i = 0 ; i <= array.length; i++){
+        for (int i = 0; i < arrayOfAverage.length; i++) {
             int minIndex = i;
-            for(int j = i+1; j <= array.length; j++){
-                if(array[i] < array[minIndex]){
-                minIndex = j;
+            for (int j = i + 1; j < arrayOfAverage.length; j++) {
+                if (arrayOfAverage[j] < arrayOfAverage[minIndex]) {
+                    minIndex = j;
                 }
             }
-            double temp = array[i];
-            array[i] = array[minIndex];
-            array[minIndex] = temp;
-            }  
-        return array[0];
-    }    
+            double temp = arrayOfAverage[i];
+            arrayOfAverage[i] = arrayOfAverage[minIndex];
+            arrayOfAverage[minIndex] = temp;
+        }
+        return arrayOfAverage[0];
+}    
     public static void main(String[] args) {
         MinimumAverageOfSmallestAndLargestElements obj = new MinimumAverageOfSmallestAndLargestElements();
         Scanner sc = new Scanner(System.in);
@@ -82,6 +82,7 @@ public class MinimumAverageOfSmallestAndLargestElements {
     }
            
 }
+
 
 
 
