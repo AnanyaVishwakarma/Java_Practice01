@@ -1,7 +1,5 @@
 /*You have an array of floating point numbers averages which is initially empty. You are given an array nums of n integers where n is even.
-
 You repeat the following procedure n / 2 times:
-
 Remove the smallest element, minElement, and the largest element maxElement, from nums.
 Add (minElement + maxElement) / 2 to averages.
 Return the minimum element in averages.
@@ -59,6 +57,7 @@ public class MinimumAverageOfSmallestAndLargestElements {
             int index = 0;
             for (int j = n - 1; j > i; j--) {
                 double average = (nums[i] + nums[j]) / 2;                }
+                if (index < arrayOfAverage.length) {
             }
         }  
         for(int i = 0 ; i <= array.length; i++){
@@ -81,6 +80,7 @@ public class MinimumAverageOfSmallestAndLargestElements {
     }
            
 }
+
 
 
 
