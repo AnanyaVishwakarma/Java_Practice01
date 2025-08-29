@@ -84,10 +84,12 @@ public class MinimumAverageOfSmallestAndLargestElements {
         System.out.println("Enter the elements: ");
         for(int i = 0; i < n; i++){
             nums[i] = sc.nextInt();
-        }
+    System.out.println(obj.minimumAverage(nums));            
+            }
     }
            
 }
+
 
 
 
