@@ -78,10 +78,12 @@ public class MinimumAverageOfSmallestAndLargestElements {
     public static void main(String[] args) {
         MinimumAverageOfSmallestAndLargestElements obj = new MinimumAverageOfSmallestAndLargestElements();
         Scanner sc = new Scanner(System.in);
-            
-    }
+        System.out.println("Enter the size of the array: ");
+        int n = sc.nextInt();
+}
            
 }
+
 
 
 
