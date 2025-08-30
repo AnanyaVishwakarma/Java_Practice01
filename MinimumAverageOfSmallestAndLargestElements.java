@@ -38,9 +38,7 @@ n is even.
 1 <= nums[i] <= 50 */
 public class MinimumAverageOfSmallestAndLargestElements {
     public double minimumAverage(int[] nums) {
-        int n = nums.length;
-        double[] arrayOfAverage = new double[n/2];
-        
+        int n = nums.length;        
         for (int i = 0; i < n; i++){
             int minIndex = i;
             for(int j = i+1; j < n; j++){
@@ -77,6 +75,7 @@ public class MinimumAverageOfSmallestAndLargestElements {
     }
            
 }
+
 
 
 
