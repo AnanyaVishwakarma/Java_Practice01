@@ -75,13 +75,3 @@ public class MinimumAverageOfSmallestAndLargestElements {
     }
            
 }
-
-
-
-
-
-
-
-
-
-
