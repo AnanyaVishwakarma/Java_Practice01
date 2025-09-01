@@ -40,6 +40,9 @@ public class MaximumNumberofCoinsYouCanGet {
             piles[i] = piles[minIndex];
             piles[minIndex] = temp;
         }
+        while(left < right){
+            
+        }
         
         return yourCoins; 
     }
@@ -55,6 +58,7 @@ public class MaximumNumberofCoinsYouCanGet {
       System.out.println(obj.maxCoins(piles));
      }    
 }
+
 
 
 
