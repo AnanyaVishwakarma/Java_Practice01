@@ -55,6 +55,7 @@ public class MaximumNumberofCoinsYouCanGet {
     public static void main(String[] args) {
         MaximumNumberofCoinsYouCanGet obj = new MaximumNumberofCoinsYouCanGet();
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the size of the array: ");
         int n = sc.nextInt();
 
         int[] piles = new int[n];
@@ -64,6 +65,7 @@ public class MaximumNumberofCoinsYouCanGet {
       System.out.println(obj.maxCoins(piles));
      }    
 }
+
 
 
 
