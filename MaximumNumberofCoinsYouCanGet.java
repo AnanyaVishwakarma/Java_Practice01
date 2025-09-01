@@ -29,6 +29,7 @@ public class MaximumNumberofCoinsYouCanGet {
         int n = piles.length;
         //sorting
         for(int i = 0; i <n; i++){
+            int minIndex = i;
         }
         return yourCoins; 
     }
@@ -44,6 +45,7 @@ public class MaximumNumberofCoinsYouCanGet {
       System.out.println(obj.maxCoins(piles));
      }    
 }
+
 
 
 
