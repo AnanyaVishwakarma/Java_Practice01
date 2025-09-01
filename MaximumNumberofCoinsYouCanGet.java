@@ -59,12 +59,14 @@ public class MaximumNumberofCoinsYouCanGet {
         int n = sc.nextInt();
 
         int[] piles = new int[n];
+        System.out.print("Enter your Elements: ");
         for(int i = 0; i < n; i++){
             piles[i] = sc.nextInt();
         }
       System.out.println(obj.maxCoins(piles));
      }    
 }
+
 
 
 
