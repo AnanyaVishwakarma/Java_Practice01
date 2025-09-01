@@ -27,16 +27,9 @@ public class MaximumNumberofCoinsYouCanGet {
     public int maxCoins(int[] piles) {
         int yourCoins = 0;
         int n = piles.length;
-
-        for(int i = 100; i >=1; i--){
-            while(count[i] > 0){
-                if(turn == 1){
-                    yourCoins += i;
-                }
-                turn  = (turn + 1) % 3;
-                count[i]--;
-            }            
-        }  
+        //sorting
+        for(int i = 0; i <n; i++){
+        }
         return yourCoins; 
     }
     public static void main(String[] args) {
@@ -51,6 +44,7 @@ public class MaximumNumberofCoinsYouCanGet {
       System.out.println(obj.maxCoins(piles));
      }    
 }
+
 
 
 
