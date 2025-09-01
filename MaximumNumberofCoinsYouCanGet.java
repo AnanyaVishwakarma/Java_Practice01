@@ -43,6 +43,9 @@ public class MaximumNumberofCoinsYouCanGet {
         while(left < right){
             //ignoring the alice's pile
          right--;
+
+            //adding my pile in my collection
+            yourCoins += piles[right];
             
         }
         return yourCoins; 
@@ -59,6 +62,7 @@ public class MaximumNumberofCoinsYouCanGet {
       System.out.println(obj.maxCoins(piles));
      }    
 }
+
 
 
 
