@@ -41,6 +41,7 @@ public class MaximumNumberofCoinsYouCanGet {
             piles[minIndex] = temp;
         }
         while(left < right){
+            //ignoring the alice's pile
          right--;
             
         }
@@ -58,6 +59,7 @@ public class MaximumNumberofCoinsYouCanGet {
       System.out.println(obj.maxCoins(piles));
      }    
 }
+
 
 
 
