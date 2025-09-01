@@ -26,7 +26,7 @@ piles.length % 3 == 0
 public class MaximumNumberofCoinsYouCanGet {
     public int maxCoins(int[] piles) {
         int yourCoins = 0;
-        int turn = 0;
+        int n = piles.length;
 
         for(int i = 100; i >=1; i--){
             while(count[i] > 0){
@@ -51,6 +51,7 @@ public class MaximumNumberofCoinsYouCanGet {
       System.out.println(obj.maxCoins(piles));
      }    
 }
+
 
 
 
