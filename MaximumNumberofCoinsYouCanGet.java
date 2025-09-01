@@ -47,7 +47,8 @@ public class MaximumNumberofCoinsYouCanGet {
             //adding my pile in my collection
             yourCoins += piles[right];
             right--;
-            
+
+            left++;
         }
         return yourCoins; 
     }
@@ -63,6 +64,7 @@ public class MaximumNumberofCoinsYouCanGet {
       System.out.println(obj.maxCoins(piles));
      }    
 }
+
 
 
 
