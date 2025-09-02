@@ -40,6 +40,7 @@ public class MaximumNumberofCoinsYouCanGet {
             piles[i] = piles[minIndex];
             piles[minIndex] = temp;
         }
+        //Big O (n^2)
         // while(left < right){
         //     //ignoring the alice's pile
         //  right--;
@@ -66,6 +67,7 @@ public class MaximumNumberofCoinsYouCanGet {
       System.out.println(obj.maxCoins(piles));
      }    
 }
+
 
 
 
