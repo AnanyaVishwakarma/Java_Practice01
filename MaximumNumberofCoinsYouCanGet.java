@@ -51,7 +51,7 @@ public class MaximumNumberofCoinsYouCanGet {
 
         //     left++;
         // }
-        for(int i = n-2;){
+        for(int i = n-2; i < n;){
             
         }        
         return yourCoins; 
@@ -70,6 +70,7 @@ public class MaximumNumberofCoinsYouCanGet {
       System.out.println(obj.maxCoins(piles));
      }    
 }
+
 
 
 
