@@ -25,21 +25,22 @@ piles.length % 3 == 0
 1 <= piles[i] <= 104 */
 public class MaximumNumberofCoinsYouCanGet {
     public int maxCoins(int[] piles) {
+          //its better to use 
+        Arrays.sort(piles);
         int yourCoins = 0;
         int n = piles.length;
-        int left = 0, right = n-1;
-        //sorting
-        for(int i = 0; i <n; i++){
-            int minIndex = i;
-            for(int j = i +1; j < n; j++){
-                if(piles[j] < piles[minIndex]){
-                    minIndex = j;
-                }
-            }        
-             int temp = piles[i];
-            piles[i] = piles[minIndex];
-            piles[minIndex] = temp;
-        }
+        //this sorting will give Big O(nlogn)
+        // for(int i = 0; i <n; i++){
+        //     int minIndex = i;
+        //     for(int j = i +1; j < n; j++){
+        //         if(piles[j] < piles[minIndex]){
+        //             minIndex = j;
+        //         }
+        //     }        
+        //      int temp = piles[i];
+        //     piles[i] = piles[minIndex];
+        //     piles[minIndex] = temp;
+        // }
         //Big O (n^2)
         // while(left < right){
         //     //ignoring the alice's pile
@@ -70,6 +71,7 @@ public class MaximumNumberofCoinsYouCanGet {
       System.out.println(obj.maxCoins(piles));
      }    
 }
+
 
 
 
