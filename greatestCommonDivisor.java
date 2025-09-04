@@ -10,9 +10,12 @@ public class greatestCommonDivisor {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-   
+       greatestCommonDivisor obj = new greatestCommonDivisor();
+        System.err.println(obj.checkGCD(a, b));
+         
     }
 }
+
 
 
 
