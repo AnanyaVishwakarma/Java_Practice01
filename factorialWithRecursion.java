@@ -8,9 +8,10 @@ public class factorialWithRecursion {
         return checkFactorial(n*(n-1));
      }
     public static void main(String[] args) {
-        
-    }    
+     Scanner sc = new Scanner(System.in);
+ }    
 }
+
 
 
 
