@@ -9,8 +9,11 @@ public class factorialWithRecursion {
      }
     public static void main(String[] args) {
      Scanner sc = new Scanner(System.in);
-     factorialWithRecursion obj = new factorialWithRecursion(); }    
+     factorialWithRecursion obj = new factorialWithRecursion();
+     int n = sc.nextInt();
+ }    
 }
+
 
 
 
