@@ -5,7 +5,7 @@ public class factorialWithRecursion {
         if(n <= 1){
             return n;
         }
-        return checkFactorial(n*(n-1));
+        return n * checkFactorial(n-1);
      }
     public static void main(String[] args) {
      Scanner sc = new Scanner(System.in);
@@ -14,6 +14,7 @@ public class factorialWithRecursion {
      System.out.println(obj.checkFactorial(n));   
     }    
 }
+
 
 
 
