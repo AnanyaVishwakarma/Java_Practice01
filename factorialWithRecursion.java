@@ -11,8 +11,10 @@ public class factorialWithRecursion {
      Scanner sc = new Scanner(System.in);
      factorialWithRecursion obj = new factorialWithRecursion();
      int n = sc.nextInt();
- }    
+     System.out.println(obj.checkFactorial(n));   
+    }    
 }
+
 
 
 
