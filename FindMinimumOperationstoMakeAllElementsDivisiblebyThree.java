@@ -19,7 +19,11 @@ public class FindMinimumOperationstoMakeAllElementsDivisiblebyThree {
      public int minimumOperations(int[] nums) {
         int n = nums.length;
     }   
+    public static void main(String[] args) {
+        
+    }     
 }
+
 
 
 
