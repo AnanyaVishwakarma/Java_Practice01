@@ -16,7 +16,10 @@ Constraints:
 1 <= nums[i] <= 50 */
 
 public class FindMinimumOperationstoMakeAllElementsDivisiblebyThree {
-     public int minimumOperations(int[] nums) {}   
+     public int minimumOperations(int[] nums) {
+        int n = nums.length;
+    }   
 }
+
 
 
