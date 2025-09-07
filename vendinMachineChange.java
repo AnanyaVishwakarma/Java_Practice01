@@ -20,8 +20,12 @@ public class vendinMachineChange {
         }
         return count;
     }
+    public static void main(String[] args) {
+}
+    
     
 }
+
 
 
 
