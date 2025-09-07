@@ -7,10 +7,11 @@ and move to the next smaller denomination. Repeat until the amount is zero.
 
 What it tests: Greedy approach, logical thinking. */
 public class vendinMachineChange {
-    public int checkForChange(){
+    public int checkForChange(int target){
         
     }
     
 }
+
 
 
