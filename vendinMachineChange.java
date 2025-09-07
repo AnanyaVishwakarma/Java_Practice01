@@ -15,11 +15,13 @@ public class vendinMachineChange {
         for(int i = 0; i<notes.length; i++){
             if(notes[i] <= target){
                 sumTotal += notes[i];
+                count++;
             }
         }
     }
     
 }
+
 
 
 
