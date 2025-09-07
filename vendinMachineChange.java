@@ -18,9 +18,11 @@ public class vendinMachineChange {
                 count++;
             }
         }
+        return count;
     }
     
 }
+
 
 
 
