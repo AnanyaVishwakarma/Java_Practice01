@@ -12,9 +12,11 @@ public class vendinMachineChange {
 
         int count = 0;
         int sumTotal = 0;
+        for(int i = 0; i<notes.length; i++){}
     }
     
 }
+
 
 
 
