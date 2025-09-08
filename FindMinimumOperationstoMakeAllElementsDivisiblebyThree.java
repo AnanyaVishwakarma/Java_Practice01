@@ -22,7 +22,8 @@ public class FindMinimumOperationstoMakeAllElementsDivisiblebyThree {
             if(nums[i] %3 != 0){
                 nums[i]++;                 
                 nums[i]--;
-            }             
+            }       
+                count++;             
         }          
     }   
     public static void main(String[] args) {
@@ -30,6 +31,7 @@ public class FindMinimumOperationstoMakeAllElementsDivisiblebyThree {
         
     }     
 }
+
 
 
 
