@@ -31,10 +31,10 @@ public class FindMinimumOperationstoMakeAllElementsDivisiblebyThree {
     Scanner sc = new Scanner(System.in);
     FindMinimumOperationstoMakeAllElementsDivisiblebyThree obj = new FindMinimumOperationstoMakeAllElementsDivisiblebyThree();
     int n = sc.nextInt();
-         
-        
+    int[] nums = new int[n];         
     }     
 }
+
 
 
 
