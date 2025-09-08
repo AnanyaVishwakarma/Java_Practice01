@@ -32,8 +32,10 @@ public class FindMinimumOperationstoMakeAllElementsDivisiblebyThree {
     FindMinimumOperationstoMakeAllElementsDivisiblebyThree obj = new FindMinimumOperationstoMakeAllElementsDivisiblebyThree();
     int n = sc.nextInt();
     int[] nums = new int[n];         
+        for(int i = 0; i < n; i++){}         
     }     
 }
+
 
 
 
