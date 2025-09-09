@@ -12,6 +12,9 @@ Output: [0]
 Constraints:
 1 <= n <= 1000 */
 public class FindNUniqueIntegersSumuptoZero {
+    public int[] sumZero(int n) {   
     
+    }    
 }
+
 
