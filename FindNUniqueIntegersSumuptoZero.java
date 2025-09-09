@@ -16,10 +16,12 @@ import java.math.*;
 public class FindNUniqueIntegersSumuptoZero {
     public int[] sumZero(int n) {   
     int[] arr = new int[n];    
+    int maxVal = Integer.MIN_VALUE;        
     int sum = 0;
         
     }    
 }
+
 
 
 
