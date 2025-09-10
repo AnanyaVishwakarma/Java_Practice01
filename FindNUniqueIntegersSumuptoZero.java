@@ -15,7 +15,7 @@ import java.util.*;
 import java.math.*;
 public class FindNUniqueIntegersSumuptoZero {
     public int[] sumZero(int n) {   
-    int[] arr = new int[n];    
+   ArrayList<Integer> list = new ArrayList<>();
     int maxVal = Integer.MIN_VALUE;        
     int sum = 0;
     for(int i = 0;i < n; i++){
@@ -23,6 +23,7 @@ public class FindNUniqueIntegersSumuptoZero {
     }            
     }    
 }
+
 
 
 
