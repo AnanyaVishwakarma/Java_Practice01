@@ -21,8 +21,12 @@ public class FindNUniqueIntegersSumuptoZero {
     for(int i = 0;i < n; i++){
         arr[i] = Math.floor.random(maxVal);
     }            
-    }    
+    } 
+     public static void main(String[] args) {
+        
+    }   
 }
+
 
 
 
