@@ -18,14 +18,13 @@ public class FindNUniqueIntegersSumuptoZero {
    ArrayList<Integer> list = new ArrayList<>();
     int maxVal = Integer.MIN_VALUE;        
     int sum = 0;
-    for(int i = 0;i < n; i++){
-        arr[i] = Math.floor.random(maxVal);
-    }            
+        arr[i] = Math.floor.random(maxVal);           
     } 
      public static void main(String[] args) {
         
     }   
 }
+
 
 
 
