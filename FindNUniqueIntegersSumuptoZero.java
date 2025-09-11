@@ -19,6 +19,7 @@ public class FindNUniqueIntegersSumuptoZero {
         int index = 0;
         for(int i = 1; index + 1 < n; i++){
                 ans[index++] = i;
+            ans[index++] = -i;
             }
             
     }
@@ -27,6 +28,7 @@ public class FindNUniqueIntegersSumuptoZero {
         
     }   
 }
+
 
 
 
