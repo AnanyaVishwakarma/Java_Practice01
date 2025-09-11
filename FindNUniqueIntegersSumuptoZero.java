@@ -16,6 +16,7 @@ import java.math.*;
 public class FindNUniqueIntegersSumuptoZero {
     public int[] sumZero(int n) {
         int[] ans = new int[n];
+        int index = 0;
         
     }
 
@@ -23,6 +24,7 @@ public class FindNUniqueIntegersSumuptoZero {
         
     }   
 }
+
 
 
 
