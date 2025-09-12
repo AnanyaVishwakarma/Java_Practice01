@@ -28,9 +28,11 @@ public class FindNUniqueIntegersSumuptoZero {
      public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         FindNUniqueIntegersSumuptoZero obj = new FindNUniqueIntegersSumuptoZero();
-         
+        int n = sc.nextInt();
+        System.out.println(Arrays.toString(obj.sumZero(n)));         
     }   
 }
+
 
 
 
