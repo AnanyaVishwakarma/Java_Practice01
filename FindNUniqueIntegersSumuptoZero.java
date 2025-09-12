@@ -22,12 +22,14 @@ public class FindNUniqueIntegersSumuptoZero {
             ans[index++] = -i;
             }
         if(index < n) ans[index] = 0;
+        return ans;
     }
 
      public static void main(String[] args) {
         
     }   
 }
+
 
 
 
