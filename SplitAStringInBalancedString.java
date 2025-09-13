@@ -15,7 +15,7 @@ Example 3:
 Input: s = "LLLLRRRR"
 Output: 1
 Explanation: s can be split into "LLLLRRRR". */
-
+import java.util.*;
 public class SplitAStringInBalancedString {
     public int balancedStringSplit(String s) {
 
@@ -24,6 +24,7 @@ public class SplitAStringInBalancedString {
         
     }    
 }
+
 
 
 
