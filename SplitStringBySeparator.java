@@ -35,7 +35,7 @@ Example 3:
 Input: words = ["|||"], separator = "|"
 Output: []
 Explanation: In this example the resulting split of "|||" will contain only empty strings, so we return an empty array []. */
-
+import java.util.*;
 public class SplitStringBySeparator {
     public List<String> splitWordsBySeparator(List<String> words, char separator) {
         List<String> result = new ArrayList<>();
@@ -55,5 +55,6 @@ public class SplitStringBySeparator {
   
  }
 }
+
 
 
