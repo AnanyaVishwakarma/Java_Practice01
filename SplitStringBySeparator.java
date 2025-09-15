@@ -53,9 +53,11 @@ public class SplitStringBySeparator {
  public static void main(String[] args){
   SplitStringBySeparator obj = new SplitStringBySeparator();
   Scanner sc = new Scanner(System.in);
-  String[] = sc.next();
+  String[] = 
+  for(int i = 0; i < n; i++){}
  }
 }
+
 
 
 
