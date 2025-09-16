@@ -18,12 +18,15 @@ Explanation: s can be split into "LLLLRRRR". */
 import java.util.*;
 public class SplitAStringInBalancedString {
     public int balancedStringSplit(String s) {
+        int n = s.length();
+        
 
     }    
     public static void main(String[] args) {
         
     }    
 }
+
 
 
 
