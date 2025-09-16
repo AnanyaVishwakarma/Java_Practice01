@@ -19,13 +19,15 @@ import java.util.*;
 public class SplitAStringInBalancedString {
     public int balancedStringSplit(String s) {
         int n = s.length();
-        
-
+        for(int i = 0; i < n; i++){
+            
+        }
     }    
     public static void main(String[] args) {
         
     }    
 }
+
 
 
 
