@@ -23,6 +23,7 @@ public class SplitAStringInBalancedString {
         for(int i = 0; i < n; i++){
             if(s.charAt(i) == s.charAt(i+1)){
             s.substring(i, i+1);
+            count++;
         }
       }
     }    
@@ -30,6 +31,7 @@ public class SplitAStringInBalancedString {
         
     }    
 }
+
 
 
 
