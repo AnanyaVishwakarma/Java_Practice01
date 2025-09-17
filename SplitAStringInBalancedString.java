@@ -26,11 +26,13 @@ public class SplitAStringInBalancedString {
             count++;
         }
       }
+        return count;
     }    
     public static void main(String[] args) {
         
     }    
 }
+
 
 
 
