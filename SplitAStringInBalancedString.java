@@ -24,11 +24,13 @@ public class SplitAStringInBalancedString {
             if(s.charAt(i) == s.charAt(i+1)){
             s.substring(i, i+1);
         }
+      }
     }    
     public static void main(String[] args) {
         
     }    
 }
+
 
 
 
