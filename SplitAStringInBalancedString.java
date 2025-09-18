@@ -32,6 +32,7 @@ public class SplitAStringInBalancedString {
         Scanner sc = new Scanner(System.in);
         SplitAStringInBalancedString obj = new SplitAStringInBalancedString();
         String s = sc.next();
-        
+        System.out.println(obj.balancedStringSplit(s));        
     }    
 }
+
