@@ -25,8 +25,7 @@ public class SplitAStringInBalancedString {
         for(int i = 1; i < n-1; i++){
              if(chArray[i] != chArray[i - 1]){
                 String concatinate = "" + chArray[i-1] + chArray[i];
-                s.substring(i, i+2);
-            count++;
+                count++;
         }
       }
         return count;
@@ -38,6 +37,7 @@ public class SplitAStringInBalancedString {
         System.out.println(obj.balancedStringSplit(s));        
     }    
 }
+
 
 
 
