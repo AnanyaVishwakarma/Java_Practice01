@@ -19,15 +19,7 @@ import java.util.*;
 public class SplitAStringInBalancedString {
     public int balancedStringSplit(String s) {
         int n = s.length();
-        String[] arr = new String[n];
-        char[] chArray = s.toCharArray();
-        int count = 0;
-        for(int i = 1; i < n-1; i++){
-             if(chArray[i] != chArray[i - 1]){
-                String concatinate = "" + chArray[i-1] + chArray[i];
-                count++;
-        }
-      }
+
         return count;
     }    
     public static void main(String[] args) {
@@ -37,6 +29,7 @@ public class SplitAStringInBalancedString {
         System.out.println(obj.balancedStringSplit(s));        
     }    
 }
+
 
 
 
