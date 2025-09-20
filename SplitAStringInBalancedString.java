@@ -24,7 +24,7 @@ public class SplitAStringInBalancedString {
             if(s.charAt(i) == 'R'){
                 balance += 1;
             } else{
-                
+                balance--;
             }
         }
      return count;
@@ -36,6 +36,7 @@ public class SplitAStringInBalancedString {
         System.out.println(obj.balancedStringSplit(s));        
     }    
 }
+
 
 
 
