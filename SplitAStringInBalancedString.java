@@ -19,6 +19,7 @@ import java.util.*;
 public class SplitAStringInBalancedString {
     public int balancedStringSplit(String s) {
         int n = s.length();
+        int balance = 0;
         for(int i = 0; i<n; i++){
             if(s.charAt(i) == 'R'){
                 
@@ -33,6 +34,7 @@ public class SplitAStringInBalancedString {
         System.out.println(obj.balancedStringSplit(s));        
     }    
 }
+
 
 
 
