@@ -27,6 +27,9 @@ public class SplitAStringInBalancedString {
             } else{
                 balance--;
             }
+            if(balance == 0){
+                
+            }
         }
      return count;
     }    
@@ -37,6 +40,7 @@ public class SplitAStringInBalancedString {
         System.out.println(obj.balancedStringSplit(s));        
     }    
 }
+
 
 
 
