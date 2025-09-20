@@ -19,8 +19,10 @@ import java.util.*;
 public class SplitAStringInBalancedString {
     public int balancedStringSplit(String s) {
         int n = s.length();
-
-        return count;
+        for(int i = 0; i<n; i++){
+            
+        }
+     return count;
     }    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -29,6 +31,7 @@ public class SplitAStringInBalancedString {
         System.out.println(obj.balancedStringSplit(s));        
     }    
 }
+
 
 
 
