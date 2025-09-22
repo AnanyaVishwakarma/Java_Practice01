@@ -18,6 +18,10 @@ public class MinimumSumofFourDigitNumberAfterSplittingDigits {
     public int minimumSum(int num) {
         
     }    
+    public static void main(String[] args) {
+        
+    }   
 }
+
 
 
