@@ -15,6 +15,9 @@ The minimum sum can be obtained by the pair [4, 9]: 4 + 9 = 13.
 Constraints:
 1000 <= num <= 9999*/
 public class MinimumSumofFourDigitNumberAfterSplittingDigits {
-    
+    public int minimumSum(int num) {
+        
+    }    
 }
+
 
