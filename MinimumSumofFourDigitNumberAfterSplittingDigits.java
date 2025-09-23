@@ -19,6 +19,7 @@ public class MinimumSumofFourDigitNumberAfterSplittingDigits {
         if(num > 1000 || num < 9999){   
             int d1 = num / 1000;
             int d2 = (num / 100) % 10;
+            int d3 = (num /10) % 10;
  
         }        
     }    
@@ -26,6 +27,7 @@ public class MinimumSumofFourDigitNumberAfterSplittingDigits {
         
     }   
 }
+
 
 
 
