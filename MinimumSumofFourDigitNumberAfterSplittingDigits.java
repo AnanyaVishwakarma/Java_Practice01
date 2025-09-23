@@ -16,12 +16,14 @@ Constraints:
 1000 <= num <= 9999*/
 public class MinimumSumofFourDigitNumberAfterSplittingDigits {
     public int minimumSum(int num) {
-        
+        if(num > 1000 || num < 9999){   
+        }        
     }    
     public static void main(String[] args) {
         
     }   
 }
+
 
 
 
