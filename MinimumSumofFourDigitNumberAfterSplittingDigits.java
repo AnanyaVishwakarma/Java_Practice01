@@ -19,11 +19,15 @@ public class MinimumSumofFourDigitNumberAfterSplittingDigits {
         if(num < 1000 || num > 9999){
             return 0;
         }
-    }    
+
+        int new1 = num/100;
+        int new2 = num%100;
+ }    
     public static void main(String[] args) {
         
     }   
 }
+
 
 
 
