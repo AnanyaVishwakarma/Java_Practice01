@@ -34,12 +34,16 @@ public class MinimumSumofFourDigitNumberAfterSplittingDigits {
         String sortedNum1 = new String(firstPair);
         String sortedNum2 = new String(secondPair);
         
+        int sortedNew1 = Integer.parseInt(sortedNum1);
+        int sortedNew2 = Integer.parseInt(sortedNum2);
+        
 
  }    
     public static void main(String[] args) {
         
     }   
 }
+
 
 
 
