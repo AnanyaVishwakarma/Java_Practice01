@@ -25,11 +25,15 @@ public class MinimumSumofFourDigitNumberAfterSplittingDigits {
 
         String strNum1 = String.valueOf(new1);
         String strNum2 = String.valueOf(new2);
+
+        char[] firstPair = strNum1.toCharArray();
+        char[] secondPair = strNum2.toCharArray();
  }    
     public static void main(String[] args) {
         
     }   
 }
+
 
 
 
