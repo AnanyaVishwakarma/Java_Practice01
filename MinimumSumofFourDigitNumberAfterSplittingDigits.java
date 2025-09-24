@@ -22,11 +22,15 @@ public class MinimumSumofFourDigitNumberAfterSplittingDigits {
 
         int new1 = num/100;
         int new2 = num%100;
+
+        String strNum1 = String.valueOf(new1);
+        String strNum2 = String.valueOf(new2);
  }    
     public static void main(String[] args) {
         
     }   
 }
+
 
 
 
