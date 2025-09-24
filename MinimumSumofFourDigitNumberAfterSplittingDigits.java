@@ -43,9 +43,10 @@ public class MinimumSumofFourDigitNumberAfterSplittingDigits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         MinimumSumofFourDigitNumberAfterSplittingDigits obj = new MinimumSumofFourDigitNumberAfterSplittingDigits();
-        
+        int num = sc.nextInt();
     }   
 }
+
 
 
 
