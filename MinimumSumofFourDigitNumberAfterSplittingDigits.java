@@ -28,11 +28,16 @@ public class MinimumSumofFourDigitNumberAfterSplittingDigits {
 
         char[] firstPair = strNum1.toCharArray();
         char[] secondPair = strNum2.toCharArray();
+        
+        Arrays.sort(firstPair);
+        Arrays.sort(secondPair);
+
  }    
     public static void main(String[] args) {
         
     }   
 }
+
 
 
 
