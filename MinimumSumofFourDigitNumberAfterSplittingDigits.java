@@ -49,6 +49,7 @@ public class MinimumSumofFourDigitNumberAfterSplittingDigits {
         Arrays.sort(digits);
 
         int num1 = digits[0] * 10 + digits[2];
+        int num2 = digits[1] * 10 + digits[3];
         
  }    
     public static void main(String[] args) {
@@ -58,6 +59,7 @@ public class MinimumSumofFourDigitNumberAfterSplittingDigits {
         System.out.println(obj.minimumSum(num));
     }        
 }
+
 
 
 
