@@ -42,6 +42,7 @@ public class MinimumSumofFourDigitNumberAfterSplittingDigits {
 
         //OPTIMAL SOLUTION
         int[] digit = new int[4];
+        for(int i = 0; i< 4; i++){}
         
         
  }    
@@ -52,6 +53,7 @@ public class MinimumSumofFourDigitNumberAfterSplittingDigits {
         System.out.println(obj.minimumSum(num));
     }        
 }
+
 
 
 
