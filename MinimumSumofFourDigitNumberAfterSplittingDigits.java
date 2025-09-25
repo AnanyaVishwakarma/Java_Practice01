@@ -16,29 +16,32 @@ Constraints:
 1000 <= num <= 9999*/
 public class MinimumSumofFourDigitNumberAfterSplittingDigits {
     public int minimumSum(int num) {
-        if(num < 1000 || num > 9999){
-            return 0;
-        }
+        //BRUTE FORCE METHOD
+// if(num < 1000 || num > 9999){
+        //     return 0;
+        // }
 
-        int new1 = num/100;
-        int new2 = num%100;
+        // int new1 = num/100;
+        // int new2 = num%100;
 
-        String strNum1 = String.valueOf(new1);
-        String strNum2 = String.valueOf(new2);
+        // String strNum1 = String.valueOf(new1);
+        // String strNum2 = String.valueOf(new2);
 
-        char[] firstPair = strNum1.toCharArray();
-        char[] secondPair = strNum2.toCharArray();
+        // char[] firstPair = strNum1.toCharArray();
+        // char[] secondPair = strNum2.toCharArray();
         
-        Arrays.sort(firstPair);
-        Arrays.sort(secondPair);
-        String sortedNum1 = new String(firstPair);
-        String sortedNum2 = new String(secondPair);
+        // Arrays.sort(firstPair);
+        // Arrays.sort(secondPair);
+        // String sortedNum1 = new String(firstPair);
+        // String sortedNum2 = new String(secondPair);
         
-        int sortedNew1 = Integer.parseInt(sortedNum1);
-        int sortedNew2 = Integer.parseInt(sortedNum2);
+        // int sortedNew1 = Integer.parseInt(sortedNum1);
+        // int sortedNew2 = Integer.parseInt(sortedNum2);
         
-        return sortedNew1 + sortedNew2;        
-   
+        // return sortedNew1 + sortedNew2;        
+
+        //OPTIMAL SOLUTION
+        
  }    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -47,6 +50,7 @@ public class MinimumSumofFourDigitNumberAfterSplittingDigits {
         System.out.println(obj.minimumSum(num));
     }        
 }
+
 
 
 
