@@ -21,8 +21,11 @@ public class ShuffleTheArray {
             for(int j=n; j < n*2; j++){
                 list.add(nums[i]);
                 list.add(nums[j]);        
+            }
+        }        
     }        
 }
+
 
 
 
