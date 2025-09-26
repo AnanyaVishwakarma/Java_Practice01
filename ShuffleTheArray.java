@@ -20,9 +20,10 @@ public class ShuffleTheArray {
         for(int i = 0; i < n; i++){
             for(int j=n; j < n*2; j++){
                 list.add(nums[i]);
-        
+                list.add(nums[j]);        
     }        
 }
+
 
 
 
