@@ -17,7 +17,9 @@ nums.length == 2n
 public class ShuffleTheArray {
     public int[] shuffle(int[] nums, int n) {
         ArrayList<Integer> list = new ArrayList<>();
+        for(int i = 0; i < n; i++){
         
     }        
 }
+
 
