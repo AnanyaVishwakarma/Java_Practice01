@@ -22,9 +22,12 @@ public class ShuffleTheArray {
                 list.add(nums[i]);
                 list.add(nums[j]);        
             }
-        }        
+        }  
+        int[] result = list.toArray();
+        return result;
     }        
 }
+
 
 
 
