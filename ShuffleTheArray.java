@@ -25,12 +25,8 @@ public class ShuffleTheArray {
         }  
         int[] result = list.toArray();
         return result;
+    }    
+    public static void main(String[] args) {
+        
     }        
 }
-
-
-
-
-
-
-
