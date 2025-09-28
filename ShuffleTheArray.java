@@ -23,12 +23,13 @@ public class ShuffleTheArray {
                 list.add(nums[j]);        
             }
         }  
-        int[] result = list.toArray();
+        int[] result = new int[list.size()];
         return result;
     }    
     public static void main(String[] args) {
         
     }        
 }
+
 
 
