@@ -27,9 +27,12 @@ public class ShuffleTheArray {
         return result;
     }    
     public static void main(String[] args) {
+        Scannre sc = new Scanner(System.in);
+        
         
     }        
 }
+
 
 
 
