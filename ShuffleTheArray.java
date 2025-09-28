@@ -34,8 +34,10 @@ public class ShuffleTheArray {
         for(int i = 0; i < n*2; i++ ){
             nums[i] = sc.nextInt();
         }
+        System.out.println(Arrays.toString(obj.shuffle(nums, n)));
     }        
 }
+
 
 
 
