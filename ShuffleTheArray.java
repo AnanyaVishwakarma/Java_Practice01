@@ -27,6 +27,7 @@ public class ShuffleTheArray {
         for(int i = 1; i <= list.size();i++){
         result[i] = list.get(i);
       }
+        
         return result;
     }    
     public static void main(String[] args) {
@@ -40,6 +41,7 @@ public class ShuffleTheArray {
         System.out.println(Arrays.toString(obj.shuffle(nums, n)));
     }        
 }
+
 
 
 
