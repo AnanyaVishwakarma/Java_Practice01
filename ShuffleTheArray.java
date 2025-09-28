@@ -31,9 +31,12 @@ public class ShuffleTheArray {
         ShuffleTheArray obj = new ShuffleTheArray();
         int n = sc.nextInt();
         int[] nums = new int[n*2];
-        
+        for(int i = 0; i < n*2; i++ ){
+            nums[i] = sc.nextInt();
+        }
     }        
 }
+
 
 
 
