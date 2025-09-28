@@ -30,9 +30,10 @@ public class ShuffleTheArray {
         Scannre sc = new Scanner(System.in);
         ShuffleTheArray obj = new ShuffleTheArray();
         int n = sc.nextInt();
-        
+        int[] nums = new int[n*2];
     }        
 }
+
 
 
 
