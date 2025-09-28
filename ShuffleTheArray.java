@@ -28,10 +28,12 @@ public class ShuffleTheArray {
     }    
     public static void main(String[] args) {
         Scannre sc = new Scanner(System.in);
+        ShuffleTheArray obj = new ShuffleTheArray();
         
         
     }        
 }
+
 
 
 
