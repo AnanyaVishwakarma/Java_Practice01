@@ -16,7 +16,8 @@ nums.length == 2n
 1 <= nums[i] <= 10^3 */
 public class ShuffleTheArray {
     public int[] shuffle(int[] nums, int n) {
-        
+        int[] result  = new int[2*n];
+
         return result;
     }    
     public static void main(String[] args) {
@@ -30,6 +31,7 @@ public class ShuffleTheArray {
         System.out.println(Arrays.toString(obj.shuffle(nums, n)));
     }        
 }
+
 
 
 
