@@ -24,7 +24,7 @@ public class ShuffleTheArray {
             }
         }  
         int[] result = new int[list.size()];
-        for(int i = 1; i <= list.size();i++){
+        for(int i = 1; i < list.size();i++){
         result[i] = list.get(i);
       }
         
@@ -41,6 +41,7 @@ public class ShuffleTheArray {
         System.out.println(Arrays.toString(obj.shuffle(nums, n)));
     }        
 }
+
 
 
 
