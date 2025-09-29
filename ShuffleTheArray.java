@@ -33,24 +33,3 @@ public class ShuffleTheArray {
         System.out.println(Arrays.toString(obj.shuffle(nums, n)));
     }        
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
