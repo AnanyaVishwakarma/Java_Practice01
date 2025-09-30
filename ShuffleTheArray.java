@@ -19,7 +19,7 @@ public class ShuffleTheArray {
         int[] result  = new int[2*n];
         for(int i = 0; i < n; i++){
             result[2*i] = nums[i];     
-            result[2*i-1]= nums[j];
+            result[2*i-1]= nums[i+1];
         }
         return result;
     }    
@@ -34,5 +34,6 @@ public class ShuffleTheArray {
         System.out.println(Arrays.toString(obj.shuffle(nums, n)));
     }        
 }
+
 
 
