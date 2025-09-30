@@ -20,7 +20,7 @@ public class ShuffleTheArray {
         for(int i = 0; i < n; i++){
             result[2*i] = nums[i];     
             // result[2*i-1]= nums[i+1]; wrong because when i = 0 it becomes -1 which is invalid and will throw exception
-            result[2*i+1] = nums[i]
+            result[2*i+1] = nums[i+n]
         }
         return result;
     }    
@@ -35,6 +35,7 @@ public class ShuffleTheArray {
         System.out.println(Arrays.toString(obj.shuffle(nums, n)));
     }        
 }
+
 
 
 
