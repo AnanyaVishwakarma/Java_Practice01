@@ -19,12 +19,14 @@ points[i].length == 2
 public class WidestVerticalAreaBetweenTwoPointsContainingNoPoints {
     public int maxWidthOfVerticalArea(int[][] points) {\
         int n = points.length;
+        int[] xCoords =
         
     }   
     public static void main(String[] args) {
         
     }     
 }
+
 
 
 
