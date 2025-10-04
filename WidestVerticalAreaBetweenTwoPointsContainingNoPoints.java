@@ -24,12 +24,13 @@ public class WidestVerticalAreaBetweenTwoPointsContainingNoPoints {
             xCoords[i] = points[i][0];
             
         }
-        
+        return 0;
     }   
     public static void main(String[] args) {
         
     }     
 }
+
 
 
 
