@@ -22,6 +22,7 @@ public class WidestVerticalAreaBetweenTwoPointsContainingNoPoints {
         int[] xCoords = new int[n];
         for(int i = 0; i< n; i++){
             xCoords[i] = points[i][0];
+            
         }
         
     }   
@@ -29,6 +30,7 @@ public class WidestVerticalAreaBetweenTwoPointsContainingNoPoints {
         
     }     
 }
+
 
 
 
