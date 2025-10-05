@@ -39,9 +39,12 @@ public class WidestVerticalAreaBetweenTwoPointsContainingNoPoints {
         int n = sc.nextInt();
         int[][] points = new int[n][2];
         for(int i = 0; i<n; i++){
+            points[i][0] = sc.nextInt();
+            
         }
     }     
 }
+
 
 
 
