@@ -27,6 +27,9 @@ public class WidestVerticalAreaBetweenTwoPointsContainingNoPoints {
         int maxGap = 0;
         for(int i = 1; i <n; i++){
             int gap  = xCoords[i] - xCoords[i-1];
+            if(gap  > maxGap){
+                
+            }
         }
         return 0;
     }   
@@ -34,6 +37,7 @@ public class WidestVerticalAreaBetweenTwoPointsContainingNoPoints {
         
     }     
 }
+
 
 
 
