@@ -26,7 +26,7 @@ public class WidestVerticalAreaBetweenTwoPointsContainingNoPoints {
         Arrays.sort(xCoords);
         int maxGap = 0;
         for(int i = 1; i <n; i++){
-            int gap  = x
+            int gap  = xCoords[i] - xCoords[i-1];
         }
         return 0;
     }   
@@ -34,6 +34,7 @@ public class WidestVerticalAreaBetweenTwoPointsContainingNoPoints {
         
     }     
 }
+
 
 
 
