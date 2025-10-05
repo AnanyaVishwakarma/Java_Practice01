@@ -35,8 +35,10 @@ public class WidestVerticalAreaBetweenTwoPointsContainingNoPoints {
     }   
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        WidestVerticalAreaBetweenTwoPointsContainingNoPoints obj = new WidestVerticalAreaBetweenTwoPointsContainingNoPoints();
     }     
 }
+
 
 
 
