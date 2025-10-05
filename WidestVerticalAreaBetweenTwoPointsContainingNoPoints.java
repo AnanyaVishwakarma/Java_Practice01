@@ -42,8 +42,10 @@ public class WidestVerticalAreaBetweenTwoPointsContainingNoPoints {
             points[i][0] = sc.nextInt();
             points[i][1] = sc.nextInt();
         }
+        System.out.println(obj.maxWidthOfVerticalArea(points));
     }     
 }
+
 
 
 
