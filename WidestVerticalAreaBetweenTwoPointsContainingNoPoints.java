@@ -24,12 +24,16 @@ public class WidestVerticalAreaBetweenTwoPointsContainingNoPoints {
             xCoords[i] = points[i][0];
         }
         Arrays.sort(xCoords);
+        for(int i = 1; i <n; i++){
+            int gap  = x
+        }
         return 0;
     }   
     public static void main(String[] args) {
         
     }     
 }
+
 
 
 
