@@ -31,12 +31,13 @@ public class WidestVerticalAreaBetweenTwoPointsContainingNoPoints {
                 maxGap = gap;
             }
         }
-        return 0;
+        return maxGap;
     }   
     public static void main(String[] args) {
         
     }     
 }
+
 
 
 
