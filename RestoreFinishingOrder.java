@@ -21,7 +21,11 @@ friends is strictly increasing */
 public class RestoreFinishingOrder {
     public int[] recoverOrder(int[] order, int[] friends) {
         
+    }   
+    public static void main(String[] args) {
+        
     }    
 }
+
 
 
