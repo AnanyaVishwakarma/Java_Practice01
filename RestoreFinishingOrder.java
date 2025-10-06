@@ -20,12 +20,15 @@ order contains every integer from 1 to n exactly once
 friends is strictly increasing */
 public class RestoreFinishingOrder {
     public int[] recoverOrder(int[] order, int[] friends) {
-        
+       /*int[] friends: This declares an array of primitive int values.
+Arrays.asList(friends): When you pass a primitive array to Arrays.asList(),*/
+          
     }   
     public static void main(String[] args) {
         
     }    
 }
+
 
 
 
