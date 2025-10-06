@@ -23,12 +23,14 @@ public class RestoreFinishingOrder {
        /*int[] friends: This declares an array of primitive int values.
 Arrays.asList(friends): When you pass a primitive array to Arrays.asList(),*/
         //Set<Integer> set = new HashSet<>(Arrays.asList(friends));
-        
+        Set<Integer> set = Arrays.stream(friends).boxed().collect(Collectors.toCollection(HashSet::new));
+       
     }   
     public static void main(String[] args) {
         
     }    
 }
+
 
 
 
