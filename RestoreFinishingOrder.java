@@ -24,12 +24,15 @@ public class RestoreFinishingOrder {
 Arrays.asList(friends): When you pass a primitive array to Arrays.asList(),*/
         //Set<Integer> set = new HashSet<>(Arrays.asList(friends));
         Set<Integer> set = Arrays.stream(friends).boxed().collect(Collectors.toCollection(HashSet::new));
+        for(int i = 0; i < order.length; i++){
+        }
        
     }   
     public static void main(String[] args) {
         
     }    
 }
+
 
 
 
