@@ -29,12 +29,13 @@ Arrays.asList(friends): When you pass a primitive array to Arrays.asList(),*/
                 result.add(order[i]);
             }
         }
-       
+        int[] resultList = result.stream().mapToInt(Integer::intValue).toArray();       
     }   
     public static void main(String[] args) {
         
     }    
 }
+
 
 
 
