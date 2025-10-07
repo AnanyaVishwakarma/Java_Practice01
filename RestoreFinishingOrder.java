@@ -26,7 +26,7 @@ Arrays.asList(friends): When you pass a primitive array to Arrays.asList(),*/
        Set<Integer> set = Arrays.stream(friends).boxed().collect(Collectors.toSet());       
         for(int i = 0; i < order.length; i++){
             if(set.contains(order[i])){
-                
+                result.add(order[i]);
             }
         }
        
@@ -35,6 +35,7 @@ Arrays.asList(friends): When you pass a primitive array to Arrays.asList(),*/
         
     }    
 }
+
 
 
 
