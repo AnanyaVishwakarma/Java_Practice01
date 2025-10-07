@@ -33,9 +33,12 @@ Arrays.asList(friends): When you pass a primitive array to Arrays.asList(),*/
         return resultList;
     }   
     public static void main(String[] args) {
+     Scanner sc = new Scanner(System.in);
+     RestoreFinishingOrder obj = new RestoreFinishingOrder();
         
     }    
 }
+
 
 
 
