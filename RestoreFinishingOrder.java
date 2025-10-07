@@ -42,22 +42,9 @@ Arrays.asList(friends): When you pass a primitive array to Arrays.asList(),*/
      for(int i = 0; i < n; i++){
         order[i] = sc.nextInt();
      }
+     int[] friends = new int[m];
+     for(int i = 0; i < m; i++){
+        friends[i] = sc.nextInt();
+     }
     }        
     }    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
