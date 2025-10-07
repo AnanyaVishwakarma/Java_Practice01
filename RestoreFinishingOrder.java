@@ -46,5 +46,7 @@ Arrays.asList(friends): When you pass a primitive array to Arrays.asList(),*/
      for(int i = 0; i < m; i++){
         friends[i] = sc.nextInt();
      }
+     System.out.println(Arrays.toString(obj.recoverOrder(order, friends)));
     }        
     }    
+
