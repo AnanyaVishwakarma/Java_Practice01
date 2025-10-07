@@ -38,9 +38,14 @@ Arrays.asList(friends): When you pass a primitive array to Arrays.asList(),*/
      int n = sc.nextInt();
      int m = sc.nextInt();
      
-        
+     int[] order = new int[n];
+     for(int i = 0; i < n; i++){
+        order[i] = sc.nextInt();
+     }
+    }        
     }    
 }
+
 
 
 
