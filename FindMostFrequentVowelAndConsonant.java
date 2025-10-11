@@ -23,6 +23,7 @@ Constraints:
 1 <= s.length <= 100
 s consists of lowercase English letters only. 
  */
+
 import java.util.*;
 public class FindMostFrequentVowelAndConsonant {
     public int maxFreqSum(String s) {
@@ -30,6 +31,7 @@ public class FindMostFrequentVowelAndConsonant {
     }
     public static void main(String[] args){}
 }
+
 
 
 
