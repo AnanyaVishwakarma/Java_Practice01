@@ -29,8 +29,11 @@ public class FindMostFrequentVowelAndConsonant {
     public int maxFreqSum(String s) {
         
     }
-    public static void main(String[] args){}
+    public static void main(String[] args){
+        
+    }
 }
+
 
 
 
