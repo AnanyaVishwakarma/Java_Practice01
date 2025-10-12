@@ -28,12 +28,15 @@ import java.util.*;
 public class FindMostFrequentVowelAndConsonant {
     public int maxFreqSum(String s) {
         Map<Character, Integer> chMap = new Map<Character,Integer>(); 
-        for(int i = 0; i < s.length(); i++){}        
+        for(int i = 0; i < s.length(); i++){
+            
+        }        
         
     }
     public static void main(String[] args){
         
     }
 }
+
 
 
