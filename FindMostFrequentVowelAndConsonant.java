@@ -27,9 +27,12 @@ s consists of lowercase English letters only.
 import java.util.*;
 public class FindMostFrequentVowelAndConsonant {
     public int maxFreqSum(String s) {
+        Map<Character, Integer> chMap = new Map<Character,Integer>(); 
+        
         
     }
     public static void main(String[] args){
         
     }
 }
+
