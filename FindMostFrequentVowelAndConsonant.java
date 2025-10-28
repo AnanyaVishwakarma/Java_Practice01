@@ -29,7 +29,7 @@ public class FindMostFrequentVowelAndConsonant {
     public int maxFreqSum(String s) {
         Map<Character, Integer> chMap = new HashMap<>(); 
         for(int i = 0; i < s.length(); i++){
-            char ch = s.charAt(i);            
+            har ch = Character.toLowerCase(s.charAt(i));          
             chMap.put(ch, i);
             
         }        
@@ -41,4 +41,5 @@ public class FindMostFrequentVowelAndConsonant {
         
     }
 }
+
 
