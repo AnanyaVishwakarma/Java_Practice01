@@ -34,7 +34,6 @@ public class FindMostFrequentVowelAndConsonant {
             if(Character.isLetter(ch)){
                 chMap.put(ch, chMap.getOrDefault(ch, 0)+ 1);
             }
-            
         }        
         
     }
@@ -44,6 +43,7 @@ public class FindMostFrequentVowelAndConsonant {
         
     }
 }
+
 
 
 
