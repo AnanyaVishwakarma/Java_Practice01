@@ -31,7 +31,9 @@ public class FindMostFrequentVowelAndConsonant {
         for(int i = 0; i < s.length(); i++){
             char ch = Character.toLowerCase(s.charAt(i));          
 
-            if(Character.isLetter(ch)){}
+            if(Character.isLetter(ch)){
+                chMap.put(ch, chMap.getOrDefault(ch, 0)+ 1);
+            }
             
         }        
         
@@ -42,6 +44,7 @@ public class FindMostFrequentVowelAndConsonant {
         
     }
 }
+
 
 
 
