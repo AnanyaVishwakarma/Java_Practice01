@@ -35,7 +35,8 @@ public class FindMostFrequentVowelAndConsonant {
                 chMap.put(ch, chMap.getOrDefault(ch, 0)+ 1);
             }
         }        
-        Set<Character> vowSet = 
+        Set<Character> vowSet = Set.of('a', 'e', 'i', 'o', 'u');
+        
 
         
     }
@@ -45,6 +46,7 @@ public class FindMostFrequentVowelAndConsonant {
         
     }
 }
+
 
 
 
