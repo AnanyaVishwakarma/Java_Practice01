@@ -37,7 +37,7 @@ public class FindMostFrequentVowelAndConsonant {
         }        
         Set<Character> vowSet = Set.of('a', 'e', 'i', 'o', 'u');
         int maxVowelFreq = 0;
-        
+        int maxConsonantFreq = 0;        
 
         
     }
@@ -47,6 +47,7 @@ public class FindMostFrequentVowelAndConsonant {
         
     }
 }
+
 
 
 
