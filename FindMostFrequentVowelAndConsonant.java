@@ -40,7 +40,8 @@ public class FindMostFrequentVowelAndConsonant {
         int maxConsonantFreq = 0;        
 
         for (Map.Entry<Character, Integer> entry : chMap.entrySet()) {
-            char ch =  entry.getKey();           
+            char ch =  entry.getKey();      
+            
         }
 
         
@@ -51,6 +52,7 @@ public class FindMostFrequentVowelAndConsonant {
         
     }
 }
+
 
 
 
