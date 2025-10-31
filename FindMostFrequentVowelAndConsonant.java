@@ -49,8 +49,7 @@ public class FindMostFrequentVowelAndConsonant {
                 maxConsonantFreq = Math.max(maxConsonantFreq, freq);
             }
         }
-
-        
+        return maxVowelFreq + maxConsonantFreq;
     }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -58,6 +57,7 @@ public class FindMostFrequentVowelAndConsonant {
         
     }
 }
+
 
 
 
