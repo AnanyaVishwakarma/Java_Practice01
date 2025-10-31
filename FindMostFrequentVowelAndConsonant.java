@@ -44,7 +44,7 @@ public class FindMostFrequentVowelAndConsonant {
             int freq = entry.getValue();
 
             if(vowels.contains(ch)){
-                max
+                maxVowelFreq = Math.max(maxVowelFreq, freq);
             }
         }
 
@@ -56,6 +56,7 @@ public class FindMostFrequentVowelAndConsonant {
         
     }
 }
+
 
 
 
