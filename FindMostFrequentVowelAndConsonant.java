@@ -55,10 +55,12 @@ public class FindMostFrequentVowelAndConsonant {
         Scanner sc = new Scanner(System.in);
         FindMostFrequentVowelAndConsonant obj = new FindMostFrequentVowelAndConsonant();
 
-        String s 
+        
+        String s = sc.next();
         
     }
 }
+
 
 
 
