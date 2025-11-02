@@ -22,8 +22,10 @@ public class jewelAndStones {
         for(char ch: stones.toCharArray()){
             if(jewelSet.contains(ch)) count++;
         }
+        return count;
     }       
 }
+
 
 
 
