@@ -18,11 +18,13 @@ public class jewelAndStones {
         for(int i = 0; i < jewel.length(); i++){
             jewelSet.add(jewel.charAt(i));
         }        
+        int count = 0;
         for(char ch: stones.toCharArray()){
             if(jewelSet.contains(ch))
         }
     }       
 }
+
 
 
 
