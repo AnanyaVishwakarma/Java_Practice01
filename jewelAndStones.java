@@ -20,10 +20,11 @@ public class jewelAndStones {
         }        
         int count = 0;
         for(char ch: stones.toCharArray()){
-            if(jewelSet.contains(ch))
+            if(jewelSet.contains(ch)) count++;
         }
     }       
 }
+
 
 
 
