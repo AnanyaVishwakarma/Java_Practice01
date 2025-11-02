@@ -16,10 +16,11 @@ public class jewelAndStones {
     public int numJewelsInStones(String jewels, String stones) {
         HashSet<Charcter> jewelSet = new HashSet<>();
         for(int i = 0; i < jewel.length(); i++){
-            
+            jewelSet.add(jewel.charAt(i));
         }        
     }       
 }
+
 
 
 
