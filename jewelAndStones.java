@@ -14,9 +14,11 @@ All the characters of jewels are unique. */
 
 public class jewelAndStones {
     public int numJewelsInStones(String jewels, String stones) {
+        HashSet<Charcter> jewelSet = new HashSet<>();
         
     }       
 }
+
 
 
 
