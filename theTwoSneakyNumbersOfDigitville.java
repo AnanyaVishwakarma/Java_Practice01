@@ -22,8 +22,11 @@ public class theTwoSneakyNumbersOfDigitville {
     public int[] getSneakyNumbers(int[] nums) {
         Arrays.sort(nums);
         Hashtable<Integer, Integer> track = new Hashtable<>();
+        for(int i = 0; i<nums.length; i++){
+        }
     }    
 }
+
 
 
 
