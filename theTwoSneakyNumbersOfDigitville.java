@@ -19,6 +19,9 @@ Explanation:
 The numbers 4 and 5 each appear twice in the array. */
 
 public class theTwoSneakyNumbersOfDigitville {
-    
+    public int[] getSneakyNumbers(int[] nums) {
+        
+    }    
 }
+
 
