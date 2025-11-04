@@ -22,12 +22,13 @@ public class theTwoSneakyNumbersOfDigitville {
     public int[] getSneakyNumbers(int[] nums) {
         ArrayList<Integer> list = new ArrayList<>();
         Arrays.sort(nums);
-        Hashtable<Integer, Integer> track = new Hashtable<>();
+        HashMap<Integer, Integer> track = new HashMap<>();
         for(int i = 0; i<nums.length; i++){
             
         }
     }    
 }
+
 
 
 
