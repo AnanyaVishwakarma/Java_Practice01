@@ -30,8 +30,11 @@ public class theTwoSneakyNumbersOfDigitville {
                 list.add(nums[i]);
              } 
         }
+         int[] sneaky = list.stream().mapToInt(Integer::intValue).toArray();
+    
     }    
 }
+
 
 
 
