@@ -20,6 +20,7 @@ The numbers 4 and 5 each appear twice in the array. */
 
 public class theTwoSneakyNumbersOfDigitville {
     public int[] getSneakyNumbers(int[] nums) {
+        ArrayList<Integer> list = new ArrayList<>();
         Arrays.sort(nums);
         Hashtable<Integer, Integer> track = new Hashtable<>();
         for(int i = 0; i<nums.length; i++){
@@ -27,6 +28,7 @@ public class theTwoSneakyNumbersOfDigitville {
         }
     }    
 }
+
 
 
 
