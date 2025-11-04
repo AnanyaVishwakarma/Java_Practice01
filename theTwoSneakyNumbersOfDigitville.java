@@ -27,11 +27,12 @@ public class theTwoSneakyNumbersOfDigitville {
             if(nums[i] != nums[i-1]){
                track.put(i, nums[i]);     
              } else {
-                
+                list.add(nums[i]);
              } 
         }
     }    
 }
+
 
 
 
