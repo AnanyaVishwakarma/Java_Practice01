@@ -24,10 +24,11 @@ public class theTwoSneakyNumbersOfDigitville {
         Arrays.sort(nums);
         HashMap<Integer, Integer> track = new HashMap<>();
         for(int i = 0; i<nums.length; i++){
-            
+            if()
         }
     }    
 }
+
 
 
 
