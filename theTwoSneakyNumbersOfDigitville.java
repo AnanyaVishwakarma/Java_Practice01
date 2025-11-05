@@ -39,8 +39,10 @@ public class theTwoSneakyNumbersOfDigitville {
         theTwoSneakyNumbersOfDigitville obj = new theTwoSneakyNumbersOfDigitville();
 
         int n = sc.nextInt();
+        int[] nums = new int[n];
     }
 }
+
 
 
 
