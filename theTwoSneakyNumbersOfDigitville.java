@@ -37,8 +37,11 @@ public class theTwoSneakyNumbersOfDigitville {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         theTwoSneakyNumbersOfDigitville obj = new theTwoSneakyNumbersOfDigitville();
+
+        int n = sc.nextInt();
     }
 }
+
 
 
 
