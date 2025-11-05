@@ -37,7 +37,6 @@ public class theTwoSneakyNumbersOfDigitville {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         theTwoSneakyNumbersOfDigitville obj = new theTwoSneakyNumbersOfDigitville();
-
         int n = sc.nextInt();
         int[] nums = new int[n];
         for(int i = 0; i < n; i++){
@@ -46,6 +45,7 @@ public class theTwoSneakyNumbersOfDigitville {
         System.out.println(Arrays.toString(obj.getSneakyNumbers(nums)));
     }
 }
+
 
 
 
