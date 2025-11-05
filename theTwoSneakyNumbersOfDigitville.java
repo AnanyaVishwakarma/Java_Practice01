@@ -31,7 +31,6 @@ public class theTwoSneakyNumbersOfDigitville {
              } 
         }
     int[] sneaky = list.stream().mapToInt(Integer::intValue).toArray();
-    
         return sneaky;
     }    
     public static void main(String[] args){
@@ -45,6 +44,7 @@ public class theTwoSneakyNumbersOfDigitville {
         System.out.println(Arrays.toString(obj.getSneakyNumbers(nums)));
     }
 }
+
 
 
 
