@@ -34,7 +34,11 @@ public class theTwoSneakyNumbersOfDigitville {
     
         return sneaky;
     }    
+    public static void main(String[] args){
+        
+    }
 }
+
 
 
 
