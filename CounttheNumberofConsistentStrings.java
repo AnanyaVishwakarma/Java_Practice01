@@ -24,8 +24,12 @@ public class CounttheNumberofConsistentStrings {
     public int countConsistentStrings(String allowed, String[] words) {
         HashSet<Character> set = new HashSet<>();
         int count = 0;
+        for(char ch: allowed.toCharArray()){
+            
+        }
     }   
 }
+
 
 
 
