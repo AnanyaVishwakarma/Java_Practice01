@@ -21,8 +21,9 @@ The characters in allowed are distinct.
 words[i] and allowed contain only lowercase English letters. */
 public class CounttheNumberofConsistentStrings {
     public int countConsistentStrings(String allowed, String[] words) {
-      int  n = words.length;  
+
     }   
 }
+
 
 
