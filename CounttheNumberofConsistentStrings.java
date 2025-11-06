@@ -29,11 +29,14 @@ public class CounttheNumberofConsistentStrings {
         }
        for(int i = 0; i < words.length; i++){
         for(char ca: words[i].toCharArray()){
+            if(set.contains(ca)){
+                
             }
         }
       }       
     }   
 }
+
 
 
 
