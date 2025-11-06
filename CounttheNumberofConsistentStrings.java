@@ -25,10 +25,11 @@ public class CounttheNumberofConsistentStrings {
         HashSet<Character> set = new HashSet<>();
         int count = 0;
         for(char ch: allowed.toCharArray()){
-            
+            set.add(ch);
         }
     }   
 }
+
 
 
 
