@@ -19,11 +19,13 @@ Constraints:
 1 <= words[i].length <= 10
 The characters in allowed are distinct.
 words[i] and allowed contain only lowercase English letters. */
+import java.util.HashSet;
 public class CounttheNumberofConsistentStrings {
     public int countConsistentStrings(String allowed, String[] words) {
         HashSet<Character> set = new HashSet<>();
     }   
 }
+
 
 
 
