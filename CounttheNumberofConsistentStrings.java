@@ -35,7 +35,11 @@ public class CounttheNumberofConsistentStrings {
         }
       }       
     }   
+    public static void main(String[] args) {
+      
+    }    
 }
+
 
 
 
