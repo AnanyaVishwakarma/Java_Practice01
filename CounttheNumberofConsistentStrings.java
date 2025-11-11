@@ -40,8 +40,11 @@ public class CounttheNumberofConsistentStrings {
         CounttheNumberofConsistentStrings obj = new CounttheNumberofConsistentStrings();
         String allowed = sc.next();
         int n = sc.nextInt();
+        String[] words = new String[n];
+        
     }    
 }
+
 
 
 
