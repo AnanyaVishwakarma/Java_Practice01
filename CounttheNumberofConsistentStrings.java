@@ -41,9 +41,11 @@ public class CounttheNumberofConsistentStrings {
         String allowed = sc.next();
         int n = sc.nextInt();
         String[] words = new String[n];
+        for(int i = 0; i < n; i++){}
         
     }    
 }
+
 
 
 
