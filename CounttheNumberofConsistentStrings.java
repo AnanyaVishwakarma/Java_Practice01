@@ -44,9 +44,10 @@ public class CounttheNumberofConsistentStrings {
         for(int i = 0; i < n; i++){
             words[i] = sc.next();
         }
-        
+        System.out.println(obj)
     }    
 }
+
 
 
 
