@@ -39,8 +39,10 @@ public class CounttheNumberofConsistentStrings {
         Scanner sc = new Scanner(System.in);
         CounttheNumberofConsistentStrings obj = new CounttheNumberofConsistentStrings();
         String allowed = sc.next();
+        int n = sc.nextInt();
     }    
 }
+
 
 
 
