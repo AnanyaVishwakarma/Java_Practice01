@@ -33,7 +33,8 @@ public class CounttheNumberofConsistentStrings {
             }        
             count++;
         }                
-            }
+       }
+            return count;
     }   
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -47,6 +48,7 @@ public class CounttheNumberofConsistentStrings {
         System.out.println(obj.countConsistentStrings(allowed, words);
     }    
 }
+
 
 
 
