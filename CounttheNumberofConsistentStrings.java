@@ -27,6 +27,7 @@ public class CounttheNumberofConsistentStrings {
         for(char ch: allowed.toCharArray()){
             set.add(ch);                
        }
+       boolean isConsistent = true; 
             return count;
     }   
     public static void main(String[] args) {
@@ -41,6 +42,7 @@ public class CounttheNumberofConsistentStrings {
         System.out.println(obj.countConsistentStrings(allowed, words);
     }    
 }
+
 
 
 
