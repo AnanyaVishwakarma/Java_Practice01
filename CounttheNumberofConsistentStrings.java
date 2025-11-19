@@ -33,7 +33,7 @@ public class CounttheNumberofConsistentStrings {
                 isConsistent = false;
                 break;
             }
-            
+            count++;
         }
             return count;
     }   
@@ -49,6 +49,7 @@ public class CounttheNumberofConsistentStrings {
         System.out.println(obj.countConsistentStrings(allowed, words);
     }    
 }
+
 
 
 
