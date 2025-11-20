@@ -27,8 +27,8 @@ public class CounttheNumberofConsistentStrings {
         for(char ch: allowed.toCharArray()){
             set.add(ch);                
        }
-       boolean isConsistent = true; 
         for(String word: words){
+        boolean isConsistent = true; 
             if(!set.contains(word){
                 isConsistent = false;
                 break;
@@ -49,3 +49,4 @@ public class CounttheNumberofConsistentStrings {
         System.out.println(obj.countConsistentStrings(allowed, words);
     }    
 }
+
