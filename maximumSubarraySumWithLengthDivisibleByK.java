@@ -39,11 +39,8 @@ public class maximumSubarraySumWithLengthDivisibleByK {
     }
         public static void main(String[] args) {
         MaximumSubarraySumWithLengthDivisiblebyK max = new MaximumSubarraySumWithLengthDivisiblebyK();
-        int[] nums = {1, 2, 3, 4, 5};    
+        int[] nums = {1, 2, 3, 4, 5};
         int k = 3;
-        System.out.println(MaximumSubarraySumWithLengthDivisiblebyK.maxSubarraySum(nums, k));
-        int[] nums1 = {1, 2};
-        int k1 = 1;
         System.out.println(maxSubarraySum(nums1, k1));
         int[] nums2 = {-5,1,2,-3,4};
         int k2 = 2;    
@@ -51,4 +48,5 @@ public class maximumSubarraySumWithLengthDivisibleByK {
             
     }
 }
+
 
