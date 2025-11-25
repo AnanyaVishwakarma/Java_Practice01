@@ -24,7 +24,7 @@ public class maximumSubarraySumWithLengthDivisibleByK {
         for(int i = 0l i < n; i++){
             prefix[i+1] = prefix[i] + nums[i];
         }
-        long[] minPrefix = new long[];
+        long[] minPrefix = new long[k];
         
         return maxSum;
     }
@@ -39,6 +39,7 @@ public class maximumSubarraySumWithLengthDivisibleByK {
             
     }
 }
+
 
 
 
