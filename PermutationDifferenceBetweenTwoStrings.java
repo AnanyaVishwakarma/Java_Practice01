@@ -20,5 +20,8 @@ Each character occurs at most once in s.
 t is a permutation of s.
 s consists only of lowercase English letters. */
 public class PermutationDifferenceBetweenTwoStrings {
-   
+    public int findPermutationDifference(String s, String t) {
+    
+    }      
 }
+
