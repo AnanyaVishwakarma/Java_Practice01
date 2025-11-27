@@ -26,8 +26,7 @@ public class maximumSubarraySumWithLengthDivisibleByK {
         }
         long[] minPrefix = new long[k];
         Arrays.fill(minPrefix, Long.MAX_VALUE);
-        
-            
+        //this method [Arrays.fill()] fills the entire array (minPrefix) with Long.MAX_VALUE
         
         return maxSum;
     }
@@ -42,6 +41,7 @@ public class maximumSubarraySumWithLengthDivisibleByK {
             
     }
 }
+
 
 
 
