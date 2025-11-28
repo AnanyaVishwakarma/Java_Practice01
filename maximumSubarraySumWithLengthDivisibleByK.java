@@ -30,7 +30,7 @@ public class maximumSubarraySumWithLengthDivisibleByK {
 
         long maxSum = Long.MAX_VALUE;
         for(int i = 0; i <=n; i++){
-            
+            int r = i % k;
         }        
         return maxSum;
     }
@@ -45,6 +45,7 @@ public class maximumSubarraySumWithLengthDivisibleByK {
             
     }
 }
+
 
 
 
