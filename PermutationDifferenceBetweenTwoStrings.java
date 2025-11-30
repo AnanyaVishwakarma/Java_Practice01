@@ -21,7 +21,9 @@ t is a permutation of s.
 s consists only of lowercase English letters. */
 public class PermutationDifferenceBetweenTwoStrings {
     public int findPermutationDifference(String s, String t) {
+        HashMap<Character, Integer> map = new HashMap<>();
     
     }      
 }
+
 
