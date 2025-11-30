@@ -25,10 +25,12 @@ public class PermutationDifferenceBetweenTwoStrings {
         for (int i = 0; i < s.length(); i++) {
          map.put(s.charAt(i), i);             
         }
-        for(char ch: t.toCharArray()){}        
-    
+        for(char ch: t.toCharArray()){
+            if(map.containsKey(ch)){}            
+        }        
     }      
 }
+
 
 
 
