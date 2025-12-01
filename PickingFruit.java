@@ -4,7 +4,13 @@ You may start at any index and must pick one fruit from each consecutive tree to
 Return the maximum number of fruits you can pick.(ananya)*/
 public class PickingFruit {
 public static void main(String[] args) {
-    
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] orchards = new int[n];
+        for(int i = 0; i < n; i++){
+            orchards[i] = sc.nextInt();
+        }    
 }      
 }
+
 
