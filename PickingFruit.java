@@ -9,8 +9,13 @@ public static void main(String[] args) {
         int[] orchards = new int[n];
         for(int i = 0; i < n; i++){
             orchards[i] = sc.nextInt();
-        }    
+        }
+        int basket1 = sc.nextInt();
+        int basket2 = sc.nextInt();
+        int count = 0; 
+                
 }      
 }
+
 
 
