@@ -35,7 +35,15 @@ public class PermutationDifferenceBetweenTwoStrings {
         }     
         return sum;
     }      
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        PermutationDifferenceBetweenTwoStrings obj = new PermutationDifferenceBetweenTwoStrings();
+        String s = sc.next();
+        String t = sc.next();
+        System.out.println(obj.findPermutationDifference(s, t));
+    }    
 }
+
 
 
 
