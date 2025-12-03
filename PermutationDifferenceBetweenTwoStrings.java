@@ -29,9 +29,13 @@ public class PermutationDifferenceBetweenTwoStrings {
         int sum = 0;
         for(int i = 0; i< ch.length; i++){
             if(map.containsKey(ch[i])){
-}     
+            int diff =  map.get(ch[i]) - i;
+            sum += diff;
+            }
+        }     
     }      
 }
+
 
 
 
