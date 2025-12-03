@@ -33,8 +33,10 @@ public class PermutationDifferenceBetweenTwoStrings {
             sum += diff;
             }
         }     
+        return sum;
     }      
 }
+
 
 
 
