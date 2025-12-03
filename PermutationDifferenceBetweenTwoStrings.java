@@ -28,9 +28,11 @@ public class PermutationDifferenceBetweenTwoStrings {
         char[] ch = t.toCharArray();
         int sum = 0;
         for(int i = 0; i< ch.length; i++){
+            if(map.containsKey(ch[i])){
 }     
     }      
 }
+
 
 
 
