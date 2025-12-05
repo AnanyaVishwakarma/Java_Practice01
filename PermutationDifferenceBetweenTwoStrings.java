@@ -25,13 +25,8 @@ public class PermutationDifferenceBetweenTwoStrings {
         for (int i = 0; i < s.length(); i++) {
          map.put(s.charAt(i), i);             
         }
-        char[] ch = t.toCharArray();
         int sum = 0;
         for(int i = 0; i< ch.length; i++){
-            if(map.containsKey(ch[i])){
-            int diff =  map.get(ch[i]) - i;
-            sum += diff;
-            }
         }     
         return sum;
     }      
@@ -43,6 +38,7 @@ public class PermutationDifferenceBetweenTwoStrings {
         System.out.println(obj.findPermutationDifference(s, t));
     }    
 }
+
 
 
 
