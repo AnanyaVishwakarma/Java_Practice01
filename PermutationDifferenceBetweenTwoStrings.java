@@ -27,6 +27,7 @@ public class PermutationDifferenceBetweenTwoStrings {
         }
         int sum = 0;
         for(int i = 0; i< ch.length; i++){
+            int sIndex = map.get(
         }     
         return sum;
     }      
@@ -38,6 +39,7 @@ public class PermutationDifferenceBetweenTwoStrings {
         System.out.println(obj.findPermutationDifference(s, t));
     }    
 }
+
 
 
 
