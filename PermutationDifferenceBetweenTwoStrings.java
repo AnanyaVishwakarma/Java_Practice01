@@ -19,6 +19,8 @@ Constraints:
 Each character occurs at most once in s.
 t is a permutation of s.
 s consists only of lowercase English letters. */
+import java.util.HashMap;
+
 public class PermutationDifferenceBetweenTwoStrings {
     public int findPermutationDifference(String s, String t) {
         HashMap<Character, Integer> map = new HashMap<>();
@@ -41,4 +43,5 @@ public class PermutationDifferenceBetweenTwoStrings {
         System.out.println(obj.findPermutationDifference(s, t));
     }    
 }
+
 
