@@ -19,7 +19,10 @@ groupSizes.length == n
 1 <= n <= 500
 1 <= groupSizes[i] <= n */
 public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
-    
+    public List<List<Integer>> groupThePeople(int[] groupSizes) {
+        
+    }    
 }
+
 
 
