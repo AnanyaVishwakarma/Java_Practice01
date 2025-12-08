@@ -22,7 +22,9 @@ public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
     public List<List<Integer>> groupThePeople(int[] groupSizes) {
         
     }    
+    public static void main (String[] args){}
 }
+
 
 
 
