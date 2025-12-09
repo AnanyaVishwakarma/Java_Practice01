@@ -20,10 +20,12 @@ groupSizes.length == n
 1 <= groupSizes[i] <= n */
 public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
     public List<List<Integer>> groupThePeople(int[] groupSizes) {
+        ArrayList<Integer> list = new ArrayList<>();        
         
     }    
     public static void main (String[] args){}
 }
+
 
 
 
