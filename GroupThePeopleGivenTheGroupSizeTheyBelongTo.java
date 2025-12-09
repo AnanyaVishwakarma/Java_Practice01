@@ -19,6 +19,7 @@ groupSizes.length == n
 1 <= n <= 500
 1 <= groupSizes[i] <= n */
 import java.util.ArrayList;
+import java.util.*;
 
 public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
     public List<List<Integer>> groupThePeople(int[] groupSizes) {
@@ -27,6 +28,7 @@ public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
     }    
     public static void main (String[] args){}
 }
+
 
 
 
