@@ -24,11 +24,14 @@ import java.util.*;
 public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
     public List<List<Integer>> groupThePeople(int[] groupSizes) {
         ArrayList<Integer> list = new ArrayList<>();        
-        for(int i = 0; i< n; i++){}
+        for(int i = 0; i< n; i++){
+            
+        }
 
     }    
     public static void main (String[] args){}
 }
+
 
 
 
