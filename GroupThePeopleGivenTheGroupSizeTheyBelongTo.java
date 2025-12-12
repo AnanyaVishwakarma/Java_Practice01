@@ -41,10 +41,11 @@ public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
                 buckets.put(sz, new ArrayList<>());
             }
         }
-        
+        return result;
     }    
     public static void main (String[] args){}
 }
+
 
 
 
