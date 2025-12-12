@@ -38,13 +38,14 @@ public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
             bucket.add(person);
             if(bucket.size() == sz){
                 result.add(new ArrayList<>(bucket));
+                buckets.put(sz, new ArrayList<>());
             }
-            
         }
         
     }    
     public static void main (String[] args){}
 }
+
 
 
 
