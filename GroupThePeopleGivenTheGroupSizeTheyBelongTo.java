@@ -33,14 +33,16 @@ public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
             List<Integer> bucket = buckets.get(sz);
             if(bucket ==null){
                bucket - new ArrayList<>();
-                
+                buckets.put(sz, bucket);
             }
+            bucket.add(person);
             
         }
         
     }    
     public static void main (String[] args){}
 }
+
 
 
 
