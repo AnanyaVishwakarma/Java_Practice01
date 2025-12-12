@@ -51,9 +51,11 @@ public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
         for(int i = 0; i < n; i++){
             groupSizes[i] = sc.nextInt;
         }
+        System.out.println(obj.groupThePeople(groupSizes));
         
     }
 }
+
 
 
 
