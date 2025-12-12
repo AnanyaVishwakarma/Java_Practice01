@@ -36,12 +36,16 @@ public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
                 buckets.put(sz, bucket);
             }
             bucket.add(person);
+            if(bucket.size() == sz){
+                result
+            }
             
         }
         
     }    
     public static void main (String[] args){}
 }
+
 
 
 
