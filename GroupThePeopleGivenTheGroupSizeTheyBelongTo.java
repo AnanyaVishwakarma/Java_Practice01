@@ -37,7 +37,7 @@ public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
             }
             bucket.add(person);
             if(bucket.size() == sz){
-                result
+                result.add(new ArrayList<>(bucket));
             }
             
         }
@@ -45,6 +45,7 @@ public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
     }    
     public static void main (String[] args){}
 }
+
 
 
 
