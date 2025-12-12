@@ -24,10 +24,12 @@ import java.util.*;
 public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
     public List<List<Integer>> groupThePeople(int[] groupSizes) {
         Map<Integer, List<Integer>> buckets = new HashMap<>();
+        List<List<Integer>> result = new ArrayList<>();
         
     }    
     public static void main (String[] args){}
 }
+
 
 
 
