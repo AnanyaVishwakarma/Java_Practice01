@@ -48,9 +48,13 @@ public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
         GroupThePeopleGivenTheGroupSizeTheyBelongTo obj = new GroupThePeopleGivenTheGroupSizeTheyBelongTo();
         int n = sc.nextInt();
         int[] groupSizes = new int[n];
+        for(int i = 0; i < n; i++){
+            groupSizes[i] = sc.nextInt;
+        }
         
     }
 }
+
 
 
 
