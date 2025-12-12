@@ -26,13 +26,19 @@ public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
         Map<Integer, List<Integer>> buckets = new HashMap<>();
         List<List<Integer>> result = new ArrayList<>();
         //Walk through people i = 0..n-1.
-        for(int person = 0; person < groupSizes.length(); person++){}
+        for(int person = 0; person < groupSizes.length(); person++){
         //For each person i, look at sz = groupSizes[i].
         int sz = groupSizes[person];
+
+            List<Integer> bucket = buckets.get(sz);
+            if(bucket ==null){}
+            
+        }
         
     }    
     public static void main (String[] args){}
 }
+
 
 
 
