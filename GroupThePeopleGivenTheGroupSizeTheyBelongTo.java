@@ -28,10 +28,12 @@ public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
         //Walk through people i = 0..n-1.
         for(int person = 0; person < groupSizes.length(); person++){}
         //For each person i, look at sz = groupSizes[i].
+        int sz = groupSizes[person];
         
     }    
     public static void main (String[] args){}
 }
+
 
 
 
