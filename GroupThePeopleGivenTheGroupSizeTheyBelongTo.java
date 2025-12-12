@@ -31,13 +31,17 @@ public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
         int sz = groupSizes[person];
 
             List<Integer> bucket = buckets.get(sz);
-            if(bucket ==null){}
+            if(bucket ==null){
+               bucket - new ArrayList<>();
+                
+            }
             
         }
         
     }    
     public static void main (String[] args){}
 }
+
 
 
 
