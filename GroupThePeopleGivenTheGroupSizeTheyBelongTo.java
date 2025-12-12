@@ -46,9 +46,12 @@ public class GroupThePeopleGivenTheGroupSizeTheyBelongTo {
     public static void main (String[] args){
         Scanner sc = new Scanner System.in);
         GroupThePeopleGivenTheGroupSizeTheyBelongTo obj = new GroupThePeopleGivenTheGroupSizeTheyBelongTo();
+        int n = sc.nextInt();
+        int[] groupSizes = new int[n];
         
     }
 }
+
 
 
 
