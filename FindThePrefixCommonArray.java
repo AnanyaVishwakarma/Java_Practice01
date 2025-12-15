@@ -20,6 +20,9 @@ Constraints:
 1 <= A[i], B[i] <= n
 It is guaranteed that A and B are both a permutation of n integers. */
 public class FindThePrefixCommonArray {
-    
+    public int[] findThePrefixCommonArray(int[] A, int[] B) {
+        
+    }    
 }
+
 
