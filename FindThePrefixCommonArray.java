@@ -21,10 +21,11 @@ Constraints:
 It is guaranteed that A and B are both a permutation of n integers. */
 public class FindThePrefixCommonArray {
     public int[] findThePrefixCommonArray(int[] A, int[] B) {
-        Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, List<Integer>> map = new HashMap<>();
      
     }    
 }
+
 
 
 
