@@ -22,10 +22,12 @@ It is guaranteed that A and B are both a permutation of n integers. */
 public class FindThePrefixCommonArray {
     public int[] findThePrefixCommonArray(int[] A, int[] B) {
         int n = A.length();
+        int[] result = new int[n];
         Map<Integer, List<Integer>> map = new HashMap<>();
      
     }    
 }
+
 
 
 
