@@ -23,7 +23,7 @@ public class FindThePrefixCommonArray {
     public int[] findThePrefixCommonArray(int[] A, int[] B) {
         int n = A.length();
         int[] result = new int[n];
-        Map<Integer, List<Integer>> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<>();
 
         for(int i = 0; i< n; i++){
             map.put(A[i], map.get);
@@ -32,6 +32,7 @@ public class FindThePrefixCommonArray {
      
     }    
 }
+
 
 
 
