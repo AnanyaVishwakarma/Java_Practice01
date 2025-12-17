@@ -26,12 +26,13 @@ public class FindThePrefixCommonArray {
         Map<Integer, Integer> map = new HashMap<>();
 
         for(int i = 0; i< n; i++){
-            map.put(A[i], map.get);
+            map.put(A[i], map.getOrDefault(i, 0);
             
         }
      
     }    
 }
+
 
 
 
