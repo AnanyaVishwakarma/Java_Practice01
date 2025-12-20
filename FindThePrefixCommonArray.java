@@ -30,7 +30,9 @@ public class FindThePrefixCommonArray {
         }
      
     }    
+    public static void main(String[] args)
 }
+
 
 
 
