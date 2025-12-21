@@ -27,6 +27,7 @@ public class FindThePrefixCommonArray {
 
         for(int i = 0; i< n; i++){
             map.put(A[i], map.getOrDefault(i, 0)+1);
+            if()
         }
      
     }    
@@ -34,6 +35,7 @@ public class FindThePrefixCommonArray {
         
     }
 }
+
 
 
 
