@@ -23,6 +23,8 @@ public class FindThePrefixCommonArray {
     public int[] findThePrefixCommonArray(int[] A, int[] B) {
         int n = A.length();
         int[] result = new int[n];
+
+        boolean[] seenA = new boolean[n + 1];
         
      
     }    
@@ -30,6 +32,7 @@ public class FindThePrefixCommonArray {
         
     }
 }
+
 
 
 
