@@ -23,18 +23,14 @@ public class FindThePrefixCommonArray {
     public int[] findThePrefixCommonArray(int[] A, int[] B) {
         int n = A.length();
         int[] result = new int[n];
-        Map<Integer, Integer> map = new HashMap<>();
-
-        for(int i = 0; i< n; i++){
-            map.put(A[i], map.getOrDefault(i, 0)+1);
-            if()
-        }
+        
      
     }    
     public static void main(String[] args){
         
     }
 }
+
 
 
 
