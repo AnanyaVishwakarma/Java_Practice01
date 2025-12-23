@@ -27,6 +27,8 @@ public class FindThePrefixCommonArray {
         boolean[] seenA = new boolean[n + 1];
         boolean[] seenB = new boolean[n + 1];
         int count = 0;
+
+        for(int i = 0; i < n; i++){}
         
         
      
@@ -35,6 +37,7 @@ public class FindThePrefixCommonArray {
         
     }
 }
+
 
 
 
