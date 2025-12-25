@@ -33,9 +33,10 @@ public class findAllNumbersInTheArray {
         for(int i = 0; i < n; i++){
             nums[i] = sc.nextInt();
         }
-        
+        System.out.println(obj.findDisappearedNumbers(nums));
     }
 }
+
 
 
 
