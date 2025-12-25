@@ -25,6 +25,14 @@ public class findAllNumbersInTheArray {
         }
         return result;
     }
-
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        findAllNumbersInTheArray obj =  new findAllNumbersInTheArray();
+        int n = sc.nextInt();
+        int[] nums = new int[n];
+        for(
+        
+    }
 }
+
 
