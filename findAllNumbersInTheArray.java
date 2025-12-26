@@ -36,7 +36,3 @@ public class findAllNumbersInTheArray {
         System.out.println(obj.findDisappearedNumbers(nums));
     }
 }
-
-
-
-
