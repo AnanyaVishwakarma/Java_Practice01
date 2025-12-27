@@ -36,12 +36,13 @@ public class FindThePrefixCommonArray {
         }
         result[i] = count; 
         }
-
+        return result;
     }    
     public static void main(String[] args){
         
     }
 }
+
 
 
 
