@@ -40,10 +40,12 @@ public class FindThePrefixCommonArray {
     }    
     public static void main(String[] args){
        Scanner sc = new Scanner(System.in);
+        FindThePrefixCommonArray obj = new FindThePrefixCommonArray();
     
         
     }
 }
+
 
 
 
