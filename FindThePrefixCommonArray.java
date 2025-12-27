@@ -32,6 +32,9 @@ public class FindThePrefixCommonArray {
             seenA[B[i]] = true;
             seenB[A[i]] = true;
         }
+        if(seenB[A]]){
+            count++; 
+        }
         
         
      
@@ -40,6 +43,7 @@ public class FindThePrefixCommonArray {
         
     }
 }
+
 
 
 
