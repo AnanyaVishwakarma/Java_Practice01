@@ -31,18 +31,18 @@ public class FindThePrefixCommonArray {
         for(int i = 0; i < n; i++){
             seenA[B[i]] = true;
             seenB[A[i]] = true;
-        }
         if(seenB[A]]){
             count++; 
         }
-        
-        
-     
+        result[i] = count; 
+        }
+
     }    
     public static void main(String[] args){
         
     }
 }
+
 
 
 
