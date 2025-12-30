@@ -1,11 +1,10 @@
-/*You are given a date. You just need to write the method, "getDay", which returns the day on that date. To simplify your task, we have provided a portion of the code in the editor.
-
+/*You are given a date. You just need to write the method, "getDay", which returns the day on that date. 
+To simplify your task, we have provided a portion of the code in the editor.
 Example
 month=8
 day=14
 year=2017
 The method should return "MONDAY" as the day on that date.*/ 
-
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -13,7 +12,6 @@ import java.text.*;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
-
 class Result {
 
     public static String findDay(int month, int day, int year) {
@@ -27,7 +25,6 @@ class Result {
     }
 
 }
-
 public class DateTime {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
@@ -49,4 +46,5 @@ public class DateTime {
         bufferedReader.close();
         bufferedWriter.close();
     }
+
 }
