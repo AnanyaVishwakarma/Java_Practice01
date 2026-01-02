@@ -53,3 +53,4 @@ public class FindThePrefixCommonArray {
         System.out.println(obj.findThePrefixCommonArray(A, B));        
     }
 }
+
