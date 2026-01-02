@@ -26,7 +26,14 @@ Constraints:
 1 <= url.length <= 104
 url is guranteed to be a valid URL. */
 public class EncodeandDecodeTinyURL {
+    // Encodes a URL to a shortened URL.
+    public String encode(String longUrl) {
+        
+    }
 
-    
-
+    // Decodes a shortened URL to its original URL.
+    public String decode(String shortUrl) {
+        
+    }
 }
+
