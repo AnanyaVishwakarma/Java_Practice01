@@ -15,6 +15,8 @@ Each substring starts with a distinct character. Thus, the answer is 4.
 Example 3:
 Input: s = "aaaa"
 Output: 1
+=======
+Output: 
 Explanation:
 All characters in "aaaa" are 'a'.
 Only one substring can start with 'a'. Thus, the answer is 1.
@@ -23,12 +25,12 @@ Constraints:
 s consists of lowercase English letters. */
 
 import java.util.Scanner;
-
 public class maximumSubstringsWithDistinctStart {
     public int maxDistinct(String s) {
         int n = s.length();
         
    
+        return n;
     }    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
