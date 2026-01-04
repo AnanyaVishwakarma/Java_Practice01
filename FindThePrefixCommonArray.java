@@ -19,9 +19,12 @@ Constraints:
 1 <= A.length == B.length == n <= 50
 1 <= A[i], B[i] <= n
 It is guaranteed that A and B are both a permutation of n integers. */
+
+import java.util.Scanner;
+
 public class FindThePrefixCommonArray {
     public int[] findThePrefixCommonArray(int[] A, int[] B) {
-        int n = A.length();
+        int n = A.length;
         int[] result = new int[n];
 
         boolean[] seenA = new boolean[n + 1];
@@ -31,7 +34,7 @@ public class FindThePrefixCommonArray {
         for(int i = 0; i < n; i++){
             seenA[B[i]] = true;
             seenB[A[i]] = true;
-        if(seenB[A]]){
+        if(seenB[A[i]]){
             count++; 
         }
         result[i] = count; 

@@ -11,11 +11,7 @@ Constraints
 String 's' consists of English alphabetic letters (i.e.,[a-z A-Z] ) only.
 Output Format
 Print the substring in the inclusive range from  to .*/
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class JavaSubstring  {
 
@@ -25,8 +21,6 @@ public class JavaSubstring  {
         int start = in.nextInt();
         int end = in.nextInt();
         System.out.println(S.substring(start, end));
-
-        
         
     }
 }
