@@ -28,8 +28,6 @@ import java.util.Scanner;
 public class maximumSubstringsWithDistinctStart {
     public int maxDistinct(String s) {
         int n = s.length();
-        
-   
         return n;
     }    
     public static void main(String[] args) {
