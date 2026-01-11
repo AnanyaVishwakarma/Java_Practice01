@@ -32,7 +32,9 @@ public class maximumSubstringsWithDistinctStart {
         for (int i = 0; i <=n; i++){
             String substr = s.substring(0);
             String substr1 = s.substring(1);
-                        
+            if(substr.charAt(i) == substr1.charAt(i)){
+                count++;
+            }           
         }
         return count;
     }    
