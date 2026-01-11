@@ -29,10 +29,8 @@ public class maximumSubstringsWithDistinctStart {
     public int maxDistinct(String s) {
         int n = s.length();
         int count = 0;
-        for (int i = 0; i <=n; i++){
-            String substr = s.substring(0);
-            String substr1 = s.substring(1);
-            if(substr.charAt(i) == substr1.charAt(i)){
+        for (int i = 0; i < n; i++){
+            if(s.charAt(0) == s.charAt(1)){
                 count++;
             }           
         }
