@@ -29,8 +29,9 @@ public class maximumSubstringsWithDistinctStart {
     public int maxDistinct(String s) {
         Set<Character> set = new HashSet<>();
         for(char ch: s.toCharArray()){
-            
+            set.add(ch);
         }
+        return 
     }    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
