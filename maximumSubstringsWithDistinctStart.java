@@ -23,8 +23,9 @@ Only one substring can start with 'a'. Thus, the answer is 1.
 Constraints:
 1 <= s.length <= 105
 s consists of lowercase English letters. */
-
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 public class maximumSubstringsWithDistinctStart {
     public int maxDistinct(String s) {
         Set<Character> set = new HashSet<>();
