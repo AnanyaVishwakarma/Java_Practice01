@@ -31,7 +31,7 @@ public class maximumSubstringsWithDistinctStart {
         for(char ch: s.toCharArray()){
             set.add(ch);
         }
-        return 
+        return set.size();
     }    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
