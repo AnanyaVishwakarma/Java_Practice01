@@ -27,14 +27,8 @@ s consists of lowercase English letters. */
 import java.util.Scanner;
 public class maximumSubstringsWithDistinctStart {
     public int maxDistinct(String s) {
-        int n = s.length();
-        int count = 0;
-        for (int i = 0; i < n; i++){
-            if(s.charAt(0) == s.charAt(1)){
-                count++;
-            }           
-        }
-        return count;
+        Set<Character> set = new HashSet<>();
+        for(char )
     }    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
