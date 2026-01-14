@@ -27,5 +27,8 @@ Constraints:
 1 <= nums[i] <= 10​​​​​​​9
 1 <= target <= 109 */
 public class countSubarraysWithMajorityElement {
-    
+    public int countMajoritySubarrays(int[] nums, int target) {
+     
+        
+    }    
 }
