@@ -14,7 +14,6 @@ Example 3:
 
 Input: nums = [1,1,1,3,3,4,3,2,4,2]
 Output: true */
-
 public class ContainsDuplicate {
     public boolean ContainsDuplicate(int[] nums){
         HashSet<Integer> set = new HashSet<>();
@@ -26,3 +25,4 @@ public class ContainsDuplicate {
         return false;
     }
 }
+
