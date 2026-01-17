@@ -28,10 +28,10 @@ Constraints:
 1 <= target <= 109 */
 public class countSubarraysWithMajorityElement {
     public int countMajoritySubarrays(int[] nums, int target) {
-        
+        int n = nums.length;
         int count = 0;
-        int[] arr = new int[];
-        for(int i=0; i < nums.length; i++){
+        int[] arr = new int[n];
+        for(int i=0; i < n; i++){
             if(nums[i] == target){
 
             }
