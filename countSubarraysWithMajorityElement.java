@@ -33,7 +33,7 @@ public class countSubarraysWithMajorityElement {
         int[] arr = new int[n];
         for(int i=0; i < n; i++){
             if(nums[i] == target){
-
+                arr[i] = 1;
             }
         }
      
