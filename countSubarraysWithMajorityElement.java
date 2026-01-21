@@ -37,6 +37,7 @@ public class countSubarraysWithMajorityElement {
                 arr[i] = -1;
             } 
         }
+        int count = 0;
         
     }    
     public static void main(String[] args) {
