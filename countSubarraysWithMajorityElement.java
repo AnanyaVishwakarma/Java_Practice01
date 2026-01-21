@@ -34,7 +34,7 @@ public class countSubarraysWithMajorityElement {
             if(nums[i] == target){
                 arr[i] = 1;
             } else {
-                
+                arr[i] = -1;
             } 
         }
         
