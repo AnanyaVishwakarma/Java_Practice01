@@ -30,6 +30,9 @@ public class countSubarraysWithMajorityElement {
     public int countMajoritySubarrays(int[] nums, int target) {
         int n = nums.length;
         int[] arr = new int[n];
+        for (int i =0; i < n; i++){
+            if()
+        }
         
     }    
     public static void main(String[] args) {
