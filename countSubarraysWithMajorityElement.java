@@ -29,16 +29,7 @@ Constraints:
 public class countSubarraysWithMajorityElement {
     public int countMajoritySubarrays(int[] nums, int target) {
         int n = nums.length;
-        int count = 0;
         int[] arr = new int[n];
-        for(int i=0; i < n; i++){
-            for(int j = n; j > 0; j--){
-                for(int k = i; k < j; k++){
-
-                }
-            }
-        }
-     
         
     }    
     public static void main(String[] args) {
