@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 /*You are given an integer array nums and an integer target.
 Return the number of subarrays of nums in which target is the majority element.
 The majority element of a subarray is the element that appears strictly more than half of the times in that subarray.
@@ -50,6 +53,9 @@ public class countSubarraysWithMajorityElement {
         return count;
     }    
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        countSubarraysWithMajorityElement obj = new countSubarraysWithMajorityElement();
+        int n = sc.nextInt();
         
     }
 }
