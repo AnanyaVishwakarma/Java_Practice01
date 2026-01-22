@@ -56,6 +56,11 @@ public class countSubarraysWithMajorityElement {
         Scanner sc = new Scanner(System.in);
         countSubarraysWithMajorityElement obj = new countSubarraysWithMajorityElement();
         int n = sc.nextInt();
-        
+        int[] nums = new int[n];
+        for(int i = 0; i < n; i++){
+            nums[i] = sc.nextInt();
+        }
+        int target  = sc.nextInt();
+        System.out.println(obj.countMajoritySubarrays(nums, target));
     }
 }
