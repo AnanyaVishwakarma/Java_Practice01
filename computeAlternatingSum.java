@@ -1,5 +1,6 @@
 /*You are given an integer array nums.
-The alternating sum of nums is the value obtained by adding elements at even indices and subtracting elements at odd indices. That is, nums[0] - nums[1] + nums[2] - nums[3]...
+The alternating sum of nums is the value obtained by adding elements at even indices and subtracting elements at odd indices. 
+That is, nums[0] - nums[1] + nums[2] - nums[3]...
 Return an integer denoting the alternating sum of nums.
 Example 1:
 Input: nums = [1,3,5,7]
@@ -20,6 +21,10 @@ Constraints:
 1 <= nums[i] <= 100 */
 public class computeAlternatingSum {
     public int alternatingSum(int[] nums) {
+        int n = nums.length();
+        for(int i = 0; i < n; i++){
+            
+        }
         
     }
     
