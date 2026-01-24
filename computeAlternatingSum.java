@@ -26,7 +26,9 @@ public class computeAlternatingSum {
 
         for(int i = 1; i < n; i++){
             if(i % 2 != 0){
-                
+               int oddvalue = nums[i-1] - nums[i];
+            } else {
+                int evenValue = nums[i - 1] + nums[i];
             }
         }
         
