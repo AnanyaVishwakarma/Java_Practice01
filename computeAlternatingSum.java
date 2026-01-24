@@ -21,7 +21,7 @@ Constraints:
 1 <= nums[i] <= 100 */
 public class computeAlternatingSum {
     public int alternatingSum(int[] nums) {
-        int n = nums.length();
+        int n = nums.length;
         if(n == 1) return nums[0];
 
         for(int i = 1; i < n; i++){
