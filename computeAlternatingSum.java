@@ -22,8 +22,12 @@ Constraints:
 public class computeAlternatingSum {
     public int alternatingSum(int[] nums) {
         int n = nums.length();
-        for(int i = 0; i < n; i++){
-            
+        if(n == 1) return nums[0];
+
+        for(int i = 1; i < n; i++){
+            if(i % 2 != 0){
+                
+            }
         }
         
     }
