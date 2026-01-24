@@ -24,14 +24,18 @@ public class computeAlternatingSum {
         int n = nums.length;
         if(n == 1) return nums[0];
 
+        int oddValue = 0;
+        int evenValue = 0;
         for(int i = 1; i < n; i++){
             if(i % 2 != 0){
-               int oddvalue = nums[i-1] - nums[i];
+                oddValue += nums[i-1] - nums[i];
             } else {
-                int evenValue = nums[i - 1] + nums[i];
+                 evenValue += nums[i - 1] + nums[i];
             }
         }
+        int total = oddValue + evenValue;
         
+        return total;
     }
     
 }
