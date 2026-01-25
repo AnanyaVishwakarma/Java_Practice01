@@ -37,5 +37,9 @@ public class computeAlternatingSum {
         
         return total;
     }
+    public static void main(String[] args){
+        
+    }
+    
     
 }
