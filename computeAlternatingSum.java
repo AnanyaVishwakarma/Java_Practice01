@@ -19,6 +19,9 @@ The alternating sum is nums[0] = 100.
 Constraints:
 1 <= nums.length <= 100
 1 <= nums[i] <= 100 */
+
+import java.util.Scanner;
+
 public class computeAlternatingSum {
     public int alternatingSum(int[] nums) {
         int n = nums.length;
@@ -38,7 +41,9 @@ public class computeAlternatingSum {
         return total;
     }
     public static void main(String[] args){
-        
+        Scanner sc = new Scanner(System.in);
+        computeAlternatingSum obj = new computeAlternatingSum();
+        int n = sc.nextInt();
     }
     
     
