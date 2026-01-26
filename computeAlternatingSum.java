@@ -27,11 +27,9 @@ public class computeAlternatingSum {
         int n = nums.length;
         if(n == 1) return nums[0];
 
-        int oddValue = 0;
-        int evenValue = 0;
         for(int i = 1; i < n; i++){
-            if(i % 2 != 0){
-                oddValue += nums[i-1] - nums[i];
+            if(i % 2 == 0){
+                
             } else {
                  evenValue += nums[i - 1] + nums[i];
             }
