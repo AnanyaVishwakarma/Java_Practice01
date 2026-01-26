@@ -27,9 +27,10 @@ public class computeAlternatingSum {
         int n = nums.length;
         if(n == 1) return nums[0];
 
+        int sum = 0;
         for(int i = 1; i < n; i++){
             if(i % 2 == 0){
-                
+                sum
             } else {
                  
             }
