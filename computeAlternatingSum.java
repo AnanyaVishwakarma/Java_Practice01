@@ -31,10 +31,9 @@ public class computeAlternatingSum {
             if(i % 2 == 0){
                 
             } else {
-                 evenValue += nums[i - 1] + nums[i];
+                 
             }
         }
-        int total = oddValue + evenValue;
         
         return total;
     }
