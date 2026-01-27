@@ -45,6 +45,7 @@ public class computeAlternatingSum {
             nums[i] = sc.nextInt();
         }
         System.out.println(obj.alternatingSum(nums));
+        //1,3,5,7 = -4
     }
     
     
