@@ -29,5 +29,6 @@ public class minimumOperationToMakeArraySumDivixibleByK {
         for(int num: nums){
             sum += num;
         }        
+        return sum % k;
     }
 }
