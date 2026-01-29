@@ -22,6 +22,9 @@ Constraints:
 1 <= nums.length <= 1000
 1 <= nums[i] <= 1000
 1 <= k <= 100 */
+
+import java.util.Scanner;
+
 public class minimumOperationToMakeArraySumDivixibleByK {
     public int minOperations(int[] nums, int k) {
         int n = nums.length;
@@ -30,5 +33,15 @@ public class minimumOperationToMakeArraySumDivixibleByK {
             sum += num;
         }        
         return sum % k;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        minimumOperationToMakeArraySumDivixibleByK obj = new minimumOperationToMakeArraySumDivixibleByK();
+        int n = sc.nextInt();
+        int k = sc.nextInt();
+        int[] nums = new int[n];
+        for(int i = 0; i <n; i++){
+            nums[i] = sc.nextInt();
+        }
     }
 }
