@@ -24,6 +24,9 @@ Constraints:
 1 <= k <= 100 */
 public class minimumOperationToMakeArraySumDivixibleByK {
     public int minOperations(int[] nums, int k) {
-        
+        int n = nums.length;
+        for(int num: nums){
+            
+        }
     }
 }
