@@ -25,7 +25,11 @@ m == r.length
 1 <= m <= 500
 0 <= l[i] < r[i] < n
 -105 <= nums[i] <= 105 */
-public class arithmeticSubarrays {
 
-    
+import java.util.List;
+
+public class arithmeticSubarrays {
+    public List<Boolean> checkArithmeticSubarrays(int[] nums, int[] l, int[] r) {
+        
+    }   
 }
