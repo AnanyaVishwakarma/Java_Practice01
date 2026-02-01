@@ -33,6 +33,8 @@ import java.util.List;
 public class arithmeticSubarrays {
     public List<Boolean> checkArithmeticSubarrays(int[] nums, int[] l, int[] r) {
         ArrayList<Boolean> resultList =  new ArrayList();
+        //the element in l is the starting and the element in r is the ending (int the nums)
+        //
         
         
     }   
