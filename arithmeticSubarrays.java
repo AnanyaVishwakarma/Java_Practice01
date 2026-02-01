@@ -1,4 +1,5 @@
-/*A sequence of numbers is called arithmetic if it consists of at least two elements, and the difference between every two consecutive elements is the same. More formally, a sequence s is arithmetic if and only if s[i+1] - s[i] == s[1] - s[0] for all valid i.
+/*A sequence of numbers is called arithmetic if it consists of at least two elements, 
+and the difference between every two consecutive elements is the same. More formally, a sequence s is arithmetic if and only if s[i+1] - s[i] == s[1] - s[0] for all valid i.
 For example, these are arithmetic sequences:
 1, 3, 5, 7, 9
 7, 7, 7, 7
@@ -26,10 +27,13 @@ m == r.length
 0 <= l[i] < r[i] < n
 -105 <= nums[i] <= 105 */
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class arithmeticSubarrays {
     public List<Boolean> checkArithmeticSubarrays(int[] nums, int[] l, int[] r) {
+        ArrayList<Boolean> resultList =  new ArrayList();
+        
         
     }   
 }
