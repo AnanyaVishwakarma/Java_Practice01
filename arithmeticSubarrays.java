@@ -35,7 +35,13 @@ public class arithmeticSubarrays {
         ArrayList<Boolean> resultList =  new ArrayList();
         //the element in l is the starting and the element in r is the ending (int the nums)
         //what if we sort the subarray? if it has a difference then it would be true, or false otherwise?
-        
+        for(int i = 0; i < l.length; i++){
+            for (int s = l[i]; s < nums.length; s++){
+                for(int e = r[i]; e < r.length; e++){
+                    
+                }
+            }
+        }        
         
     }   
 }
