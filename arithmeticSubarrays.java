@@ -38,7 +38,7 @@ public class arithmeticSubarrays {
         for(int i = 0; i < l.length; i++){
             for (int s = l[i]; s < nums.length; s++){
                 for(int e = r[i]; e < r.length; e++){
-                    
+                    for(int j = )
                 }
             }
         }        
