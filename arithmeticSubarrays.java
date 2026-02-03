@@ -43,7 +43,7 @@ public class arithmeticSubarrays {
             int end = r[i];
 
             for(int j = start; j <= end; j++){
-                list.add(nums[i]);
+                list.add(nums[j]);
             }
             Arrays.sort(list);
         }        
