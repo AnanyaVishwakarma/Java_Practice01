@@ -28,7 +28,7 @@ m == r.length
 -105 <= nums[i] <= 105 */
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class arithmeticSubarrays {
@@ -45,7 +45,7 @@ public class arithmeticSubarrays {
             for(int j = start; j <= end; j++){
                 list.add(nums[j]);
             }
-            Arrays.sort(list);
+            Collections.sort(list);
         }        
         
     }   
