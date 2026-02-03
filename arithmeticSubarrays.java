@@ -28,11 +28,13 @@ m == r.length
 -105 <= nums[i] <= 105 */
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class arithmeticSubarrays {
     public List<Boolean> checkArithmeticSubarrays(int[] nums, int[] l, int[] r) {
         ArrayList<Boolean> resultList =  new ArrayList();
+        ArrayList<Integer> list = new ArrayList<>();
         
         //the element in l is the starting and the element in r is the ending (int the nums)
         //what if we sort the subarray? if it has a difference then it would be true, or false otherwise?
@@ -41,8 +43,9 @@ public class arithmeticSubarrays {
             int end = r[i];
 
             for(int j = start; j <= end; j++){
-
+                list.add(nums[i]);
             }
+            Arrays.sort(list);
         }        
         
     }   
