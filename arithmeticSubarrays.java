@@ -48,7 +48,9 @@ public class arithmeticSubarrays {
             Collections.sort(list);
         }        
         boolean isArithmetic = true;
-        
+        for (int i = 0; i < list.size(); i++){
+            
+        }
         
     }   
 }
