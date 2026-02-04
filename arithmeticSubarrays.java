@@ -47,6 +47,8 @@ public class arithmeticSubarrays {
             }
             Collections.sort(list);
         }        
+        boolean isArithmetic = true;
+        
         
     }   
 }
