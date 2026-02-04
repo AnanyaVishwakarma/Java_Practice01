@@ -49,8 +49,11 @@ public class arithmeticSubarrays {
         }        
         boolean isArithmetic = true;
         for (int i = 0; i < list.size(); i++){
-            
+
         }
         
     }   
+    public static void main(String[] args) {
+        
+    }
 }
