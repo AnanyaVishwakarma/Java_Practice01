@@ -49,7 +49,9 @@ public class arithmeticSubarrays {
                     
            boolean isArithmetic = true;
            int diff = list.get(1) - list.get(0);
-           for
+           for(int k = 2; k < list.size(); k++){
+            if()
+           }
         }
         
     }   
