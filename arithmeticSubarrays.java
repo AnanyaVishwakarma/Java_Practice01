@@ -46,10 +46,10 @@ public class arithmeticSubarrays {
                 list.add(nums[j]);
             }
             Collections.sort(list);
-        }        
-        boolean isArithmetic = true;
-        for (int i = 0; i < list.size(); i++){
-
+                    
+           boolean isArithmetic = true;
+           int diff = list.get(1) - list.get(0);
+           for
         }
         
     }   
