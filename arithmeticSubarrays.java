@@ -26,10 +26,7 @@ m == r.length
 1 <= m <= 500
 0 <= l[i] < r[i] < n
 -105 <= nums[i] <= 105 */
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class arithmeticSubarrays {
     public List<Boolean> checkArithmeticSubarrays(int[] nums, int[] l, int[] r) {
@@ -60,6 +57,8 @@ public class arithmeticSubarrays {
         return resultList;
     }   
     public static void main(String[] args) {
-        
+        Scanner sc = new Scanner(System.in);
+        arithmeticSubarrays obj = new arithmeticSubarrays();
+
     }
 }
