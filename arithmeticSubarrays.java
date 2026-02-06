@@ -65,11 +65,11 @@ public class arithmeticSubarrays {
             nums[i] =sc.nextInt();
         }
         int m = sc.nextInt();
-        int[] l = new int[];
+        int[] l = new int[m];
         for(int i = 0; i < m; i++){
             l[i] = sc.nextInt();
         }
-        int[] r = new int[];
+        int[] r = new int[m];
         for(int i = 0; i < m; i++){
             r[i] = sc.nextInt();
         }
