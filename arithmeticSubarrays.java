@@ -73,6 +73,7 @@ public class arithmeticSubarrays {
         for(int i = 0; i < m; i++){
             r[i] = sc.nextInt();
         }
+        System.out.println(obj.checkArithmeticSubarrays(nums, l, r));
 
     }
 }
