@@ -38,7 +38,7 @@ public class arithmeticSubarrays {
         for (int i = 0; i < l.length; i++) {
             ArrayList<Integer> list = new ArrayList<>();
 
-            for (int j = start; j <= end; j++) {
+            for (int j = l[i]; j <= r[i]; j++) {
                 list.add(nums[j]);
             }
             Collections.sort(list);
