@@ -29,49 +29,49 @@ m == r.length
 import java.util.*;
 
 public class arithmeticSubarrays {
+
     public List<Boolean> checkArithmeticSubarrays(int[] nums, int[] l, int[] r) {
-        ArrayList<Boolean> resultList =  new ArrayList();
-        ArrayList<Integer> list = new ArrayList<>();
-        
+        ArrayList<Boolean> resultList = new ArrayList();
+
         //the element in l is the starting and the element in r is the ending (int the nums)
         //what if we sort the subarray? if it has a difference then it would be true, or false otherwise?
-        for(int i = 0; i < l.length; i++){
-            int start = l[i];
-            int end = r[i];
+        for (int i = 0; i < l.length; i++) {
+            ArrayList<Integer> list = new ArrayList<>();
 
-            for(int j = start; j <= end; j++){
+            for (int j = start; j <= end; j++) {
                 list.add(nums[j]);
             }
             Collections.sort(list);
-                    
-           boolean isArithmetic = true;
-           int diff = list.get(1) - list.get(0);
 
-           for(int k = 2; k < list.size(); k++){
-            if(list.get(k)-list.get(k - 1) != diff){
-                isArithmetic = false;
-                break;
+            boolean isArithmetic = true;
+            int diff = list.get(1) - list.get(0);
+
+            for (int k = 2; k < list.size(); k++) {
+                if (list.get(k) - list.get(k - 1) != diff) {
+                    isArithmetic = false;
+                    break;
+                }
+                resultList.add(isArithmetic);
             }
-            resultList.add(isArithmetic);
-           }
         }
         return resultList;
-    }   
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         arithmeticSubarrays obj = new arithmeticSubarrays();
         int n = sc.nextInt();
         int[] nums = new int[n];
-        for(int i = 0; i< n; i++){
-            nums[i] =sc.nextInt();
+        for (int i = 0; i < n; i++) {
+            nums[i] = sc.nextInt();
         }
         int m = sc.nextInt();
         int[] l = new int[m];
-        for(int i = 0; i < m; i++){
+        for (int i = 0; i < m; i++) {
             l[i] = sc.nextInt();
         }
         int[] r = new int[m];
-        for(int i = 0; i < m; i++){
+        for (int i = 0; i < m; i++) {
             r[i] = sc.nextInt();
         }
         System.out.println(obj.checkArithmeticSubarrays(nums, l, r));
