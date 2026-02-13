@@ -14,6 +14,8 @@ Constraints:
 2 <= nums.length <= 500
 1 <= nums[i] <= 10^3 */
 public class MaximumProductOfTwoElementsInAnArray {
-
+    public int maxProduct(int[] nums) {
+        
+    }
     
 }
