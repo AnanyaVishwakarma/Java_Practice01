@@ -51,8 +51,8 @@ public class arithmeticSubarrays {
                     isArithmetic = false;
                     break;
                 }
-                resultList.add(isArithmetic);
             }
+            resultList.add(isArithmetic);
         }
         return resultList;
     }
