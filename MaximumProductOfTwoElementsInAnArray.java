@@ -18,8 +18,10 @@ Constraints:
 public class MaximumProductOfTwoElementsInAnArray {
     public int maxProduct(int[] nums) {
         Arrays.sort(nums);
-        for(int i = 0; i < nums.length; i++){
-            
+        for(int i = nums.length; i > 0; i--){
+            for(int j = 1; j < nums.length; j++){
+
+            }
         }
         
     }
