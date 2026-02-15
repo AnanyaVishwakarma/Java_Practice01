@@ -1,8 +1,10 @@
-/*Given the array of integers nums, you will choose two different indices i and j of that array. Return the maximum value of (nums[i]-1)*(nums[j]-1).
+/*Given the array of integers nums, you will choose two different indices i and j of that array. 
+Return the maximum value of (nums[i]-1)*(nums[j]-1).
 Example 1:
 Input: nums = [3,4,5,2]
 Output: 12 
-Explanation: If you choose the indices i=1 and j=2 (indexed from 0), you will get the maximum value, that is, (nums[1]-1)*(nums[2]-1) = (4-1)*(5-1) = 3*4 = 12. 
+Explanation: If you choose the indices i=1 and j=2 (indexed from 0), you will get the maximum value, that is, 
+(nums[1]-1)*(nums[2]-1) = (4-1)*(5-1) = 3*4 = 12. 
 Example 2:
 Input: nums = [1,5,4,5]
 Output: 16
@@ -15,8 +17,9 @@ Constraints:
 1 <= nums[i] <= 10^3 */
 public class MaximumProductOfTwoElementsInAnArray {
     public int maxProduct(int[] nums) {
-        for(int i = 1; i <= nums.length; i++){
-            int product = nums[i -1] * nu
+        Arrays.sort(nums);
+        for(int i = 0; i < nums.length; i++){
+            
         }
         
     }
