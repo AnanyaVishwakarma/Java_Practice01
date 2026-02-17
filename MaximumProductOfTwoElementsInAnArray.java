@@ -22,6 +22,8 @@ Constraints:
 public class MaximumProductOfTwoElementsInAnArray {
     public int maxProduct(int[] nums) {
         Arrays.sort(nums);
+        int n = nums.length;
+        
         
     }
     public static void main(String[] args) {
