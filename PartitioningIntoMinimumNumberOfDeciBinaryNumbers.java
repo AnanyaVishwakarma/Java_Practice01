@@ -14,6 +14,7 @@ Constraints:
 1 <= n.length <= 105
 n consists of only digits.
 n does not contain any leading zeros and represents a positive integer. */
+/*GREEDY METHOD */
 public class PartitioningIntoMinimumNumberOfDeciBinaryNumbers {
 
     
