@@ -8,7 +8,7 @@ public class twoWheelersOrFourWheelers {
         int v = sc.nextInt();
         int w = sc.nextInt();
 
-        if(w <0 || w >= v){
+        if(w < 0 || w < 2* v || w > 4 * v){
             System.out.println("Invalid Input!");
         } else {
         int fw = (w - 2*v)/2;
