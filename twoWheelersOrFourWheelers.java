@@ -13,8 +13,8 @@ public class twoWheelersOrFourWheelers {
         } else {
         int fw = (w - 2*v)/2;
         int tw = v - fw;
-        System.out.println(fw);
-        System.out.println(tw);
+        System.out.println("Four wheelers" + fw);
+        System.out.println("Two wheelers" + tw);
         }
         sc.close();
     }
