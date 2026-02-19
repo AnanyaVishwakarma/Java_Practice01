@@ -10,8 +10,13 @@ public class twoWheelersOrFourWheelers {
 
         if(w <0 || w >= v){
             System.out.println("Invalid Input!");
+        } else {
+        int fw = (w - 2*v)/2;
+        int tw = v - fw;
+        System.out.println(fw);
+        System.out.println(tw);
         }
-
+        sc.close();
     }
     
 }
