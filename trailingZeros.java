@@ -20,6 +20,9 @@ Logic: A trailing zero is created by 2×5. In any factorial, there are plenty of
 The Loop: Divide N by 5, then by 25, then by 125, and add the quotients. */
 class trailingZeros {
     public static void main (String[] args){
-        
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        int count = 0; 
     }
 }
