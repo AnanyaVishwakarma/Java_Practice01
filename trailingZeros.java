@@ -24,5 +24,11 @@ class trailingZeros {
 
         int n = sc.nextInt();
         int count = 0; 
+
+        for(int i = 5; n / 5 > 0;  i*= 5){
+            count += n/i;
+        }
+        System.out.println(count);
+        sc.close();
     }
 }
