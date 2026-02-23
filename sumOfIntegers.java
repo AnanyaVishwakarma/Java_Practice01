@@ -13,5 +13,10 @@ public class sumOfIntegers {
         if(k < 2){
             System.out.println("Invalid input");
         }
+        for(int i = 0; i < k; i++){
+            sum += integers[i];
+        }
+        System.out.println(sum);
+
     }
 }
