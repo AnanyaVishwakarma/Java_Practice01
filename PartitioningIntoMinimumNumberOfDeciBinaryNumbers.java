@@ -16,8 +16,8 @@ n consists of only digits.
 n does not contain any leading zeros and represents a positive integer. */
 /*GREEDY METHOD */
 public class PartitioningIntoMinimumNumberOfDeciBinaryNumbers {
-    public int minPartitions(String n) {
-        
+    public static void main(String[] args){
+        Scanner sc =  new Scanner(System.in);
     }
     
 }
