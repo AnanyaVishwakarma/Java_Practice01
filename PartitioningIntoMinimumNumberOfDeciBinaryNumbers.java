@@ -19,6 +19,7 @@ n does not contain any leading zeros and represents a positive integer. */
 public class PartitioningIntoMinimumNumberOfDeciBinaryNumbers {
     public static void main(String[] args){
         Scanner sc =  new Scanner(System.in);
+        int n = sc.nextInt();
     }
     
 }
