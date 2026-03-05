@@ -19,6 +19,9 @@ public class PartitioningIntoMinimumNumberOfDeciBinaryNumbers {
     public static void main(String[] args) {
         String n = "32";
         int max = 0;
+        for (int i = 0; i < n.length(); i++) {
+
+        }
 
     }
 
