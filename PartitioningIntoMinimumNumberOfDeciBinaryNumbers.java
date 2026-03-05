@@ -20,7 +20,7 @@ public class PartitioningIntoMinimumNumberOfDeciBinaryNumbers {
         String n = "32";
         int max = 0;
         for (int i = 0; i < n.length(); i++) {
-
+            int digit = n.charAt(i) - '0';
         }
 
     }
