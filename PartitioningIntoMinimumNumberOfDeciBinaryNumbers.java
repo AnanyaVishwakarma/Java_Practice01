@@ -25,6 +25,7 @@ public class PartitioningIntoMinimumNumberOfDeciBinaryNumbers {
                 max = digit;
             }
         }
+        System.out.println(max);
     }
 
 }
