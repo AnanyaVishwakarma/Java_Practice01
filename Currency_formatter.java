@@ -45,4 +45,3 @@ public class Currency_formatter {
         System.out.println("France: " + france.format(payment));
     }
 }
-
