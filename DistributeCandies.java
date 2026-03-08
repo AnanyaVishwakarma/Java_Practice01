@@ -26,4 +26,3 @@ public class DistributeCandies {
          return Math.min(uniqueCandiesSet.size(), n/2);  
     } 
 }
-
