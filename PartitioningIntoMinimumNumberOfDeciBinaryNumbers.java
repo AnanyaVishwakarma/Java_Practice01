@@ -18,7 +18,12 @@ n does not contain any leading zeros and represents a positive integer. */
 public class PartitioningIntoMinimumNumberOfDeciBinaryNumbers {
     public int minPartitions(String n) {
         int max = 0;
-        for (int)
+        for (int i = 0; i < n.length(); i++) {
+            int digit = n.charAt(i) - '0';
+            if (digit > max) {
+
+            }
+        }
 
     }
 
