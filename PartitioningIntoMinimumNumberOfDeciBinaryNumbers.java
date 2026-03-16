@@ -29,6 +29,7 @@ public class PartitioningIntoMinimumNumberOfDeciBinaryNumbers {
 
     public static void main(String[] args) {
         PartitioningIntoMinimumNumberOfDeciBinaryNumbers obj = new PartitioningIntoMinimumNumberOfDeciBinaryNumbers();
+        int result = obj.minPartitions("27346209830709182346");
         
     }
 }
