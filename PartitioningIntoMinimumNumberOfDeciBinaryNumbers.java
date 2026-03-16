@@ -28,15 +28,7 @@ public class PartitioningIntoMinimumNumberOfDeciBinaryNumbers {
     }
 
     public static void main(String[] args) {
-        String n = "32";
-        int max = 0;
-        for (int i = 0; i < n.length(); i++) {
-            int digit = n.charAt(i) - '0';
-            if (digit > max) {
-                max = digit;
-            }
-        }
-        System.out.println(max);
+        PartitioningIntoMinimumNumberOfDeciBinaryNumbers obj = new PartitioningIntoMinimumNumberOfDeciBinaryNumbers();
+        
     }
-
 }
