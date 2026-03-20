@@ -34,6 +34,6 @@ public class PartitioningIntoMinimumNumberOfDeciBinaryNumbers {
         PartitioningIntoMinimumNumberOfDeciBinaryNumbers obj = new PartitioningIntoMinimumNumberOfDeciBinaryNumbers();
         Scanner sc = new Scanner(System.in);
         String n = sc.next();
-        System.out.println(obj.minPartitions(n))
+        System.out.println(obj.minPartitions(n));
     }
 }
