@@ -25,7 +25,7 @@ public class checkIfTheArrayIsSortedAndRotated {
             if (nums[i] > nums[(i + 1) % n]) {
                 dropCount++;
             }
-            if (droupCount > 1) {
+            if (dropCount > 1) {
                 return false;
             }
         }
