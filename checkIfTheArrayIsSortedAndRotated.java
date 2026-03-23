@@ -32,4 +32,7 @@ public class checkIfTheArrayIsSortedAndRotated {
         return true;
     }
 
+    public static void main(String[] args) {
+
+    }
 }
