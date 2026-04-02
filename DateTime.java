@@ -13,14 +13,11 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 class Result {
-
     public static String findDay(int month, int day, int year) {
         String[] daysOfTheWeek = {"SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"};
         Calendar cal = Calendar.getInstance();
-        
         cal.set(year, month-1, day);
        int p = cal.get(Calendar.DAY_OF_WEEK);
-       
        return daysOfTheWeek[p-1];
     }
 }
