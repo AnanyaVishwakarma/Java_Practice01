@@ -15,9 +15,6 @@ Constraints:
 n consists of only digits.
 n does not contain any leading zeros and represents a positive integer. */
 /*GREEDY METHOD */
-
-import java.util.Scanner;
-
 public class PartitioningIntoMinimumNumberOfDeciBinaryNumbers {
     public int minPartitions(String n) {
         int max = 0;
@@ -32,8 +29,9 @@ public class PartitioningIntoMinimumNumberOfDeciBinaryNumbers {
 
     public static void main(String[] args) {
         PartitioningIntoMinimumNumberOfDeciBinaryNumbers obj = new PartitioningIntoMinimumNumberOfDeciBinaryNumbers();
-        Scanner sc = new Scanner(System.in);
-        String n = sc.next();
-        System.out.println(obj.minPartitions(n));
+        int result = obj.minPartitions("27346209830709182346");
+        System.out.println(result);
+        
+        
     }
 }
