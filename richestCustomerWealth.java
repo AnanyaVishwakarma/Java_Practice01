@@ -25,6 +25,7 @@ n == accounts[i].length
 1 <= accounts[i][j] <= 100 */
 public class richestCustomerWealth {
         public int maximumWealth(int[][] accounts) {
+            for(int i = 0;)
         
     }
     public static void main(String[] args) {
