@@ -44,7 +44,7 @@ public class richestCustomerWealth {
                 max = sum;
             }
         }
-
+        System.out.println(max);
         
 
 
