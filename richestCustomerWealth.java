@@ -30,6 +30,14 @@ public class richestCustomerWealth {
         int[][] accounts = new int[3][3];
 
         
+        int max = 0;
+        for(int i =0; i < 3; i++){
+        int sum = 0;
+            for(int j = 0; j < 3; j++){
+            }
+        }
+
+        
 
 
 
