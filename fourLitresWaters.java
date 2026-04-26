@@ -4,7 +4,7 @@ transfer the '5l' to '3l' bucket
 //you have 2litres left in '5l' bucket//
 transfer the 2litres left in '5l' bucket
 repeat first and second step
-transfer the initial saved 2 litres into current 2litres
+transfer the initial saved 2 litres into current 2litres 
 */
 public class fourLitresWaters {
     public static void main(String[] args) {
@@ -12,9 +12,15 @@ public class fourLitresWaters {
         int bucket2 = 3;
         int temp;
 
-        temp = bucket1 - bucket2;
-        bucket1 = bucket1 - bucket2;
-        bucket1 = bucket1 + temp;
+        // temp = bucket1 - bucket2;
+        // bucket1 = bucket1 - bucket2;
+        // bucket1 = bucket1 + temp;
+       // what if no temp variable?
+       bucket1 = bucket1 - bucket2;
+       bucket2 = bucket1 + bucket2;
+       
+
+
         System.out.println(bucket1);
 
     }
