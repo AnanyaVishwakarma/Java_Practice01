@@ -26,12 +26,31 @@ n == accounts[i].length
 1 <= accounts[i][j] <= 100 */
 public class richestCustomerWealth {
     public static void main(String[] args) {
+        /*customer on ith index has (accounts[i][j])money in jth bank
+        amount[i][j] = input
+        [1, 2, 3] = customer1's 
+        [3, 2, 1] = customer2's 
+        wealth = total sum of money in all the banks 
+        */        
         Scanner sc = new Scanner(System.in);
         int[][] accounts = new int[3][3];
-
+        for(int i =0; i <= 3; i++){
+            for(int j = 0; j < 3; j++){
+                accounts[i][j] = sc.nextInt();
+            }
+        }
         
-
-
+        int max = 0;
+        for(int i =0; i < 3; i++){
+        int sum = 0;
+            for(int j = 0; j < 3; j++){
+                sum += accounts[i][j];
+            }
+            if(sum > max){
+                max = sum;
+            }
+        }
+        System.out.println(max);
 
     }
 
