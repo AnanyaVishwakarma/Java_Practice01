@@ -39,7 +39,6 @@ public class richestCustomerWealth {
                 accounts[i][j] = sc.nextInt();
             }
         }
-        
         int max = 0;
         for(int i =0; i < accounts.length; i++){
         int sum = 0;
@@ -51,8 +50,5 @@ public class richestCustomerWealth {
             }
         }
         System.out.println(max);
-
-    }
-
-    
+    }   
 }
