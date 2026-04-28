@@ -50,5 +50,6 @@ public class richestCustomerWealth {
             }
         }
         System.out.println(max);
+        sc.close();
     }   
 }
