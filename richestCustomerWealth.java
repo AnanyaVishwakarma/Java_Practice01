@@ -25,6 +25,9 @@ n == accounts[i].length
 1 <= m, n <= 50
 1 <= accounts[i][j] <= 100 */
 public class richestCustomerWealth {
+    public int maximumWealth (int[][] accounts) {
+
+    }
     public static void main(String[] args) {
         /*customer on ith index has (accounts[i][j])money in jth bank
         amount[i][j] = input
