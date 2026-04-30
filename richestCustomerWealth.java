@@ -31,7 +31,6 @@ public class richestCustomerWealth {
             int sum = 0;
             for(int j = 0; j < accounts[i].length; j++){
                 sum += accounts[i][j];
-
             }
         }
 
@@ -43,24 +42,9 @@ public class richestCustomerWealth {
         [3, 2, 1] = customer2's 
         wealth = total sum of money in all the banks 
         */        
-        Scanner sc = new Scanner(System.in);
-        int[][] accounts = new int[3][3];
-        for(int i =0; i <= accounts.length; i++){
-            for(int j = 0; j < accounts[i].length; j++){
-                accounts[i][j] = sc.nextInt();
-            }
-        }
-        int max = 0;
-        for(int i =0; i < accounts.length; i++){
-        int sum = 0;
-            for(int j = 0; j < accounts[i].length; j++){
-                sum += accounts[i][j];
-            }
-            if(sum > max){
-                max = sum;
-            }
-        }
-        System.out.println(max);
-        sc.close();
+       Scanner sc = new Scanner(System.in);
+       int m = sc.nextInt();
+       int n = sc.nextInt();
+       int[][] accounts = new int[m][n];
     }   
 }
