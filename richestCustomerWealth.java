@@ -46,5 +46,8 @@ public class richestCustomerWealth {
        int m = sc.nextInt();
        int n = sc.nextInt();
        int[][] accounts = new int[m][n];
+       for(int i = 0; i < m; i++){
+
+       }
     }   
 }
