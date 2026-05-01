@@ -32,6 +32,7 @@ public class richestCustomerWealth {
             for(int j = 0; j < accounts[i].length; j++){
                 sum += accounts[i][j];
             }
+            if(sum > max){}
         }
 
     }
