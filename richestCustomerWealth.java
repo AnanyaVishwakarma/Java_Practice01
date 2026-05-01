@@ -36,7 +36,7 @@ public class richestCustomerWealth {
                 max = sum;
             }
         }
-
+        return max;
     }
     public static void main(String[] args) {
         /*customer on ith index has (accounts[i][j])money in jth bank
