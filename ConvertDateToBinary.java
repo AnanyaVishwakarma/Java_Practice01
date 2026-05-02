@@ -6,8 +6,6 @@ binary representations without any leading zeroes and writing them down in year-
 
 Return the binary representation of date.
 
- 
-
 Example 1:
 
 Input: date = "2080-02-29"
