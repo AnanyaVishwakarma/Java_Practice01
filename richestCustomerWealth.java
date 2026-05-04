@@ -53,7 +53,7 @@ public class richestCustomerWealth {
         for(int j = 0; j < n; j++){
             accounts[i][j] = sc.nextInt();
         }
-
        }
+       richestCustomerWealth solution = new richestCustomerWealth();
     }   
 }
