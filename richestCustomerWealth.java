@@ -56,5 +56,6 @@ public class richestCustomerWealth {
        }
        richestCustomerWealth solution = new richestCustomerWealth();
          int result = solution.maximumWealth(accounts);
+            System.out.println(result);
     }   
 }
