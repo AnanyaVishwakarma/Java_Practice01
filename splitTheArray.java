@@ -1,0 +1,55 @@
+/*
+ * You are given an integer array nums of even length. You have to split the array into two parts nums1 and nums2 such that:
+ *  *nums1.length == nums2.length == nums.length / 2.
+ * nums1 should contain distinct elements.
+ * nums2 should also contain distinct elements.
+ * Return true if it is possible to split the array, and false otherwise.
+ *  *Example 1:
+ *  *Input: nums = [1,1,2,2,3,4]
+ * Output: true
+ * Explanation: One of the possible ways to split nums is nums1 = [1,2,3] and nums2 = [1,2,4].
+ * Example 2:
+ *  *Input: nums = [1,1,1,1]
+ * Output: false
+ * Explanation: The only possible way to split nums is nums1 = [1,1] and nums2 = [1,1]. Both nums1 and nums2 do not
+ * contain distinct elements. Therefore, we return false. */
+import java.util.HashMap;
+import java.util.Map;
+
+public class splitTheArray {
+public boolean isPossibleToSplit(int[] nums) {
+        int n = nums.length;
+
+        Map<Integer, Integer> freqMap = new HashMap<>();
+        for (int num : nums){
+          freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);        
+        }
+
+        for(int count : freqMap.values()){
+          if(count > 2){
+            return false;
+          }
+        }
+
+        int distinctCount = 0;
+        for (int count : freqMap.values()){
+          if (count == 1){
+            distinctCount++;
+          }
+        }
+        int totalUnique = freqMap.size();
+        if ( distinctCount + totalUnique >= nums.length / 2){
+          return true;
+        }
+        return false;
+    }
+    public static void main(String[] args) {
+        splitTheArray solution = new splitTheArray();
+        int[] nums1 = {1, 1, 2, 2, 3, 4};
+        System.out.println(solution.isPossibleToSplit(nums1)); // Output: true
+
+        int[] nums2 = {1, 1, 1, 1};
+        System.out.println(solution.isPossibleToSplit(nums2)); // Output: false
+    }
+
+}
