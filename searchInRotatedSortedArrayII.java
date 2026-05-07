@@ -19,7 +19,7 @@ public class searchInRotatedSortedArrayII {
         int right = nums.length - 1;
         while ( left < right){
         int mid = left + (right - left) / 2;
-            if (nums[mid) == target){
+            if (nums[mid] == target){
                 return true;
             }
             if(nums[left] == nums[mid] && nums[mid] == nums[right]){
@@ -42,15 +42,9 @@ public class searchInRotatedSortedArrayII {
         return false;
     }
         public static void main(String[] args) {
-        int arr[] ={2,5,6,0,0,1,2};
-        int target = 0;
-        System.out.println(search(arr, target));
-        int arr1[] ={5, 1, 3};
-        int target1 = 3;
-        System.out.println(search(arr1, target1));
-        int arr2[] ={1,0,1,1,1};
-        int target2 = 0;
-        System.out.println(search(arr2, target2));    
-
+            searchInRotatedSortedArrayII obj = new searchInRotatedSortedArrayII();
+            int[] nums = {2,5,6,0,0,1,2};
+            int target = 0;
+            System.out.println(obj.search(nums, target));
         }
 }
