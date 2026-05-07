@@ -18,11 +18,6 @@
 
 // If both values are greater than zero, then the main method must output the area of the parallelogram. Otherwise, print "java.lang.Exception: Breadth and height must be positive" without quotes.
 import java.util.*;
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class staticInitializer {
     static Scanner sc = new Scanner(System.in);
@@ -46,6 +41,9 @@ public static void main(String[] args){
         int area=B*H;
         System.out.print(area);
         }
+    }
+    static{
+        sc.close();
     }
     
 }
