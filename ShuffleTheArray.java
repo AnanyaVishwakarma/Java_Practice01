@@ -1,3 +1,7 @@
+
+import java.util.Arrays;
+import java.util.Scanner;
+
 /*Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn].
 Return the array in the form [x1,y1,x2,y2,...,xn,yn].
 Example 1:
@@ -20,12 +24,12 @@ public class ShuffleTheArray {
         for(int i = 0; i < n; i++){
             result[2*i] = nums[i];     
             // result[2*i-1]= nums[i+1]; wrong because when i = 0 it becomes -1 which is invalid and will throw exception
-            result[2*i+1] = nums[i+n]
+            result[2*i+1] = nums[i+n];
         }
         return result;
     }    
     public static void main(String[] args) {
-        Scannre sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         ShuffleTheArray obj = new ShuffleTheArray();
         int n = sc.nextInt();
         int[] nums = new int[n*2];
